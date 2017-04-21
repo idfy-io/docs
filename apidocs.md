@@ -1,7 +1,5 @@
 # Introduction
-This API enables authentication/identification through multiple identity providers such as Norwegian BankID, Swedish BankID, NemID, etc.
-The API exposes 1) a main identification flow, which is common between the different identity providers available, and 2) identity provider specific flows, which are special cases for some of the mechanisms.
-The main identification flow is available below under the resource [Identify](#tag/Identify). Below [Identify](#tag/Identify) are the identity provider specific flows, available under the name of each provider.
+[intro]
 
 # Getting started
 ## Get an account
