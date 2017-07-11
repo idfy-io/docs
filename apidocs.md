@@ -3,7 +3,7 @@
 
 # Getting started
 ## Get an account
-To use the API, you need an API account at Signere.no. You can get a free test account by going to our onboarding site and filling out the form there: [https://onboard.signere.no](https://onboard.signere.no) 
+To use the API, you need an API account at Idfy You can get a free test account by going to our onboarding site and filling out the form there: [https://onboard.signere.no](https://onboard.signere.no) 
 
 [sitecontent]
 
