@@ -5,7 +5,9 @@
 ## Get an account
 To use the API, you need an API account at Idfy You can get a free test account by going to our onboarding site and filling out the form there: [https://onboard.signere.no](https://onboard.signere.no) 
 ## Support
-If you have questions or are expierincing problems contact us at support@idfy.io, a support will be created and our engineers will answer you as soon as possible.
+We’re here to help. Get in touch and we’ll get back to you as soon as we can. [Contact us](support@idfy.io).
+
+
 [sitecontent]
 
 # Statuspage
