@@ -7,9 +7,9 @@ To use the API, you need an API account at Idfy You can get a free test account 
 
 [sitecontent]
 
-## Statuspage
+# Statuspage
 If you want to know the status of our services or subscribe to notifications go to our Statuspage: [http://signere.statuspage.io/](http://signere.statuspage.io/)
-## API Authentication
+# API Authentication
 This API uses OAuth2 for authentication the requests. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use client_credentials as grant type when connecting to this API. 
 
 <b>Simple step by step guide to receive required access token </b><br/><br/>
@@ -34,5 +34,4 @@ We have created a guide to create Oauth2 tokens for different languages here: [h
 Read more aboute OAuth2 here: 
 [https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 <!-- ReDoc-Inject: <security-definitions> -->
-
 
