@@ -1,6 +1,6 @@
 # Events
 
-An event has two properties: `type` and `payload`. Only `type` is required, but any data associated with the event must be added to the `payload` object.
+An event has three properties: `id`, `type` and `payload`. Only `id` and `type` is required, but any data associated with the event is  added to the `payload` object.
 
 Example:
 
