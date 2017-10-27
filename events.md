@@ -1,6 +1,6 @@
 # Events
 
-An event has three properties: `id`, `type` and `payload`. Only `id` and `type` is required, but any data associated with the event is  added to the `payload` object.
+An event has two properties: `type` and `payload`. Only `type` is required, but any data associated with the event is added to the `payload` object.
 
 Example:
 
@@ -12,6 +12,17 @@ Example:
   }
 }
 ```
+
+## Webhooks
+| Type        | Description     | 
+| ------------- |:-------------:|
+| [`document_canceled`](https://github.com/Signereno/signature/wiki/Events#documentcanceledevent) | A document was canceled |
+| [`document_created`](https://github.com/Signereno/signature/wiki/Events#documentcreatedevent) | A new document has been created |
+| [`document_deleted`](https://github.com/Signereno/signature/wiki/Events#documentdeletedevent) | A document was deleted | 
+| [`document_expired`](https://github.com/Signereno/signature/wiki/Events#documentexpiredevent) | A document has expired and can no longer be signed  |
+| [`document_partially_signed`](https://github.com/Signereno/signature/wiki/Events#documentpartiallysignedevent) | A document was partially signed |
+| [`document_read`](https://github.com/Signereno/signature/wiki/Events#documentreadevent) | A document was read by a signer |
+| [`document_signed`](https://github.com/Signereno/signature/wiki/Events#documentsignedevent) | A document was signed by all required signers
 
 ## Web Messages
 
@@ -26,17 +37,6 @@ Example:
 | `spinner_on` | The loading spinner is being shown to user |
 | `spinner_off` | The loading spinner is no longer being shown to user |
 | `user_aborted` | User aborted the signing process |
-
-## Webhooks
-| Type        | Description     | 
-| ------------- |:-------------:|
-| [`document_canceled`](https://github.com/Signereno/signature/wiki/Events#documentcanceledevent) | A document was canceled |
-| [`document_created`](https://github.com/Signereno/signature/wiki/Events#documentcreatedevent) | A new document has been created |
-| [`document_deleted`](https://github.com/Signereno/signature/wiki/Events#documentdeletedevent) | A document was deleted | 
-| [`document_expired`](https://github.com/Signereno/signature/wiki/Events#documentexpiredevent) | A document has expired and can no longer be signed  |
-| [`document_partially_signed`](https://github.com/Signereno/signature/wiki/Events#documentpartiallysignedevent) | A document was partially signed |
-| [`document_read`](https://github.com/Signereno/signature/wiki/Events#documentreadevent) | A document was read by a signer |
-| [`document_signed`](https://github.com/Signereno/signature/wiki/Events#documentsignedevent) | A document was signed by all required signers
 
 ## Event Types & Payloads
 
