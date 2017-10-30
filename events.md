@@ -12,7 +12,7 @@ Events can be handled in multiple ways:
 
 Each event has a similar JSON schema, but will also contain a unique `payload` object that represents any data associated with the event.
 
-* [DocumentCanceledEvent](#document-canceled-event)
+* [DocumentCanceledEvent](#documentcanceledevent)
 * [DocumentCreatedEvent](#document-created-event)
 * [DocumentDeletedEvent](#document-deleted-event)
 * [DocumentExpiredEvent](#document-expired-event)
