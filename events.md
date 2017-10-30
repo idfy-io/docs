@@ -1,6 +1,6 @@
 # Events
 
-Events are our way of letting you know when something happens in your account. For example, when a document is signed, we create a [`DocumentSigned`](/events.md#document-signed-event) event.
+Events are our way of letting you know when something happens in your account. For example, when a document is signed, we create a [`DocumentSigned`](#documentsignedevent) event.
 
 Events can be handled in multiple ways:
 
