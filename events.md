@@ -26,7 +26,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `message` | `string` | The message that was provided when canceling the document |
@@ -46,7 +46,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 
@@ -64,7 +64,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `message` | `string` | The message that was provided when deleting the document |
@@ -84,7 +84,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 
@@ -102,7 +102,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 
@@ -120,7 +120,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `signer` | `object` | Details about the signer |
@@ -147,7 +147,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 
@@ -165,7 +165,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 #### Payload
 
 | key | type | description |
-| --- | :---: | :---: |
+| :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `signedTime` | `string` | A timestamp with the date and time the document was signed |
@@ -188,3 +188,6 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
   }]
 }
 ```
+
+
+
