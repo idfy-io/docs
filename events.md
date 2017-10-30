@@ -13,13 +13,13 @@ Events can be handled in multiple ways:
 Each event has a similar JSON schema, but will also contain a unique `payload` object that represents any data associated with the event.
 
 * [DocumentCanceledEvent](#documentcanceledevent)
-* [DocumentCreatedEvent](#document-created-event)
-* [DocumentDeletedEvent](#document-deleted-event)
-* [DocumentExpiredEvent](#document-expired-event)
-* [DocumentPackagedEvent](#document-packaged-event)
-* [DocumentPartiallySignedEvent](#document-partially-signed-event)
-* [DocumentReadEvent](#document-read-event)
-* [DocumentSignedEvent](#document-signed-event)
+* [DocumentCreatedEvent](#documentcreatedevent)
+* [DocumentDeletedEvent](#documentdeletedevent)
+* [DocumentExpiredEvent](#documentexpiredevent)
+* [DocumentPackagedEvent](#documentpackagedevent)
+* [DocumentPartiallySignedEvent](#documentpartiallysignedevent)
+* [DocumentReadEvent](#documentreadevent)
+* [DocumentSignedEvent](#documentsignedevent)
 
 ### DocumentCanceledEvent
 
