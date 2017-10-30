@@ -1,0 +1,8 @@
+{
+    "links": {
+        "sidebar": false
+    },
+    "styles": {
+        "website": "styles/site.css"
+    }
+}
