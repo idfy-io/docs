@@ -29,11 +29,11 @@ When configuring a webhook, you can choose which events you would like to subscr
 All webhook events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](/events.md#event-types--payloads) for a complete list of the various event payloads.
 
 | Property | Type | Description |
-|:---|:---|
-|``id``| string | Unique identifier for the event
-|``timestamp`` | string | Time at which the event was created (ISO 8601)
-|``type``| string | The type of event that occured
-|``payload`` | object | Unique object determined by the event type
+| --- | --- | ---
+|``id``| string | Unique identifier for the event |
+|``timestamp`` | string | Time at which the event was created (ISO 8601) |
+|``type``| string | The type of event that occured |
+|``payload`` | object | Unique object determined by the event type |
 
 
 Example:
