@@ -1,2 +1,1 @@
-# apidocs
-Api documentation
+# Idfy Documentation
