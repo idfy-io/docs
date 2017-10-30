@@ -2,3 +2,8 @@ ul.summary > li:nth-child(-n+2)
 {
     display: none !important;
 }
+
+.book-summary ul.summary li a:hover {
+  color: #008cff;
+  text-decoration: none;
+}
