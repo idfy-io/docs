@@ -91,6 +91,6 @@ const payload = {
 
 const hmac = crypto.createHmac('sha256', secret);
 const signature = hmac.update(JSON.stringify(payload)).digest('hex');
-console.log(signature) // => c7797e57ad9bdfd20fdcf7a4b5dd178c438d9948f35f2696470ae689821405b8
+console.log(signature) // => def564b8df06ae55c788493cb414068b2cf017385d96ecb39aa3e844fdbbcdea
 ```
 
