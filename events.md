@@ -10,7 +10,7 @@ Events can be handled in multiple ways:
 
 ## Event Types & Payloads
 
-Each event has a similar JSON schema, but will also contain a unique `payload` object that represents any data associated with the event.
+Each event has a similar JSON schema, but will also contain a unique `payload` object with relevant event information.
 
 * [DocumentCanceledEvent](#documentcanceledevent)
 * [DocumentCreatedEvent](#documentcreatedevent)
