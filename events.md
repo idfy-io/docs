@@ -23,6 +23,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 
 ### DocumentCanceledEvent
 
+Triggered when a document is canceled.
+
 #### Payload
 
 | key | type | description |
@@ -43,6 +45,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 
 ### DocumentCreatedEvent
 
+Triggered when a new document is created.
+
 #### Payload
 
 | key | type | description |
@@ -60,6 +64,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 ```
 
 ### DocumentDeletedEvent
+
+Triggered when a document is deleted.
 
 #### Payload
 
@@ -81,6 +87,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 
 ### DocumentExpiredEvent
 
+Triggered when a document expires.
+
 #### Payload
 
 | key | type | description |
@@ -99,6 +107,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 
 ### DocumentPackagedEvent
 
+Triggered when a document is packaged with all the signatures.
+
 #### Payload
 
 | key | type | description |
@@ -116,6 +126,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 ```
 
 ### DocumentPartiallySignedEvent
+
+Triggered when a document is signed by one of the signers.
 
 #### Payload
 
@@ -144,6 +156,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 
 ### DocumentReadEvent
 
+Triggered when a document is read by one of the signers.
+
 #### Payload
 
 | key | type | description |
@@ -161,6 +175,8 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 ```
 
 ### DocumentSignedEvent
+
+Triggered when a document is signed by all required signers.
 
 #### Payload
 
