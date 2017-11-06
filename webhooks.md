@@ -5,7 +5,7 @@ Webhooks allow you to subscribe to certain events on your Idfy account. When one
 * [Webhook events](#webhook-events)
 * [Event format](#event-format)
 * [Creating webhooks](#creating-webhooks)
-* [Required 200 OK response](#required-200-ok-response)
+* [Required 200 OK response](#required-2xx-success-response)
 * [Securing your webhooks](#securing-your-webhooks)
 
 ## Webhook events
