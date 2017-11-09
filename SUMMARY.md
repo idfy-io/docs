@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Events](events.md)
-* [Webhooks](webhooks.md)
+  * [Webhooks](events/webhooks.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
   * [Swedish BankID](eid-providers/swedish-bankid.md)
