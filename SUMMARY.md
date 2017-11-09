@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Events](events.md)
   * [Webhooks](events/webhooks.md)
+  * [.NET Events Client](events/net-events-client.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
   * [Swedish BankID](eid-providers/swedish-bankid.md)
