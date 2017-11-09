@@ -16,7 +16,8 @@
 * [Extra Information](extra-information/README.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
-  * [Swedish BankID](eid-providers/swedish-bankid.md)
-  * [Tupas](eid-providers/tupas.md)
   * [Buypass](eid-providers/buypass.md)
+  * [Swedish BankID](eid-providers/swedish-bankid.md)
   * [NemID](eid-providers/nemid.md)
+  * [Tupas](eid-providers/tupas.md)
+
