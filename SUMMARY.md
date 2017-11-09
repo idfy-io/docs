@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Frequently Asked Questions](faq/README.md)
 * [Identification](identification/README.md)
 * [Signature](signature/README.md)
 * [Extra Information](extra-information/README.md)
