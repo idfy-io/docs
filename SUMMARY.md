@@ -6,7 +6,7 @@
 * [Signature](signature/README.md)
 * [Extra Information](extra-information/README.md)
 * [Forms](forms/README.md)
-* [Events](events.md)
+* [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
 * [Account](account/README.md)
