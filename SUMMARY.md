@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-  * [Get started](introduction/get-started.md)
-  * [Support](introduction/support.md)
 * [Events](events.md)
 * [Webhooks](webhooks.md)
 * [eID Providers](eid-providers/README.md)
