@@ -5,7 +5,7 @@ Webhooks allow you to subscribe to certain events on your Idfy account. When one
 * [Webhook events](#webhook-events)
 * [Event format](#event-format)
 * [Creating webhooks](#creating-webhooks)
-* [Required 2xx Success Response](#required-2xx-success-response)
+* [Required 2xx Success response](#required-2xx-success-response)
 * [Securing your webhooks](#securing-your-webhooks)
 
 ## Webhook events
@@ -62,7 +62,7 @@ To create a webhook, simply specify the URL to the endpoint on your server when 
 
 In the future you will also be able to manage webhooks directly from the Idfy Dashboard.
 
-## Required 2XX Success Response
+## Required 2XX Success response
 
 To acknowledge that you received the webhook without any problems, your server should return a `200 OK` HTTP status code. Any response code outside the 200 range will indicate that you did not receive the webhook.
 
