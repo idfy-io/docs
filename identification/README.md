@@ -4,6 +4,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices condi
 
 {% runkit %}
 // GeoJSON!
-var google = "https://storage.googleapis.com/maps-devrel/google.json"
-JSON.parse(await require("request-promise")(google))
+var greeting = "Hello, World!";
+alert(greeting);
 {% endrunkit %}
