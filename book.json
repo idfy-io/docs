@@ -4,5 +4,6 @@
     },
     "styles": {
         "website": "styles/site.css"
-    }
+    },
+    "plugins": ["runkit"]
 }
