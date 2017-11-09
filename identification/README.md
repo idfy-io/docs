@@ -5,5 +5,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices condi
 {% runkit %}
 // GeoJSON!
 var greeting = "Hello, World!";
-alert(greeting);
+console.log(greeting);
 {% endrunkit %}
