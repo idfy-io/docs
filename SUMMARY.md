@@ -8,6 +8,7 @@
   * [.NET Events Client](events/net-events-client.md)
 * [Account](account/README.md)
 * [Validation](validation/README.md)
+* [Merchant Sign](merchant-sign/README.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
   * [Swedish BankID](eid-providers/swedish-bankid.md)
