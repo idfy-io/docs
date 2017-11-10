@@ -76,7 +76,9 @@ For security reasons, we recommend you to ensure that the data is coming from Id
 
 ### Creating your secret token
 
-Coming soon.
+A secret token can be added to your webhook from both the Idfy Dashboard and through the [Events API](http://event-test.idfy.io/#tag/Webhooks).
+It is recommended that you use a random string with high entropy.
+
 
 ### Validating payloads
 
