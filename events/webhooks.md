@@ -76,8 +76,6 @@ For security reasons, we recommend you to ensure that the data is coming from Id
 
 ### Creating your secret token
 
-
-
 Coming soon.
 
 ### Validating payloads
