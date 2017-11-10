@@ -14,7 +14,7 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 | Type | Description |
 | :--- | :--- |
-| [`document_canceled`](/events.md#documentcanceledevent) | A document was canceled |
+| [`document_canceled`](events#documentcanceledevent) | A document was canceled |
 | [`document_created`](/events.md#documentcreatedevent) | A new document has been created |
 | [`document_deleted`](/events.md#documentdeletedevent) | A document was deleted |
 | [`document_expired`](/events.md#documentexpiredevent) | A document has expired and can no longer be signed |
