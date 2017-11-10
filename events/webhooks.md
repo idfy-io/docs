@@ -14,10 +14,10 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 | Type | Description |
 | :--- | :--- |
-| [`document_canceled`](events#documentcanceledevent) | A document was canceled |
-| [`document_created`](/events.md#documentcreatedevent) | A new document has been created |
-| [`document_deleted`](/events.md#documentdeletedevent) | A document was deleted |
-| [`document_expired`](/events.md#documentexpiredevent) | A document has expired and can no longer be signed |
+| [`document_canceled`](/events/#documentcanceledevent) | A document was canceled |
+| [`document_created`](/events/#documentcreatedevent) | A new document has been created |
+| [`document_deleted`](/events/#documentdeletedevent) | A document was deleted |
+| [`document_expired`](/events/#documentexpiredevent) | A document has expired and can no longer be signed |
 | [`document_packaged`](/events.md#documentpartiallysignedevent) | A document was packaged with all signatures |
 | [`document_partially_signed`](/events.md#documentpartiallysignedevent) | A document was partially signed |
 | [`document_read`](/events.md#documentreadevent) | A document was read by a signer |
@@ -25,7 +25,7 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 ## Event format
 
-All webhook events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](/events.md#event-types--payloads) for a complete list of the various event payloads.
+All webhook events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](/events/#event-types--payloads) for a complete list of the various event payloads.
 
 | Property | Type | Description |
 | --- | --- | --- |
