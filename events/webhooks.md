@@ -55,15 +55,7 @@ Example:
 
 ## Creating webhooks
 
-To create a webhook, simply specify the URL to the endpoint on your server when creating a new document. This is done by setting the `advanced.webhook` property in the body of the `POST api/documents` request:
-
-```json
-{
-  "advanced": {
-    "webhook": "https://example.com/webhook-endpoint"
-  }
-}
-```
+Webhooks can be created and managed through the [Events API](http://event-test.idfy.io/#tag/Webhooks).
 
 In the future you will also be able to manage webhooks directly from the Idfy Dashboard.
 
