@@ -23,6 +23,11 @@ When configuring a webhook, you can choose which events you would like to subscr
 | [`document_read`](/events/#documentreadevent) | A document was read by a signer |
 | [`document_signed`](/events/#documentsignedevent) | A document was signed by all required signers |
 
+### Wildcard event
+We also support a wildcard (`*`) that will subscribe you to all events (including all new events in the future). 
+
+Adding the wildcard event to an existing webhook will remove the existing specific events.
+
 ## Event format
 
 All webhook events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](/events/#event-types--payloads) for a complete list of the various event payloads.
