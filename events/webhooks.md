@@ -18,10 +18,10 @@ When configuring a webhook, you can choose which events you would like to subscr
 | [`document_created`](/events/#documentcreatedevent) | A new document has been created |
 | [`document_deleted`](/events/#documentdeletedevent) | A document was deleted |
 | [`document_expired`](/events/#documentexpiredevent) | A document has expired and can no longer be signed |
-| [`document_packaged`](/events.md#documentpartiallysignedevent) | A document was packaged with all signatures |
-| [`document_partially_signed`](/events.md#documentpartiallysignedevent) | A document was partially signed |
-| [`document_read`](/events.md#documentreadevent) | A document was read by a signer |
-| [`document_signed`](/events.md#documentsignedevent) | A document was signed by all required signers |
+| [`document_packaged`](/events/#documentpartiallysignedevent) | A document was packaged with all signatures |
+| [`document_partially_signed`](/events/documentpartiallysignedevent) | A document was partially signed |
+| [`document_read`](/events/#documentreadevent) | A document was read by a signer |
+| [`document_signed`](/events/#documentsignedevent) | A document was signed by all required signers |
 
 ## Event format
 
