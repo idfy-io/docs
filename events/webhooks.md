@@ -59,9 +59,15 @@ Webhooks can be created and managed through the [Events API](http://event-test.i
 
 In the future you will also be able to manage webhooks directly from the Idfy Dashboard.
 
+### Ping Event
+
+When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](http://event-test.idfy.io/#tag/Webhooks). A `ping` can also be triggered manually by using the [ping endpoint](http://event-test.idfy.io/#operation/Webhooks_PingWebhook).
+
 ## Required 2XX Success response
 
 To acknowledge that you received the webhook without any problems, your server should return a `200 OK` HTTP status code. Any response code outside the 200 range will indicate that you did not receive the webhook.
+
+Idfy expects a response within 10 seconds of sending the webhook event.
 
 ## Securing your webhooks
 
