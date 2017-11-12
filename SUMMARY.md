@@ -23,4 +23,5 @@
 * [Dealer](dealer/README.md)
 * [GDPR](GDPR/README.md)
 * [Open source](code/README.md)
+* [Examples](code/examples.md)
 
