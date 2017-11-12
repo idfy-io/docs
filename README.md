@@ -26,7 +26,9 @@ Some of the operations that you could do in the dashboard are:
 * Access invoice details
 * Look at identification log
 
-All the functionality of our desktop is base upon our open APIs, if you want to build any of this functionality into your own management software no problem.
+All the functionality of our desktop is base upon our open APIs, if you want to build any of this functionality into your own management software no problem. 
+
+It is also easy to grant access to other collegues, the dashboard utilies our OpenID connect endpoint witch enables multiple identification methods such as Github, Google, BankID, NemID etc. 
 
 ## Status page
 
