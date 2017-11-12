@@ -20,4 +20,5 @@
   * [Swedish BankID](eid-providers/swedish-bankid.md)
   * [NemID](eid-providers/nemid.md)
   * [Tupas](eid-providers/tupas.md)
+* [Dealer](dealer/README.md)
 
