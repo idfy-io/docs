@@ -24,4 +24,5 @@
 * [GDPR](GDPR/README.md)
 * [Open source](code/README.md)
 * [Examples](code/examples.md)
+* [Integrations](integrations/README.md)
 
