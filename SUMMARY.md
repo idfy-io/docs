@@ -21,4 +21,5 @@
   * [NemID](eid-providers/nemid.md)
   * [Tupas](eid-providers/tupas.md)
 * [Dealer](dealer/README.md)
+* [GDPR](GDPR/README.md)
 
