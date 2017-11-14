@@ -13,14 +13,14 @@ Advandtages of beeing a dealer:
 Idfy have a automatic onboarding solution for that dealers also could use, below you can find the url parameters that you could use.
 You can get your dealerId from the Dashboard or from support@idfy.io.
 
-#### Site url : https://onboard.idfy.no/register
+##### Site url : https://onboard.idfy.no/register
 
 The onboarding site can be used as is, with Idfy logo and description, or you can define the url with optional parameters to change the look of the onboarding solution. The form fields can be prefilled with these parameters, and the delivery of the user credentials can be set. See information below.  
 
 
 ### Onboarding url with optional parameters
 
-https://onboard.signere.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl]
+https://onboard.idfy.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl]
 
 <table>
 <tr>
