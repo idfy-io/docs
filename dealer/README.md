@@ -8,15 +8,42 @@ Advandtages of beeing a dealer:
 * Via the dashboard you have full control over your customers accounts from logs, invoicing to api access.
 * Choose to bill your customers your self or let Idfy bill your customers for you.
 
-### Onboarding
+## Onboarding
 
-Idfy have a automatic onboarding solution for that dealers also could use
+Idfy have a automatic onboarding solution for that dealers also could use, below you can find the url parameters that you could use.
+You can get your dealerId from the Dashboard or from support@idfy.io.
+
+#### Site url : https://onboard.idfy.no/register
+
+The onboarding site can be used as is, with Idfy logo and description, or you can define the url with optional parameters to change the look of the onboarding solution. The form fields can be prefilled with these parameters, and the delivery of the user credentials can be set. See information below.  
 
 
+### Onboarding url with optional parameters
 
+https://onboard.signere.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl]
 
-
-
+<table>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Possible values</th>
+<th>Description</th>
+</tr>
+<tr><td>environment</td><td>string</td><td>prod, test, prodAndtest</td><td>Sets the signere environment the new customer will be granted (default is test)</td> </tr>
+<tr><td>dealer</td><td>GUID</td><td></td><td>If the dealerid exists, the site will be presented with the dealer logo and description text (if defined) </td> </tr>
+<tr><td>dealerref</td><td>string</td><td>Any</td><td>dealer reference</td> </tr>
+<tr><td>product</td><td>string</td><td>API</td><td>The product that the customer will be granted (For now only API is available in the onboarding solution)</td> </tr>
+<tr><td>lang</td><td>string</td><td>no, en</td><td>Set the language of the page upon arrival</td></tr>
+<tr><td>pushurl</td><td>string</td><td>Any valid pushurl</td><td>If defined the credentials will be pushed to this url as a signed jwt hook</td></tr>
+<tr><td>orgnr</td><td>int</td><td></td><td>The orgnumber for the new customer</td></tr>
+<tr><td>contactperson</td><td>string</td><td></td><td>Name of the contactperson</td></tr>
+<tr><td>mobilenr</td><td>string</td><td></td><td>The contactperson's mobile nr</td></tr>
+<tr><td>email</td><td>string</td><td></td><td>The contactperson's email address</td></tr>
+<tr><td>createevent</td><td>boolean</td><td>0, false, 1, true</td><td>If set to true, a rebusqueue event connectionstring will be added and provided with the API keys</td></tr>
+<tr><td>dealerhandlessign</td><td>boolean</td><td>0, false, 1, true</td><td>If set to true, the dealer will have to create the user agreement and handle signing of this</td></tr>
+<tr><td>returnurl</td><td>string</td><td>any valid url (Must include http://, https://)</td><td>Define this to redirect here after registration is complete</td></tr>
+<tr><td>idproviders</td><td>string</td><td>nobank,buypass,swebank,nemid,tupas,mconnect</td><td>Choose which id providers the customer can choose between, separate by comma (ex. <a href="https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect" target="_blank">https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect</a></td></tr>
+</table>
 
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
