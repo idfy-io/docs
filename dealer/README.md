@@ -61,7 +61,7 @@ Example result:
       "SecondaryKey": "shgewoj544r6mnhjfdnhudsikh4t983w49kj3p2wkfp409k3",
       "DealerRef": "435678",  
       "MvaNumber": "123456789",  
-   "EventConnectionString: "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
+   "EventConnectionString": "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
 }
 
 ```
