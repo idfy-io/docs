@@ -53,16 +53,19 @@ When a push url is added as a parameter in the onboarding url, the generated API
 
 Example result:
 
-{<br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;Environment: 'PreProd',<br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;AccountId: '54f907ef-738e-4266-9af1-1dfac5f7948f',<br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;PrimaryKey: 'sguhiue4h543uhnbgerjhb54iyb654y85ju7i65mlkgmeslkdm3',<br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;SecondaryKey: 'shgewoj544r6mnhjfdnhudsikh4t983w49kj3p2wkfp409k3',<br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;DealerRef: '435678',  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;MvaNumber: '123456789',  <br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;EventConnectionString:'Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=
-      &nbsp;&nbsp;&nbsp;&nbsp;6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte='<br/>
+```json
+{
+      "Environment": "PreProd",
+      "AccountId": "54f907ef-738e-4266-9af1-1dfac5f7948f",
+      "PrimaryKey": "sguhiue4h543uhnbgerjhb54iyb654y85ju7i65mlkgmeslkdm3",
+      "SecondaryKey": "shgewoj544r6mnhjfdnhudsikh4t983w49kj3p2wkfp409k3",
+      "DealerRef": "435678",  
+      "MvaNumber": "123456789",  
+   "EventConnectionString: "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
 }
+
+```
+
 
 ##### Info: Environment can have the value "Prod" and "PreProd"
 
