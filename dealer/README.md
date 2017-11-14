@@ -45,5 +45,35 @@ https://onboard.signere.no/register?environment=[env]&dealer=[dealer]&dealerref=
 <tr><td>idproviders</td><td>string</td><td>nobank,buypass,swebank,nemid,tupas,mconnect</td><td>Choose which id providers the customer can choose between, separate by comma (ex. <a href="https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect" target="_blank">https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect</a></td></tr>
 </table>
 
+#### Onboarding webhook
+
+##### How to use push url / JWT webhook
+
+When a push url is added as a parameter in the onboarding url, the generated API keys will be delievered as a signed JWT to this address. If both prod and pre-prod environment is ordered they will be sent as two separate JWT messages. 
+
+Example result:
+
+{<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;Environment: 'PreProd',<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;AccountId: '54f907ef-738e-4266-9af1-1dfac5f7948f',<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;PrimaryKey: 'sguhiue4h543uhnbgerjhb54iyb654y85ju7i65mlkgmeslkdm3',<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;SecondaryKey: 'shgewoj544r6mnhjfdnhudsikh4t983w49kj3p2wkfp409k3',<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;DealerRef: '435678',  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;MvaNumber: '123456789',  <br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;EventConnectionString:'Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=
+      &nbsp;&nbsp;&nbsp;&nbsp;6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte='<br/>
+}
+
+##### Info: Environment can have the value "Prod" and "PreProd"
+
+##### Validate JWT
+
+For security reasons you have to check that the received JWT signature is valid. You can do this by sending a HTTP request to our API, we will then check that the signature is ours. If the JWT is valid we will return http status 200 (ok), if the signature is corrupted the return message is http status 400 (Bad request). 
+
+Address (Http GET)
+https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]
+***
+
+
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
