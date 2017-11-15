@@ -1,7 +1,5 @@
 # Signature
 
-
-
 ## Packaging
 
 Bla bla sometinhg about the pades format
