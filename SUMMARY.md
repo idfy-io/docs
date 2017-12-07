@@ -4,6 +4,7 @@
 * [Frequently Asked Questions](faq/README.md)
 * [Identification](identification/README.md)
 * [Signature](signature/README.md)
+  * [Notifications](signature/Notifications.md)
 * [Extra Information](extra-information/README.md)
 * [Forms](forms/README.md)
 * [Events](events/README.md)
