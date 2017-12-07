@@ -1,4 +1,4 @@
-## Notifications
+# Notifications
 in our signature API you can specify if you want us to notify the signers with email and/or sms for you. Our notification service let's you manage a lot of the content in the notification, if you want to of course. We also supply standard texts if you want the quick and easy solution.
 
 Structure:
@@ -6,7 +6,7 @@ The create document request has a notification object where you can specify core
 
 
 
-### How to implement
+## Implementation
 1) Step 
 
 Decide when you want each signer to be notified by including a notifications object per signer (this object can be null on the signers you don't want to notify)
@@ -58,17 +58,19 @@ Example:
   3) Step
   You are now ready to go! See advanced for more features
 
-### Advanced
+## Advanced
 
-#### Notification merge fields
+### Notification merge fields
 If you create your own notification texts you can include some "merge-fields" in your text, when the notification is due we will replace the mergefield with the appropriate data. We currently support the following fields:
 
- * {document-title}
- * {document-description}
- * {deadline}
- * {signed-time} (For use in receipt, format: HH:mm:ss)
- * {signed-date} (For use in receipt, format: dd.MM.yyyy)
- * {signature-method} (For use in receipt)
+|Key | Description |
+|----|-------------|
+|{document-title}| We insert the title of the document|
+|{document-description}| We insert the description of the document|
+|{deadline}| We insert the deadline to sign the document|
+|{signed-time}| (For use in signatureReceipt, format: HH:mm:ss)|
+|{signed-date}| (For use in signatureReceipt, format: dd.MM.yyyy)|
+|{signature-method}| (For use in signatureReceipt, specifies which signature method was used )|
 
 You can use them in your text like this: 
 
@@ -76,7 +78,7 @@ You can use them in your text like this:
 - You must sign the document titled {document-title} before {deadline}...
 
 
-#### Signer specific merge fields
+### Signer specific merge fields
 If you setup your own email texts for the document, you may want part of the text to be specific per signer. To solve this we have introduced signer specific merge fields. They work the same way as the regular merge fields above, only you control both the key and value. Just include a dictionary of mergeFields per signer, we will then search for these keys in your text, and insert the value if it exists.
 
 
