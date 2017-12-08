@@ -7,7 +7,7 @@ The create document request has a notification object where you can specify core
 
 
 ## Implementation
-1) Step 
+### Step 1
 
 Decide when you want each signer to be notified by including a notifications object per signer (this object can be null on the signers you don't want to notify)
 Example:
@@ -29,7 +29,7 @@ Example:
   }
   ```
   
-  2) Step
+### Step 2
   
 Setup core notification settings if you want to create your own texts, include documents as an attachment in the mail (Beware of the security issues when sending sensitive documents by email). If you are using reminders you also have to specify a cron expression for the reminder interval.
 
@@ -55,8 +55,9 @@ Example:
   }
   ```
 
-  3) Step
-  You are now ready to go! See advanced for more features
+### Step 3
+
+You are now ready to go! See advanced for more features
 
 ## Advanced
 
@@ -70,6 +71,7 @@ If you create your own notification texts you can include some "merge-fields" in
 |{deadline}| We insert the deadline to sign the document|
 |{signed-time}| (For use in signatureReceipt, format: HH:mm:ss)|
 |{signed-date}| (For use in signatureReceipt, format: dd.MM.yyyy)|
+|{signed-name}| (For use in signatureReceipt, we insert the name retrieved from the signature method provider)|
 |{signature-method}| (For use in signatureReceipt, specifies which signature method was used )|
 
 You can use them in your text like this: 
