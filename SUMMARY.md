@@ -4,6 +4,7 @@
 * [Frequently Asked Questions](faq/README.md)
 * [Identification](identification/README.md)
 * [Signature](signature/README.md)
+  * [Get started](signature/get-started.md)
   * [Notifications](signature/Notifications.md)
   * [Styling](signature/styling.md)
 * [Extra Information](extra-information/README.md)
