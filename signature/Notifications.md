@@ -10,7 +10,8 @@ The create document request has a notification object where you can specify core
 ### Step 1
 
 Decide when you want each signer to be notified by including a notifications object per signer (this object can be null on the signers you don't want to notify)
-Example:
+
+#### Request example
   ```
   {
       ....
@@ -35,7 +36,7 @@ Setup core notification settings if you want to create your own texts, include d
 
 You can create texts in differnt languages, these will then be matched to the languages you have sat on the signers (under ui object). If no language is specified it will default to the english text.
 
-Example:
+#### Request example
   ```
   {
       ....
