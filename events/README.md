@@ -144,11 +144,12 @@ Triggered when a document is signed by one of the signers.
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
   "externalDocumentId": "8577545740",
   "signer": {
-    "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
-    "signerName": "John Doe",
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "fullName": "John Doe",
     "signedTime": "2017-03-01T13:00:00Z",
     "dateOfBirth": "1988-01-01",
     "signatureMethod": "no_bankid",
+    "signatureMethodUniqueId": "9876-5000-4-32100",
     "socialSecurityNumber": "01018812345"
   }
 }
@@ -195,11 +196,12 @@ Triggered when a document is signed by all required signers.
   "externalDocumentId": "8577545740",
   "signedTime": "2017-03-01T13:00:00Z",
   "signers": [{
-    "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
-    "signerName": "John Doe",
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "fullName": "John Doe",
     "signedTime": "2017-03-01T13:00:00Z",
     "dateOfBirth": "1988-01-01",
     "signatureMethod": "no_bankid",
+    "signatureMethodUniqueId": "9876-5000-4-32100",
     "socialSecurityNumber": "01018812345"
   }]
 }
