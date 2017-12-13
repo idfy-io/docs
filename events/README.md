@@ -166,6 +166,9 @@ Triggered when a document is read by one of the signers.
 | :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
+| `signerId` | `string` | A unique identifier for the signer |
+| `userAgent` | `string` | The signers user agent |
+| `ipAddress` | `string` | The signers IP address |
 
 #### Payload example
 
