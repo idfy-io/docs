@@ -148,6 +148,7 @@ Triggered when a document is signed by one of the signers.
     "fullName": "John Doe",
     "signedTime": "2017-03-01T13:00:00Z",
     "dateOfBirth": "1988-01-01",
+    "externalSignerId": "GJNHS0UHAD",
     "signatureMethod": "no_bankid",
     "signatureMethodUniqueId": "9876-5000-4-32100",
     "socialSecurityNumber": "01018812345"
@@ -200,6 +201,7 @@ Triggered when a document is signed by all required signers.
     "fullName": "John Doe",
     "signedTime": "2017-03-01T13:00:00Z",
     "dateOfBirth": "1988-01-01",
+    "externalSignerId": "GJNHS0UHAD",
     "signatureMethod": "no_bankid",
     "signatureMethodUniqueId": "9876-5000-4-32100",
     "socialSecurityNumber": "01018812345"
