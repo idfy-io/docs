@@ -9,7 +9,7 @@
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
-* [Account](account/README.md)
+* [Admin](account/README.md)
 * [Validation](validation/README.md)
 * [Merchant Sign](merchant-sign/README.md)
 * [Audit Log](audit-log/README.md)
