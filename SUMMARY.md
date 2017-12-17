@@ -13,7 +13,7 @@
 * [Validation](validation/README.md)
 * [Merchant Sign](merchant-sign/README.md)
 * [Audit Log](audit-log/README.md)
-* [Extra Information](extra-information/README.md)
+* [Information](extra-information/README.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
   * [Buypass](eid-providers/buypass.md)
