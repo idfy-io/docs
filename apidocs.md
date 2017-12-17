@@ -23,13 +23,14 @@ If you want to know the status of our services or subscribe to notifications go 
 * 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
 * 403 Forbidden: Not correct scope/access to this resource
 * 429 Too Many Requests: The API have built in throttling to prevent any singel customer taking the API down.
+* 503 Service Unavailable: A 3rd party services that this endpoint uses had an error or is unavailable.
 * 50x Server errors: Something is wrong on the Idfy servers or the hosting environment.
 
 ## Formats
 The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding.
 
 ## Idempotent Requests
-The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalRef key to guarantee that only a single charge is created.
+The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalId  to guarantee that only a single document/identification is created.
 
 ## Compatibility
 The Idfy API do change from time to time, but all changes will follow strict rules in order to keep the API's backward compatible. All new fields will be optional never required and if large changes are required a new endpoint will be created or a new API.
