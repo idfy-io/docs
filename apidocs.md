@@ -12,6 +12,71 @@ We’re here to help. Get in touch and we’ll get back to you as soon as we can
 
 # Statuspage
 If you want to know the status of our services or subscribe to notifications go to our Statuspage: [http://signere.statuspage.io/](http://signere.statuspage.io/)
+
+# REST API
+
+## Statuscodes
+* 200 OK: Everything worked as expected.
+* 201 Created: New resource is created for example a new document for signing
+* 400 Bad request: The request was unacceptable, often due to missing a required parameter, or parameter not following given restrictions.
+* 401 Unauthorized: Not authorized for this API
+* 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
+* 403 Forbidden: Not correct scope/access to this resource
+* 429 Too Many Requests: The API have built in throttling to prevent any singel customer taking the API down.
+* 50x Server errors: Something is wrong on the Idfy servers or the hosting environment.
+
+## Formats
+The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding.
+
+## Idempotent Requests
+The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalRef key to guarantee that only a single charge is created.
+
+## Compatibility
+The Idfy API do change from time to time, but all changes will follow strict rules in order to keep the API's backward compatible. All new fields will be optional never required and if large changes are required a new endpoint will be created or a new API.
+If an API are to be deprecated all customers will be given notice well in advance and not shutdown until all customers have converted to the new API's.
+
+## Pagination (linked lists)
+When using paging the list will be wrapped in a linked list object with a NextLink (the next page in the data set) and a totals link giving the totalt number of dataset that are in the query. The list contains the data in the result.
+Example:
+```json
+{
+  "nextLink": "https://id.signere.no/api/history/1dd0f6f9-4221-4604-8516-a30f00aef4e5/filter?year=2017&month=0&day=0&skip=1",
+  "totalLinks": 5,
+  "list": [
+    {
+      "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
+      "name": "Bruce Wayne",
+      "status": "SUCCESS",
+      "clientIp": "192.168.1.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+      "identityProviderType": "NO_BANKID_WEB",
+      "language": "NO",
+      "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
+      "timestamp": "2017-07-19T18:29:53.7550972Z",
+      "iframe": false,
+      "socialSecurityNumber": false
+    },
+    {
+      "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
+      "name": "Joker",
+      "status": "ERROR",
+      "clientIp": "192.168.1.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+      "identityProviderType": "FI_TUPAS",
+      "language": "NO",
+      "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
+      "errorcode": "TIMEOUT",
+      "timestamp": "2017-07-19T18:29:53.7550972Z",
+      "iframe": false,
+      "socialSecurityNumber": false
+    }
+  ]
+}
+```
+
+## Request IDs
+Each API request has an associated request identifier. You can find this value in the response headers, under Request-Id. You will also be able to use this to search in the logs in the Idfy dashboard. If you need to contact us about a specific request, providing the request identifier will ensure the fastest possible resolution.
+
 # API Authentication
 This API uses OAuth2 for authentication the requests. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use client_credentials as grant type when connecting to this API. 
 
