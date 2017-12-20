@@ -5,7 +5,7 @@ See the comparision below to find out whats best suits your need.
 
 ## OpenID Connect
 ### Pros
-* Industri standard
+* Industry standard
 * Supported in many libraries and framework
 * Can be used in javascript client where API keys are not possible to protect.
 
