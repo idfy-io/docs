@@ -9,9 +9,7 @@ The eIDAS Regulation:
 * ensures that people and businesses can use their own national electronic identification schemes \(eIDs\) to access public services in other EU countries where eIDs are available.
 * creates an European internal market for eTS - namely electronic signatures, electronic seals, time stamp, electronic delivery service and website authentication - by ensuring that they will work across borders and have the same legal status as traditional paper based processes. Only by providing certainty on the legal validity of all these services, businesses and citizens will use the digital interactions as their natural way of interaction.
 
-[Read more about eIDAS at the European Comission](https://ec.europa.eu/digital-single-market/en/policies/trust-services-and-eidentification) 
+[Read more about eIDAS at the European Commission](https://ec.europa.eu/digital-single-market/en/policies/trust-services-and-eidentification)
 
 ![](/assets/eidasinfographic2016_s_12940.png)
-
-
 
