@@ -25,6 +25,7 @@
   * [Tupas](eid-providers/tupas.md)
 * [Dealer](dealer/README.md)
 * [Privacy and Data Protection](GDPR/README.md)
+  * [GDPR](GDPR/gdpr.md)
 * [eIDAS](eidas.md)
 * [Open source](code/README.md)
 * [Examples](code/examples.md)
