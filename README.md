@@ -1,3 +1,16 @@
+# Idfy API Documentation
+
+ Get familiar with the Idfy products and explore their features:
+
+* Authenticate
+* Sign
+* eSeal
+* File Vault
+* Prove
+* Info
+* Integrations
+* Forms
+
 # Idfy Developer Documentation
 
 Use the documentation on this site to learn how to implement Idfy services. Choose the solution that bests suits your needs.
@@ -9,7 +22,7 @@ Use the documentation on this site to learn how to implement Idfy services. Choo
 
 ## Get started
 
-To use the API, you need an API account at Idfy You can get a free test account by going to our onboarding site and filling out the form there: [https://onboard.idfy.no](https://onboard.idfy.no)
+To use the API, you need an API account. You can create a free test account by going to our onboarding site and filling out a form: [https://onboard.idfy.no](https://onboard.idfy.no)
 
 ## Dashboard
 
@@ -26,9 +39,9 @@ Some of the operations that you could do in the dashboard are:
 * Access invoice details
 * Look at identification log
 
-All the functionality of our desktop is base upon our open APIs, if you want to build any of this functionality into your own management software no problem. 
+All the functionality of our desktop is base upon our open APIs, if you want to build any of this functionality into your own management software no problem.
 
-It is also easy to grant access to other collegues, the dashboard utilies our OpenID connect endpoint witch enables multiple identification methods such as Github, Google, BankID, NemID etc. 
+It is also easy to grant access to other collegues, the dashboard utilies our OpenID connect endpoint witch enables multiple identification methods such as Github, Google, BankID, NemID etc.
 
 ## Status page
 
