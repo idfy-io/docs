@@ -1,6 +1,7 @@
-# Identification
+# Authenticate
 
-We support two different flows /methods for authentication. You could choose between our REST api or OpenId Connect.
+We support two different authentication flows. You could choose between using our REST API or the OpenID Connect standard.
+
 See the comparision below to find out whats best suits your need.
 
 ## OpenID Connect
