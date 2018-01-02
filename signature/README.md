@@ -1,4 +1,4 @@
-# Signature
+# Sign
 
 ## Explore the possibilities of our signature API
 
@@ -19,4 +19,6 @@ Idfy signing service is very customizable bellow are a list of things that can b
 * Spinner type
 * Notification text \(both sms and email\)
 * Email text and email colors.
+
+
 

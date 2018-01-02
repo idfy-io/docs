@@ -1,4 +1,4 @@
-# Extra information
+# Idfy Info API
 
 Get more information about a user or a company using our APIs towards public records such as national population and business registries.
 
