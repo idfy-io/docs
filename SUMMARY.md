@@ -14,7 +14,6 @@
 * [Info](extra-information/README.md)
 * [Forms](forms/README.md)
 * [Validate](validation/README.md)
-* [Prove](audit-log/README.md)
 * [Info](extra-information/README.md)
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
