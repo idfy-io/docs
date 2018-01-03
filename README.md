@@ -1,8 +1,8 @@
 # Idfy API Documentation
 
- Get familiar with the Idfy products and explore their features:
+Get familiar with the Idfy products and explore their features:
 
-* Authenticate
+* [Authenticate](/identification/README.md)
 * Sign
 * eSeal
 * File Vault
