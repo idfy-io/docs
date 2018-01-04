@@ -10,7 +10,8 @@
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
-* eSeal
+* [eSeal](eseal.md)
+* [File Vault](file-vault.md)
 * [Prove](audit-log/README.md)
 * [Info](extra-information/README.md)
 * [Forms](forms/README.md)
@@ -28,7 +29,4 @@
   * [GDPR](GDPR/gdpr.md)
   * [Data handling](data-handling.md)
 * [eIDAS](eidas.md)
-* [Open source](code/README.md)
-* [Examples](code/examples.md)
-* eSeal
 

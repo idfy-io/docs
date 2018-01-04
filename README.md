@@ -3,8 +3,8 @@
 Get familiar with the Idfy products and explore their features:
 
 * [Authenticate](/identification/README.md)
-* Sign
-* eSeal
+* [Sign](/signature/README.md)
+* [eSeal](/eseal.md)
 * File Vault
 * Prove
 * Info
