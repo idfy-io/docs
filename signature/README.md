@@ -1,10 +1,13 @@
 # Sign
 
+## Litt mer highlevel intro til konseptet signering.
+
 ## Explore the possibilities of our signature API
 
-* [Get started](get-started.md)
+* [Quickstart](/identification/quickstart.md)
 * [Notifications](Notifications.md)
 * [Styling](styling.md)
+* Examples and tutorials
 
 ## Packaging
 

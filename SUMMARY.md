@@ -3,30 +3,52 @@
 * [Introduction](README.md)
 * [Frequently Asked Questions](faq/README.md)
 * [Authenticate](identification/README.md)
+  * [Quickstart](identification/quickstart.md)
+  * OpenID Connect
+  * Classic REST flow
+  * Examples and tutorials
 * [Sign](signature/README.md)
   * [Quickstart](signature/get-started.md)
   * [Notifications](signature/Notifications.md)
   * [Styling](signature/styling.md)
+  * Examples and tutorials
+  * Packaging
+  * Events and files
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
 * [eSeal](eseal.md)
+  * Quickstart
+  * Examples and tutorials
 * [File Vault](file-vault.md)
+  * Quickstart
+  * Examples and tutorials
 * [Prove](audit-log/README.md)
+  * Quickstart
 * [Info](extra-information/README.md)
+  * Quickstart
+  * Examples and tutorials
 * [Forms](forms/README.md)
+  * Quickstart
+  * Examples and tutorials
 * [Validate](validation/README.md)
-* [Info](extra-information/README.md)
+  * Quickstart
+  * Examples and tutorials
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
   * [Buypass](eid-providers/buypass.md)
   * [Swedish BankID](eid-providers/swedish-bankid.md)
   * [NemID](eid-providers/nemid.md)
   * [Tupas](eid-providers/tupas.md)
-* [Account](account/README.md)
+  * SoMe
 * [Dealer](dealer/README.md)
 * [Privacy and Data Protection](GDPR/README.md)
   * [GDPR](GDPR/gdpr.md)
   * [Data handling](data-handling.md)
 * [eIDAS](eidas.md)
+* [APIs](apis.md)
+  * Test
+* [Account](account/README.md)
+  * Quickstart
+  * [Examples and tutorials](account/examples-and-tutorials.md)
 
