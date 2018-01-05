@@ -6,7 +6,7 @@ Electronic identification using BankID meets the official requirements that appl
 
 ### BankID
 
-BankID is also known as bank-stored BankID. It is the most frequently used form of digital ID in Norway, with more than 3.4 million users. With bank-stored BankID, you use your personal ID number and a code from your security token plus your personal password to log in. BankID is issued by the banks. In order to be issued a BankID, you need to appear in person at the bank and show your passport.
+BankID is also known as bank-stored BankID. It is the most frequently used form of digital ID in Norway, with more than 3.7 million users. With bank-stored BankID, you use your personal ID number and a code from your security token plus your personal password to log in. BankID is issued by the banks. In order to be issued a BankID, you need to appear in person at the bank and show your passport.
 
 ### BankID on mobile
 
