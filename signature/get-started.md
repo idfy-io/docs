@@ -1,8 +1,6 @@
 # Digital signatures quickstart
 
-Securely collect signatures from your customers for your contracts and agreements, onboarding documents etc.
-
-
+Securely collect signatures from your customers for your contracts and agreements, onboarding forms and more.
 
 Step 1:
 

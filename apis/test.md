@@ -1,9 +1,9 @@
 {% runkit %}
 
-// GeoJSON!
+// Hello app!
 
-var google = "https://storage.googleapis.com/maps-devrel/google.json";
+var greeting = "Hello auth!";
 
-JSON.parse\(await require\("request-promise"\)\(google\)\);
+console.log(greeting);
 
 {% endrunkit %}
