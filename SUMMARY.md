@@ -36,10 +36,10 @@
   * Examples and tutorials
 * [eID Providers](eid-providers/README.md)
   * [Norwegian BankID](eid-providers/norwegian-bankid.md)
-  * [Buypass](eid-providers/buypass.md)
+  * [Norwegian Buypass](eid-providers/buypass.md)
   * [Swedish BankID](eid-providers/swedish-bankid.md)
-  * [NemID](eid-providers/nemid.md)
-  * [Tupas](eid-providers/tupas.md)
+  * [Danish NemID](eid-providers/nemid.md)
+  * [Finnish Tupas](eid-providers/tupas.md)
   * SoMe
 * [Dealer](dealer/README.md)
 * [Privacy and Data Protection](GDPR/README.md)
