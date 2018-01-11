@@ -24,19 +24,29 @@ JSON:
 {
     "signers":[
         {
-            "externalSignerId":1234,
+            "externalSignerId":"123abc",
             "redirectSettings":{
                 "redirectMode":"redirect",
                 "success":"https://www.idfy.io#success",
                 "abort":"https://www.idfy.io#abort",
                 "error":"https://www.idfy.io#error"
+            },
+            "signatureType":{
+                "signatureMethods":["NO_BANKID"],
+                "mechanism":"pkisignature"
             }
         }
     ],
-    "signatureType":{
-        "signatureMethods":["NO_BANKID"],
-        "method":"pkisignature"
-    }
+    "title":"Signature test",
+    "description":"A small text to sign",
+    "contactDetails":{
+        "email":"support@idfy.io"
+    },
+    "dataToSign":{
+        "fileName":"shortText.txt",
+        "base64Content":"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElzLg=="
+    },
+    "externalId":"document-42"
 }
 ```
 
@@ -44,20 +54,23 @@ Explanation of parameters:
 
 | Parameters | Example value | Explanation |
 | :--- | :--- | :--- |
-| signers \(array - see below\) |  |  |
-| signers\[0\].externalSignerId | 1234 | Your own reference for the person to sign the document. Could e.g. be the customer number |
+| signers \(array - see below\) | \(array of values, see below\) | These are the individual signers that are to sign the document |
+| signers\[0\].externalSignerId | "123abc" | Your own reference for the person to sign the document. Could e.g. be the customer number |
 | signers.\[0\].redirectSettings.redirectMode | "redirect" | Determines how the signing application should behave for the user, e.g. if you are planning on redirecting the user to the signing URL, or if you are planning to iframe the signing process into your webpage. |
 | signers\[0\].redirectSettings.success | "[https://www.idfy.io\#success](https://www.idfy.io#success)" | The landing page on your end, where you want the user to be redirected after successful signature |
 | signers\[0\].redirectSettings.abort | "[https://www.idfy.io\#abort](https://www.idfy.io#abort)" | The landing page on your end, where you want the user to be redirected if he/she chooses to abort the signing process |
 | signers\[0\].redirectSettings.error | "[https://www.idfy.io\#error](https://www.idfy.io#error)" | The landing page on your end, where you want the user to be redirected in case any errors occur during the signing process |
-| signatureType.signatureMethods | \["NO\_BANKID"\] | The method for the user to sign with. Could be |
-| signatureType.method | "pkisignature" | Determines which type of signature is to be used. pkisignature means that the native signature capability of the signature method is to be used. |
-
-
+| signers\[0\].signatureType.signatureMethods | \["NO\_BANKID"\] | The method for the user to sign with. Could be |
+| signers\[0\].signatureType.method | "pkisignature" | Determines which type of signature is to be used. pkisignature means that the native signature capability of the signature method is to be used. |
+| title | "Signature test" | This is the title of the document, which is shown in the GUI for the signer |
+| description | "A small test text to sign" | This is the description for the document to sign, which is shown in the GUI for the signer |
+| dataToSign.fileName | "shortText.txt" | This is the file name for the document that is sent for signing. Note that the correct extension for the document must be provided, e.g. .txt for text signing, and .pdf for PDF documents. |
+| dataToSign.base64Content | "SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElzLg==" | This is the base64 encoded file contents of the document to sign. The example value corresponds to the text "Hello world! Sign this short text to try out Idfy APIs." |
+| externalId | "document-42" | This is your reference for the document to be signed. Could e.g. be your own internal documentID in your system |
 
 Postman:
 
-![](/assets/postman_sign1.png)
+![](/assets/postman-sign-5.png)
 
 **Step 5:**
 
@@ -65,11 +78,19 @@ When we have inserted the example body in Postman, we are almost ready for makin
 
 ![](/assets/postman_sign3.png)
 
-
-
 When we have got our access token above, we add it to the headers of the request, and press "Send":
 
 ![](/assets/postman_sign4.png)
+
+In the response you should for each of the signers get a URL for the signer to use. Note that this URL by default is only valid for 7 days, but can be controlled via parameter settings:
+
+![](/assets/postman-sign-6.png)
+
+**Step 6:**
+
+Enter the URL received in the response object \(under signers\[0\].url\). Since we specified redirect mode in step 4, the API assumes a full page mode in the GUI:
+
+\[insert screenshot\]
 
 
 
