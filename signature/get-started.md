@@ -14,13 +14,58 @@ When you have received your API credentials, you can use these to make calls tow
 
 To get quickly started with testing the signature services, you can start using your preferred SDK and calling the appropriate methods within that given library, or you can for instance make some initial calls using cURL or the API tool Postman \(see more information and download Postman [here](https://www.getpostman.com/)\). For the sake of simplicity, we here show some initial calls using Postman. The Postman collection for the APIs can be found on our [SDK site](https://developer.idfy.io/sdk) \(click "Export", then "Postman 1.0" or "Postman 2.0"\). When you have downloaded this JSON file, open Postman and import the file as a collection.
 
+**Step 4:**
+
+Open Postman and the Idfy API reference collection. Browse to Documents, and "Documents\_Create". The parameters that are required for a minimal test follow below, with some example values that you can try, by pasting the JSON into the body of the request:
 
 
-The parameters that are required for a minimal test follow below, with some example values that you can try:
 
-| Parameters | Example value |
-| :--- | :--- |
-| TestParameter | Test value |
+JSON:
+
+```
+{
+    signers:[
+        {
+            externalSignerId:1234,
+            redirectSettings:{
+                redirectMode:"redirect",
+                success:"https://www.idfy.io#success",
+                abort:"https://www.idfy.io#abort",
+                error:"https://www.idfy.io#error"
+            },
+        }
+    ],
+    signatureType:{
+        signatureMethods:["NO_BANKID"],
+        method:"pkisignature"
+    }
+}
+```
+
+
+
+
+
+Explanation of parameters:
+
+| Parameters | Example value | Explanation |
+| :--- | :--- | :--- |
+| signers \(array - see below\) |  |  |
+| signers\[0\].externalSignerId | 1234 | Your own reference for the person to sign the document. Could e.g. be the customer number |
+| signers.\[0\].redirectSettings.redirectMode | "redirect" | Determines how the signing application should behave for the user, e.g. if you are planning on redirecting the user to the signing URL, or if you are planning to iframe the signing process into your webpage. |
+| signers\[0\].redirectSettings.success | "https://www.idfy.io\#success" | The landing page on your end, where you want the user to be redirected after successful signature |
+| signers\[0\].redirectSettings.abort | "https://www.idfy.io\#abort" | The landing page on your end, where you want the user to be redirected if he/she chooses to abort the signing process |
+| signers\[0\].redirectSettings.error | "https://www.idfy.io\#error" | The landing page on your end, where you want the user to be redirected in case any errors occur during the signing process |
+| signatureType.signatureMethods | \["NO\_BANKID"\] | The method for the user to sign with. Could be  |
+| signatureType.method | "pkisignature" | Determines which type of signature is to be used. pkisignature means that the native signature capability of the signature method is to be used. |
+
+
+
+
+
+
+
+
 
 
 
@@ -29,6 +74,4 @@ You can also test right away how this plays out in Node:
 Runkit
 
 
-
-**Step 4:**
 
