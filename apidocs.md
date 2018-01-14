@@ -37,7 +37,8 @@ If you want to know the status of our services or subscribe to notifications go 
 * Delte: Delete a resoure.
 
 ## Formats
-The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding.
+The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding. All responsens will be in UTF-8.
+All file download will be a standard http download result.
 
 ## Idempotent Requests
 The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalId  to guarantee that only a single document/identification is created.
@@ -47,14 +48,20 @@ The Idfy API do change from time to time, but all changes will follow strict rul
 If an API are to be deprecated all customers will be given notice well in advance and not shutdown until all customers have converted to the new API's.
 
 ## Pagination (linked lists)
-When using paging the list will be wrapped in a linked list object with a NextLink (the next page in the data set) and a totals link giving the totalt number of dataset that are in the query. The list contains the data in the result.
+When using paging the list will be wrapped in a linked list object. The data contains the list-data in the result. There will also be navigation links for next, first, last and previous. The total amount of results (size) will also be inlcuded.
 Example:
 ```json
 {
-  "nextLink": "https://id.signere.no/api/history/1dd0f6f9-4221-4604-8516-a30f00aef4e5/filter?year=2017&month=0&day=0&skip=1",
-  "totalLinks": 5,
-  "list": [
-    {
+   "offset": 0,
+   "limit": 2,
+   "size": 45,
+   "links": {
+     "next": "https://api.idfy.io/signature/documents/summary?limit=2&offset=2",
+     "first": "https://api.idfy.io/signature/documents/summary?limit=2",
+     "last": "",
+     "previous": ""
+   },
+   "data": [
       "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
       "name": "Bruce Wayne",
       "status": "SUCCESS",
