@@ -17,14 +17,24 @@ If you want to know the status of our services or subscribe to notifications go 
 
 ## Statuscodes
 * 200 OK: Everything worked as expected.
-* 201 Created: New resource is created for example a new document for signing
+* 201 Created: New resource is created for example a new document for signing.
+* 204 No content: The response code when a resource is deleted.
 * 400 Bad request: The request was unacceptable, often due to missing a required parameter, or parameter not following given restrictions.
 * 401 Unauthorized: Not authorized for this API
 * 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
 * 403 Forbidden: Not correct scope/access to this resource
+* 422 Unprocessable Entity: The request i syntax correct, but there is a business or logical error. For example sign xml signature with Swedish BankID that is not supported.
+* 404 Not found: The route is not found or the entity is not found. Look at the reason phrase in the response to find detailed error.
 * 429 Too Many Requests: The API have built in throttling to prevent any singel customer taking the API down.
 * 503 Service Unavailable: A 3rd party services that this endpoint uses had an error or is unavailable.
 * 50x Server errors: Something is wrong on the Idfy servers or the hosting environment.
+
+## Http verbs
+* Get: Get a resource
+* Post: Create a new resource or exceute a command on the resource that is only can be exceuted once.
+* Put: Replace a resource or exceute a command on the resource that is only can be exceuted mulitple times.
+* Patch: Partially update a resoruce.
+* Delte: Delete a resoure.
 
 ## Formats
 The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding.
