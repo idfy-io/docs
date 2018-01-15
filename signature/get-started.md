@@ -102,21 +102,15 @@ To sign the document, you can use the BankID test user "John Doe", who has socia
 
 ![](/assets/postman-sign11.PNG)
 
- 
-
 **Step 7:**
 
 Now when we have signed the example text, we might be interested in getting the signed file back. Since we signed a text file in this example, there is no signed PDF format, but rather the raw cryptographic format, in this case a BankID SDO file. If we had signed a PDF document, there would also be a PAdES PDF \(signed PDF\) format, but for simplicity we used a simple text here. For more examples, also with PDF documents, please see the [examples and tutorials](/account/examples-and-tutorials.md) section and the packaging section.
 
-To get the signed SDO file back, we now use a GET call to the Files API, where we use the documentId that we got back in the response in step 5. In Postman, go to the Files section and choose the Files\_Get call. Get a new OAuth2 token and insert the documentId you got in step 5, as well as appending the query parameter fileFormat with value "native" at the end of the request URL, indicating that we want to fetch the native cryptographic signature from the signing mechanism. Then press send: 
+To get the signed SDO file back, we now use a GET call to the Files API, where we use the documentId that we got back in the response in step 5. In Postman, go to the Files section and choose the Files\_Get call. Get a new OAuth2 token and insert the documentId you got in step 5, as well as appending the query parameter fileFormat with value "native" at the end of the request URL, indicating that we want to fetch the native cryptographic signature from the signing mechanism. Then press send:
 
 ![](/assets/postman-sign12.png)
 
-As we can see in the response, we have the cryptographic signature
-
-
-
-
+As we can see in the response, we have the cryptographic signature, in this case a BankID SDO file, which is an XML structure that contains the signature and some other data like the signer's certificate.
 
 You can also test right away how this plays out in Node:
 
