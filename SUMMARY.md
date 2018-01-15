@@ -13,7 +13,7 @@
   * [Styling](signature/styling.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Packaging](signature/packaging.md)
-  * Events and files
+  * [Events and files](signature/events-and-files.md)
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
