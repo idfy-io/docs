@@ -12,7 +12,7 @@
   * [Notifications](signature/Notifications.md)
   * [Styling](signature/styling.md)
   * Examples and tutorials
-  * Packaging
+  * [Packaging](signature/packaging.md)
   * Events and files
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)

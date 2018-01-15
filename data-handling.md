@@ -6,5 +6,5 @@ With Idfy you have the opportunity of consuming our services using dedicated ins
 
 In addition, we use the **industry’s leading hardware security modules** \(HSMs\) to protect transactions, identities, and applications. HSMs excel at **securing cryptographic keys** and provisioning encryption, decryption, authentication, and digital signing services for a wide range of applications. We have dedicated HSMs in a **redundant setup**. Our a data centers is **ISO27001/PCI DSS certified**, meaning it is «_payment card industry data security standard_» compliant.
 
-All data moved through our systems will only be stored as long as necessary to deliver the agreed upon services. How and where data is stored is complete customizable with our services.  
+All data moved through our systems will only be stored as long as necessary to deliver the agreed upon services. How and where data is stored is completely customizable with our services.
 
