@@ -44,9 +44,9 @@ JSON:
     },
     "dataToSign":{
         "fileName":"shortText.txt",
-        "base64Content":"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElzLg=="
+        "base64Content":"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
     },
-    "externalId":"document-42"
+    "externalId":"myDocumentID-42"
 }
 ```
 
@@ -65,8 +65,8 @@ Explanation of parameters:
 | title | "Signature test" | This is the title of the document, which is shown in the GUI for the signer |
 | description | "A small test text to sign" | This is the description for the document to sign, which is shown in the GUI for the signer |
 | dataToSign.fileName | "shortText.txt" | This is the file name for the document that is sent for signing. Note that the correct extension for the document must be provided, e.g. .txt for text signing, and .pdf for PDF documents. |
-| dataToSign.base64Content | "SGVsbG8gd29ybGQhIFN                       pZ24gdGhpcyBzaG9ydC                        B0ZXh0IHRvIHRyeSBv                          dXQgSWRmeSBBUElzLg==" | This is the base64 encoded file contents of the document to sign. The example value corresponds to the text "Hello world! Sign this short text to try out Idfy APIs." |
-| externalId | "document-42" | This is your reference for the document to be signed. Could e.g. be your own internal documentID in your system |
+| dataToSign.base64Content | "SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz" | This is the base64 encoded file contents of the document to sign. The example value corresponds to the text "Hello world! Sign this short text to try out Idfy APIs." |
+| externalId | "myDocumentID-42" | This is your reference for the document to be signed. Could e.g. be your own internal documentID in your system |
 
 Postman:
 
@@ -84,13 +84,39 @@ When we have got our access token above, we add it to the headers of the request
 
 In the response you should for each of the signers get a URL for the signer to use. Note that this URL by default is only valid for 7 days, but can be controlled via parameter settings:
 
-![](/assets/postman-sign-6.png)
+![](/assets/postman-sign12.PNG)
 
 **Step 6:**
 
 Enter the URL received in the response object \(under signers\[0\].url\). Since we specified redirect mode in step 4, the API assumes a full page mode in the GUI:
 
-\[insert screenshot\]
+![](/assets/postman-sign7.png)
+
+To sign the document, you can use the BankID test user "John Doe", who has social security number 05128938534, one time code "otp" and personal password "qwer1234". After successful signature with these credentials, we can see that we are redirected to the landing page that we specified in step 4, and we are done \(see screenshots below\):
+
+![](/assets/postman-sign8.PNG)
+
+![](/assets/postman-sign9.PNG)
+
+![](/assets/postman-sign10.PNG)
+
+![](/assets/postman-sign11.PNG)
+
+ 
+
+**Step 7:**
+
+Now when we have signed the example text, we might be interested in getting the signed file back. Since we signed a text file in this example, there is no signed PDF format, but rather the raw cryptographic format, in this case a BankID SDO file. If we had signed a PDF document, there would also be a PAdES PDF \(signed PDF\) format, but for simplicity we used a simple text here. For more examples, also with PDF documents, please see the [examples and tutorials](/account/examples-and-tutorials.md) section and the packaging section.
+
+To get the signed SDO file back, we now use a GET call to the Files API, where we use the documentId that we got back in the response in step 5. In Postman, go to the Files section and choose the Files\_Get call. Get a new OAuth2 token and insert the documentId you got in step 5, as well as appending the query parameter fileFormat with value "native" at the end of the request URL, indicating that we want to fetch the native cryptographic signature from the signing mechanism. Then press send: 
+
+![](/assets/postman-sign12.png)
+
+As we can see in the response, we have the cryptographic signature
+
+
+
+
 
 You can also test right away how this plays out in Node:
 
