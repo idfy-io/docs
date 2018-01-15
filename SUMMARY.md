@@ -11,7 +11,7 @@
   * [Quickstart](signature/get-started.md)
   * [Notifications](signature/Notifications.md)
   * [Styling](signature/styling.md)
-  * Examples and tutorials
+  * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Packaging](signature/packaging.md)
   * Events and files
 * [Events](events/README.md)
