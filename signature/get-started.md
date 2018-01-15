@@ -124,7 +124,7 @@ You can also test right away how this plays out in Node:
 
 var greeting="Hello unicorns!";
 
-console.log\(greeting\);
+console.log(greeting);
 
 {% endrunkit %}
 
