@@ -120,5 +120,21 @@ As we can see, that validator confirms that the signature is valid, and that it 
 
 You can also test right away how this plays out in Node:
 
-Runkit
+```
+{% runkit %}
+```
+
+```js
+
+// Hello app!
+
+var greeting = "Hello auth!";
+
+console.log(greeting);
+
+{% endrunkit %}
+
+```
+
+
 
