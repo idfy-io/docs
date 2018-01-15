@@ -65,7 +65,7 @@ Explanation of parameters:
 | title | "Signature test" | This is the title of the document, which is shown in the GUI for the signer |
 | description | "A small test text to sign" | This is the description for the document to sign, which is shown in the GUI for the signer |
 | dataToSign.fileName | "shortText.txt" | This is the file name for the document that is sent for signing. Note that the correct extension for the document must be provided, e.g. .txt for text signing, and .pdf for PDF documents. |
-| dataToSign.base64Content | "SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz" | This is the base64 encoded file contents of the document to sign. The example value corresponds to the text "Hello world! Sign this short text to try out Idfy APIs." |
+| dataToSign.base64Content | "SGVsbG8gd29ybGQhIFN                       pZ24gdGhpcyBzaG9ydCB                     0ZXh0IHRvIHRyeSBvdXQ                      gSWRmeSBBUElz" | This is the base64 encoded file contents of the document to sign. The example value corresponds to the text "Hello world! Sign this short text to try out Idfy APIs." |
 | externalId | "myDocumentID-42" | This is your reference for the document to be signed. Could e.g. be your own internal documentID in your system |
 
 Postman:
@@ -117,10 +117,6 @@ As we can see in the response, we have the cryptographic signature, in this case
 As we can see, that validator confirms that the signature is valid, and that it is indeed "John Doe", our test user, who has signed the document. It is also possible to view the original document that was signed by pressing "View document", and we can confirm that it is the text that we submitted for signing in step 4:
 
 ![](/assets/postman-sign14.PNG)
-
-
-
-
 
 You can also test right away how this plays out in Node:
 
