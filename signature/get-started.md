@@ -112,6 +112,16 @@ To get the signed SDO file back, we now use a GET call to the Files API, where w
 
 As we can see in the response, we have the cryptographic signature, in this case a BankID SDO file, which is an XML structure that contains the signature and some other data like the signer's certificate. If we want, we can also check the validity of the signature by going to BankID's signature validator [here ](https://www.bankid.no/privat/los-mitt-bankid-problem/les-signerte-dokumenter/)and uploading the response that we got in the API call above. First we need to copy the XML contents into a text file, and then give it an .sdo extension before we upload it into the validator. Also, make sure that all of the response contents are included in the file - we can for instance call the file test.sdo , and then upload it into the validator:
 
+![](/assets/postman-sign13.PNG)
+
+As we can see, that validator confirms that the signature is valid, and that it is indeed "John Doe", our test user, who has signed the document. It is also possible to view the original document that was signed by pressing "View document", and we can confirm that it is the text that we submitted for signing in step 4:
+
+![](/assets/postman-sign14.PNG)
+
+
+
+
+
 You can also test right away how this plays out in Node:
 
 Runkit
