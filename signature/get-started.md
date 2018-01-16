@@ -217,7 +217,6 @@ request({
             console.log("When you have signed, you can use the following documentID");
             console.log("for downloading the signed document:");
             console.log(body.documentId);
-
         }else{
             console.log(error);
         }
@@ -226,6 +225,18 @@ request({
 
 {% endrunkit %}
 
+Now if you have tried the above code example in Runkit and signed the document, you can try to download the document using the documentId that was outputted in the Runkit console, to see that we get the signed file back:
+
+{% runkit %}
+var request=require('request');
+
+//These are test credentials - you could also plug in your own credentials for the Idfy test environments
+var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
+var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
+
+//We start by obtaining an access token
+
+{% endrunkit %}
 
 
 
