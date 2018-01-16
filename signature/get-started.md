@@ -207,11 +207,11 @@ request({
             },
             function(error,response,body){
                 if(!error && response.statusCode==201){
-                    console.log("Go to the below URL to start the signing process."); 
-                    console.log("You can use the following test user credentials:");
+                    console.log("You can now use the following test user credentials:");
                     console.log("Social security number/national ID: 05128938534");
                     console.log("One time code: otp");
                     console.log("Personal password: qwer1234");
+                    console.log("Go to the below link to start the signing process."); 
                     console.log("Signing link:");
                     console.log(body.ShortUrl);
                 }else{
