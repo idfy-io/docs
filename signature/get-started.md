@@ -122,9 +122,35 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
-var greeting="Hello unicorns!";
+var data = {
+    signers:[
+        {
+            externalSignerId:"123abc",
+            redirectSettings:{
+                redirectMode:"redirect",
+                success:"https://www.idfy.io#success",
+                abort:"https://www.idfy.io#abort",
+                error:"https://www.idfy.io#error"
+            },
+            signatureType:{
+                signatureMethods:["NO_BANKID"],
+                mechanism:"pkisignature"
+            }
+        }
+    ],
+    title:"Signature test",
+    description:"A small text to sign",
+    contactDetails:{
+        email:"support@idfy.io"
+    },
+    dataToSign:{
+        fileName:"shortText.txt",
+        base64Content:"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
+    },
+    externalId:"myDocumentID-42"
+};
 
-console.log(greeting);
+console.log(data);
 
 {% endrunkit %}
 
