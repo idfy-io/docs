@@ -187,7 +187,8 @@ request(
     }, 
     function(error,response){
         if(!error && response.statusCode==200){
-            console.log(response.body);
+            var json=JSON.parse(response.body);
+            console.log(json.signers[0].url);
         }else{
             console.log(error);
         }
