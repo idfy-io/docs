@@ -182,7 +182,8 @@ request({
             externalId:"myDocumentID-42"
         };
     }else{
-        console.log(error);
+        console.log("an error occurred");
+        //console.log(error);
     }
     //Now we make the actual signature request using the access token we got back from the OAuth2 server
     request(
@@ -201,7 +202,8 @@ request({
             console.log("Go to the below URL to start the signing process. You can use test user credentials: social security number/national ID: 05128938534, one time code: \"otp\", personal password: \"qwer1234\"");
             console.log(json.signers[0].url);
         }else{
-            console.log(error);
+            console.log("an error occurred");
+            //console.log(error);
         }
     });
 });
