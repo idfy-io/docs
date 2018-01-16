@@ -122,11 +122,14 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
-var oauthClientId="9dc16dda-8be9-4bf0-9f75-5caffbb788d8";
-var oauthClientSecret="tivu81je/uwlQVhwbtWw4vqwD05eIMTKVudtEdj5xH4=";
 var request=require('request');
 var accessToken=null;
 
+//These are test credentials - you could also plug in your own credentials from the Idfy test environments
+var oauthClientId="9dc16dda-8be9-4bf0-9f75-5caffbb788d8";
+var oauthClientSecret="tivu81je/uwlQVhwbtWw4vqwD05eIMTKVudtEdj5xH4=";
+
+//We start by obtaining an access token
 request({
   url: 'https://oauth2test.signere.com/connect/token',
   method: 'POST',
@@ -177,7 +180,10 @@ request(
         method:"POST",
         url:"https://api.idfy.io/signature/documents",
         json:true,
-        body:data
+        body:data,
+        auth:{
+            'bearer':accessToken
+        }
     }, 
     function(error,response){
         if(!error && response.statusCode==200){
