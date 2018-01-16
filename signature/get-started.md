@@ -261,6 +261,11 @@ request({
             },function(error,response,body){
                 if(!error && response.statusCode==200){
                     console.log(body);
+                }else if(response.statusCode==404){
+                    console.log("Did you remember to sign the document in the example above first?");
+                    console.log("The signed document file is not available before you have signed it");
+                    console.log("Also, it can take a couple of seconds before it is available");
+                    console.log("Please retry in a few seconds, or try signing above again");
                 }else{
                     console.log(error);
                 }
