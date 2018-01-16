@@ -207,6 +207,7 @@ request({
                 body:{Url:body.signers[0].url}
             },
             function(error,response,body){
+                console.log("short url received");
                 if(!error && response.statusCode==200){
                     console.log("Go to the below URL to start the signing process."); 
                     console.log("You can use the following test user credentials:");
@@ -216,6 +217,7 @@ request({
                     console.log("Signing link:");
                     console.log(body.ShortUrl);
                 }else{
+                    console.log("error occurred");
                     console.log(error);
                 }
             });
