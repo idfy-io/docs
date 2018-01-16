@@ -138,7 +138,8 @@ request({
     pass: oauthClientSecret
   },
   form: {
-    'grant_type': 'client_credentials'
+    'grant_type': 'client_credentials',
+    'scope':'document_read document_write document_file'
   }
 }, function(error, response) {
   var json = JSON.parse(response.body);
