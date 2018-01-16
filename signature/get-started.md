@@ -34,6 +34,9 @@ JSON:
             "signatureType":{
                 "signatureMethods":["NO_BANKID"],
                 "mechanism":"pkisignature"
+            },
+            "ui":{
+                "language":"en"
             }
         }
     ],
@@ -62,6 +65,7 @@ Explanation of parameters:
 | signers\[0\].redirectSettings                     .error | "[https://www.idfy.io\#error](https://www.idfy.io#error)" | The landing page on your end, where you want the user to be redirected in case any errors occur during the signing process |
 | signers\[0\].signatureType                        .signatureMethods | \["NO\_BANKID"\] | The method for the user to sign with. Could be |
 | signers\[0\].signatureType                        .method | "pkisignature" | Determines which type of signature is to be used. pkisignature means that the native signature capability of the signature method is to be used. |
+| signers\[0\].ui.language | "en" | Determines the language to load in the signing UI |
 | title | "Signature test" | This is the title of the document, which is shown in the GUI for the signer |
 | description | "A small test text to sign" | This is the description for the document to sign, which is shown in the GUI for the signer |
 | dataToSign.fileName | "shortText.txt" | This is the file name for the document that is sent for signing. Note that the correct extension for the document must be provided, e.g. .txt for text signing, and .pdf for PDF documents. |
@@ -141,41 +145,49 @@ request({
     'grant_type': 'client_credentials',
     'scope':'document_read document_write document_file'
   }
-}, function(error, response) {
-  var json = JSON.parse(response.body);
-  accessToken=json.access_token;
-});
-
-
-var data = {
-    signers:[
-        {
-            externalSignerId:"123abc",
-            redirectSettings:{
-                redirectMode:"redirect",
-                success:"https://www.idfy.io#success",
-                abort:"https://www.idfy.io#abort",
-                error:"https://www.idfy.io#error"
+}, function(error, response, body) {
+    //Then when we get back the token, we make the actual request for the signature job, using the access token we got back from the OAuth2 server
+    if(!error && response.statusCode==200){
+        var json = JSON.parse(body);
+        accessToken=json.access_token;
+        //We make some test data for the signing process
+        var data = {
+            signers:[
+                {
+                    externalSignerId:"123abc",
+                    redirectSettings:{
+                        redirectMode:"redirect",
+                        success:"https://www.idfy.io#success",
+                        abort:"https://www.idfy.io#abort",
+                        error:"https://www.idfy.io#error"
+                    },
+                    signatureType:{
+                        signatureMethods:["NO_BANKID"],
+                        mechanism:"pkisignature"
+                    },
+                    ui:{
+                        language:"en"
+                    }
+                }
+            ],
+            title:"Signature test",
+            description:"A small text to sign",
+            contactDetails:{
+                email:"support@idfy.io"
             },
-            signatureType:{
-                signatureMethods:["NO_BANKID"],
-                mechanism:"pkisignature"
-            }
-        }
-    ],
-    title:"Signature test",
-    description:"A small text to sign",
-    contactDetails:{
-        email:"support@idfy.io"
-    },
-    dataToSign:{
-        fileName:"shortText.txt",
-        base64Content:"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
-    },
-    externalId:"myDocumentID-42"
-};
+            dataToSign:{
+                fileName:"shortText.txt",
+                base64Content:"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
+            },
+            externalId:"myDocumentID-42"
+        };
+        
 
-request(
+    }else{
+        console.log(error);
+    }
+    
+    request(
     {
         method:"POST",
         url:"https://api.idfy.io/signature/documents",
@@ -185,13 +197,15 @@ request(
             'bearer':accessToken
         }
     }, 
-    function(error,response){
+    function(error,response,body){
         if(!error && response.statusCode==200){
-            var json=JSON.parse(response.body);
+            var json=JSON.parse(body);
+            console.log("Go to the below URL to start the signing process. You can use test user credentials national ID: , one time code: \"otp\", personal password: \"qwer1234\"");
             console.log(json.signers[0].url);
         }else{
             console.log(error);
         }
+    });
 });
 
 {% endrunkit %}
