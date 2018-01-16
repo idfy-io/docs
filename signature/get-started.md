@@ -153,11 +153,12 @@ var data = {
     externalId:"myDocumentID-42"
 };
 
-request.post('https://api.idfy.io/signature/documents',data,function(res){
-    response.setEncoding('utf8');
-    res.on('data',function(chuck){
-        console.log(chunk);
-    });
+request.post('https://api.idfy.io/signature/documents',data,function(error,response,body){
+    if(!error && response.statusCode==200){
+        console.log(body);
+    }else{
+        console.log(error);
+    }
 });
 
 {% endrunkit %}
