@@ -197,7 +197,7 @@ request({
     function(error,response,body){
         if(!error && response.statusCode==200){
             console.log("Go to the below URL to start the signing process. You can use test user credentials: social security number/national ID: 05128938534, one time code: \"otp\", personal password: \"qwer1234\"");
-            console.log(body.signers[0].url);
+            console.log({signingUrl:body.signers[0].url});
         }else{
             console.log(error);
         }
