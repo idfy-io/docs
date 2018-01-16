@@ -122,6 +122,7 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
+var httpPost=require("http-post");
 var data = {
     signers:[
         {
