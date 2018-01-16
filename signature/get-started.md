@@ -122,9 +122,28 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
-var oauthClientId='';
-var oauthClientSecret='';
+var oauthClientId="9dc16dda-8be9-4bf0-9f75-5caffbb788d8";
+var oauthClientSecret="tivu81je/uwlQVhwbtWw4vqwD05eIMTKVudtEdj5xH4=";
 var request=require('request');
+var accessToken=null;
+
+request({
+  url: 'https://oauth2test.signere.com/connect/token',
+  method: 'POST',
+  auth: {
+    user: oauthClientId,
+    pass: oauthClientSecret
+  },
+  form: {
+    'grant_type': 'client_credentials'
+  }
+}, function(err, res) {
+  var json = JSON.parse(res.body);
+  console.log("Access Token:", json.access_token);
+  accessToken=json.access_token;
+});
+
+
 var data = {
     signers:[
         {
@@ -160,9 +179,9 @@ request(
         json:true,
         body:data
     }, 
-    function(error,response,body){
+    function(error,response){
         if(!error && response.statusCode==200){
-            console.log(body);
+            console.log(response.body);
         }else{
             console.log(error);
         }
