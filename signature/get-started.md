@@ -123,7 +123,7 @@ You can also test right away how this plays out in Node:
 {%  runkit %}
 
 var request=require('request');
-var accessToken=null;
+var accessToken;
 
 //These are test credentials - you could also plug in your own credentials from the Idfy test environments
 var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
@@ -143,8 +143,6 @@ request({
   }
 }, function(error, response) {
   var json = JSON.parse(response.body);
-  console.log(json);
-  console.log("Access Token:", json.access_token);
   accessToken=json.access_token;
 });
 
