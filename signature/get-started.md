@@ -198,7 +198,6 @@ request({
     function(error,response,body){
         if(!error && response.statusCode==200){
             //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
-            console.log(body.signers[0].url);
             request(
             {
                 method:"POST",
@@ -207,8 +206,7 @@ request({
                 body:{Url:body.signers[0].url}
             },
             function(error,response,body){
-                console.log("short url received");
-                if(!error && response.statusCode==200){
+                if(!error && response.statusCode==201){
                     console.log("Go to the below URL to start the signing process."); 
                     console.log("You can use the following test user credentials:");
                     console.log("Social security number/national ID: 05128938534");
@@ -217,7 +215,6 @@ request({
                     console.log("Signing link:");
                     console.log(body.ShortUrl);
                 }else{
-                    console.log("error occurred");
                     console.log(error);
                 }
             });
