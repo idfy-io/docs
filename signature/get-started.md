@@ -196,6 +196,8 @@ request({
     }, 
     function(error,response,body){
         if(!error && response.statusCode==200){
+            console.log("DocumentID:"+body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
+            
             //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
             request(
             {
@@ -214,9 +216,6 @@ request({
                     console.log(error);
                 }
             });
-            console.log("When you have signed, you can use the following documentID");
-            console.log("for downloading the signed document:");
-            console.log(body.documentId);
         }else{
             console.log(error);
         }
@@ -230,11 +229,47 @@ Now if you have tried the above code example in Runkit and signed the document, 
 {% runkit %}
 var request=require('request');
 
+let documentId=""; //Input the documentId that you got if you ran the above code example
+
 //These are test credentials - you could also plug in your own credentials for the Idfy test environments
 var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
 var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
 
 //We start by obtaining an access token
+request({
+  method:"POST",
+  url: 'https://oauth2test.signere.com/connect/token',
+  auth: {
+    user: oauthClientId,
+    pass: oauthClientSecret
+  },
+  form: {
+    'grant_type': 'client_credentials',
+    'scope':'document_read document_write document_file'
+  }
+}, function(error, response, body) {
+    //Then when we get back the token, we parse the access token, and make some test data for the signature request
+    if(!error && response.statusCode==200){
+        var json=JSON.parse(body);
+        var accessToken=json.access_token;
+        request({
+            method:"GET",
+            url:"https://api.idfy.io/signature/files/documents/"+documentId,
+            auth:{
+                "bearer":accessToken
+            }
+            },function(error,response,body){
+                if(!error && response.statusCode==200){
+                    console.log(body);
+                }else{
+                    console.log(error);
+                }
+        });
+    }else{
+        console.log(error);
+    }
+});
+
 
 {% endrunkit %}
 
