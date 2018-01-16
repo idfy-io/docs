@@ -125,7 +125,7 @@ You can also test right away how this plays out in Node:
 var request=require('request');
 var accessToken;
 
-//These are test credentials - you could also plug in your own credentials from the Idfy test environments
+//These are test credentials - you could also plug in your own credentials for the Idfy test environments
 var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
 var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
 
