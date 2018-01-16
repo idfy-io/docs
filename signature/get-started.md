@@ -184,9 +184,8 @@ request.post({
         console.log(error);
     }
     //Now we make the actual signature request using the access token we got back from the OAuth2 server
-    request(
+    request.post(
     {
-        method:"POST",
         url:"https://api.idfy.io/signature/documents",
         json:true,
         body:data,
@@ -197,9 +196,8 @@ request.post({
     function(error,response,body){
         if(!error && response.statusCode==200){
             //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
-            request(
+            request.post(
             {
-                method:"POST",
                 url:"https://s.idfy.io",
                 json:true,
                 body:{Url:body.signers[0].url}
