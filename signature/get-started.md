@@ -127,7 +127,6 @@ You can also test right away how this plays out in Node:
 {%  runkit %}
 
 var request=require('request');
-request.debug=false;
 
 //These are test credentials - you could also plug in your own credentials for the Idfy test environments
 var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
@@ -209,11 +208,8 @@ request({
                 if(!error && response.statusCode==201){
                     console.log("You can now use the following test user credentials:");
                     console.log("Social security number/national ID: 05128938534");
-                    console.log("One time code: otp");
-                    console.log("Personal password: qwer1234");
-                    console.log("Go to the below link to start the signing process."); 
-                    console.log("Signing link:");
-                    console.log(body.ShortUrl);
+                    console.log("One time code: otp, personal password: qwer1234");
+                    console.log("Go to this link to start the signing process: "+body.ShortUrl); 
                 }else{
                     console.log(error);
                 }
