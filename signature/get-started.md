@@ -146,10 +146,10 @@ request({
     'scope':'document_read document_write document_file'
   }
 }, function(error, response, body) {
-    //Then when we get back the token, we make the actual request for the signature job, using the access token we got back from the OAuth2 server
+    //Then when we get back the token, we parse the access token, and make some test data for the signature request
     if(!error && response.statusCode==200){
         var json = JSON.parse(body);
-        accessToken=json.access_token;
+        var accessToken=json.access_token;
         //We make some test data for the signing process
         var data = {
             signers:[
@@ -181,12 +181,10 @@ request({
             },
             externalId:"myDocumentID-42"
         };
-        
-
     }else{
         console.log(error);
     }
-    
+    //Now we make the actual signature request using the access token we got back from the OAuth2 server
     request(
     {
         method:"POST",
@@ -200,7 +198,7 @@ request({
     function(error,response,body){
         if(!error && response.statusCode==200){
             var json=JSON.parse(body);
-            console.log("Go to the below URL to start the signing process. You can use test user credentials national ID: , one time code: \"otp\", personal password: \"qwer1234\"");
+            console.log("Go to the below URL to start the signing process. You can use test user credentials: social security number/national ID: 05128938534, one time code: \"otp\", personal password: \"qwer1234\"");
             console.log(json.signers[0].url);
         }else{
             console.log(error);
