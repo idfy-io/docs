@@ -153,12 +153,19 @@ var data = {
     externalId:"myDocumentID-42"
 };
 
-request.post('https://api.idfy.io/signature/documents',data,function(error,response,body){
-    if(!error && response.statusCode==200){
-        console.log(body);
-    }else{
-        console.log(error);
-    }
+request(
+    {
+        method:"POST",
+        url:"https://api.idfy.io/signature/documents",
+        json:true,
+        body:data
+    }, 
+    function(error,response,body){
+        if(!error && response.statusCode==200){
+            console.log(body);
+        }else{
+            console.log(error);
+        }
 });
 
 {% endrunkit %}
