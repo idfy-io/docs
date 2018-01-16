@@ -134,9 +134,8 @@ var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
 var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
 
 //We start by obtaining an access token
-request({
+request.post({
   url: 'https://oauth2test.signere.com/connect/token',
-  method: 'POST',
   auth: {
     user: oauthClientId,
     pass: oauthClientSecret
