@@ -134,7 +134,8 @@ var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
 var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
 
 //We start by obtaining an access token
-request.post({
+request({
+  method:"POST",
   url: 'https://oauth2test.signere.com/connect/token',
   auth: {
     user: oauthClientId,
@@ -184,8 +185,9 @@ request.post({
         console.log(error);
     }
     //Now we make the actual signature request using the access token we got back from the OAuth2 server
-    request.post(
+    request(
     {
+        method:"POST",
         url:"https://api.idfy.io/signature/documents",
         json:true,
         body:data,
@@ -196,8 +198,9 @@ request.post({
     function(error,response,body){
         if(!error && response.statusCode==200){
             //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
-            request.post(
+            request(
             {
+                method:"POST",
                 url:"https://s.idfy.io",
                 json:true,
                 body:{Url:body.signers[0].url}
