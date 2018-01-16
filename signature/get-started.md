@@ -126,7 +126,7 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
-var request=require('request');
+var request=require('request').debug=false;
 var accessToken;
 
 //These are test credentials - you could also plug in your own credentials for the Idfy test environments
