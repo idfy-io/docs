@@ -149,9 +149,7 @@ request({
     //Then when we get back the token, we parse the access token, and make some test data for the signature request
     if(!error && response.statusCode==200){
         var json = JSON.parse(body);
-        console.log("access token JSON");
         var accessToken=json.access_token;
-        console.log(accessToken);
         //We make some test data for the signing process
         var data = {
             signers:[
@@ -200,7 +198,7 @@ request({
     }, 
     function(error,response,body){
         if(!error && response.statusCode==200){
-            console.log("response for sign request received");
+            console.log(body);
             var json=JSON.parse(body);
             console.log("Go to the below URL to start the signing process. You can use test user credentials: social security number/national ID: 05128938534, one time code: \"otp\", personal password: \"qwer1234\"");
             console.log(json.signers[0].url);
