@@ -140,8 +140,9 @@ request({
   form: {
     'grant_type': 'client_credentials'
   }
-}, function(err, res) {
-  var json = JSON.parse(res.body);
+}, function(error, response) {
+  var json = JSON.parse(response.body);
+  console.log(json);
   console.log("Access Token:", json.access_token);
   accessToken=json.access_token;
 });
