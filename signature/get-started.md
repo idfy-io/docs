@@ -123,7 +123,7 @@ You can also test right away how this plays out in Node:
 {%  runkit %}
 
 var http=require('http');
-http.httpPost=require("http-post");
+http.post=require("http-post");
 var data = {
     signers:[
         {
