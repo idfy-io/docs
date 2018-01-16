@@ -209,11 +209,15 @@ request({
                     console.log("You can now use the following test user credentials:");
                     console.log("Social security number/national ID: 05128938534");
                     console.log("One time code: otp, personal password: qwer1234");
-                    console.log("Go to this link to start the signing: "+body.ShortUrl); 
+                    console.log("Go to this link to start the signing: "+body.ShortUrl);
                 }else{
                     console.log(error);
                 }
             });
+            console.log("When you have signed, you can use the following documentID");
+            console.log("for downloading the signed document:");
+            console.log(body.documentId);
+
         }else{
             console.log(error);
         }
