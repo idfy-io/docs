@@ -126,8 +126,8 @@ var request=require('request');
 var accessToken=null;
 
 //These are test credentials - you could also plug in your own credentials from the Idfy test environments
-var oauthClientId="9dc16dda-8be9-4bf0-9f75-5caffbb788d8";
-var oauthClientSecret="tivu81je/uwlQVhwbtWw4vqwD05eIMTKVudtEdj5xH4=";
+var oauthClientId="tc31fb44079774aaa9522c2da0a32bf76";
+var oauthClientSecret="bfd506e8578aae53cec0502461f7fe495176460c20a9677d03690f87443f4db2";
 
 //We start by obtaining an access token
 request({
