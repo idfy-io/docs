@@ -122,7 +122,8 @@ You can also test right away how this plays out in Node:
 
 {%  runkit %}
 
-var httpPost=require("http-post");
+var http=require('http');
+http.httpPost=require("http-post");
 var data = {
     signers:[
         {
@@ -151,7 +152,12 @@ var data = {
     externalId:"myDocumentID-42"
 };
 
-console.log(data);
+http.post('https://api.idfy.io/signature/documents',data,function(res){
+    response.setEncoding('utf8');
+    res.on('data',function(chuck){
+        console.log(chunk);
+    });
+});
 
 {% endrunkit %}
 
