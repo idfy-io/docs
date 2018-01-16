@@ -197,8 +197,27 @@ request({
     }, 
     function(error,response,body){
         if(!error && response.statusCode==200){
-            console.log("Go to the below URL to start the signing process. You can use test user credentials: social security number/national ID: 05128938534, one time code: \"otp\", personal password: \"qwer1234\"");
-            console.log({signingUrl:body.signers[0].url});
+            //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display in the Runkit window:
+            request(
+            {
+                method:"POST",
+                url:"https://s.idfy.io",
+                json:true,
+                body:{Url:body.signers[0].url,Prefix:""}
+            },
+            function(error,response,body){
+                if(!error && response.statusCode==200){
+                    console.log("Go to the below URL to start the signing process."); 
+                    console.log("You can use the following test user credentials:");
+                    console.log("Social security number/national ID: 05128938534");
+                    console.log("One time code: otp");
+                    console.log("Personal password: qwer1234");
+                    console.log("Signing link:");
+                    console.log(body.ShortUrl);
+                }else{
+                    console.log(error);
+                }
+            }
         }else{
             console.log(error);
         }
