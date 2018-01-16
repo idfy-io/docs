@@ -148,8 +148,7 @@ request({
 }, function(error, response, body) {
     //Then when we get back the token, we parse the access token, and make some test data for the signature request
     if(!error && response.statusCode==200){
-        var json = JSON.parse(body);
-        var accessToken=json.access_token;
+        var accessToken=body.access_token;
         //We make some test data for the signing process
         var data = {
             signers:[
