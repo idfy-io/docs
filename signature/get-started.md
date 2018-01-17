@@ -61,7 +61,7 @@ Explanation of parameters:
 | signers\[0\].externalSignerId | "123abc" | Your own reference for the person to sign the document. Could e.g. be the customer number |
 | signers.\[0\].redirectSettings                    .redirectMode | "redirect" | Determines how the signing application should behave for the user, e.g. if you are planning on redirecting the user to the signing URL, or if you are planning to iframe the signing process into your webpage. |
 | signers\[0\].redirectSettings                     .success | "[https://www.idfy.io\#success](https://www.idfy.io#success)" | The landing page on your end, where you want the user to be redirected after successful signature |
-| signers\[0\].redirectSettings                     .abort | "[https://www.idfy.io\#abort](https://www.idfy.io#abort)" | The landing page on your end, where you want the user to be redirected if he/she chooses to abort the signing process |
+| signers\[0\].redirectSettings                     .cancel | "[https://www.idfy.io\#abort](https://www.idfy.io#cancel)" | The landing page on your end, where you want the user to be redirected if he/she chooses to abort the signing process |
 | signers\[0\].redirectSettings                     .error | "[https://www.idfy.io\#error](https://www.idfy.io#error)" | The landing page on your end, where you want the user to be redirected in case any errors occur during the signing process |
 | signers\[0\].signatureType                        .signatureMethods | \["NO\_BANKID"\] | The method for the user to sign with. Could be |
 | signers\[0\].signatureType                        .method | "pkisignature" | Determines which type of signature is to be used. pkisignature means that the native signature capability of the signature method is to be used. |
@@ -157,7 +157,7 @@ request({
                     redirectSettings:{
                         redirectMode:"redirect",
                         success:"https://www.idfy.io#success",
-                        abort:"https://www.idfy.io#abort",
+                        cancel:"https://www.idfy.io#cancel",
                         error:"https://www.idfy.io#error"
                     },
                     signatureType:{
