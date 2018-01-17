@@ -254,7 +254,7 @@ request({
         var accessToken=json.access_token;
         request({
             method:"GET",
-            url:"https://api.idfy.io/signature/files/documents/"+documentId,
+            url:"https://api.idfy.io/signature/files/documents/"+documentId+"?fileFormat=native",
             auth:{
                 "bearer":accessToken
             }
