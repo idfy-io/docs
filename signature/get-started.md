@@ -180,6 +180,9 @@ request({
             },
             externalId:"myDocumentID-42"
         };
+    }else if(response.statusCode==429){
+        console.log("Unfortunately, too many are trying out this example right now.");
+        console.log("please try again later, or use your own test credentials");
     }else{
         console.log(error);
     }
@@ -212,10 +215,16 @@ request({
                     console.log("Social security number/national ID: 05128938534");
                     console.log("One time code: otp, personal password: qwer1234");
                     console.log("Go to this link to start the signing: "+body.ShortUrl);
-                }else{
+                }else if(response.statusCode==429){
+                    console.log("Unfortunately, too many are trying out this example right now.");
+                    console.log("please try again later, or use your own test credentials");}
+                else{
                     console.log(error);
                 }
             });
+        }else if(response.statusCode==429){
+            console.log("Unfortunately, too many are trying out this example right now.");
+            console.log("please try again later, or use your own test credentials");
         }else{
             console.log(error);
         }
@@ -260,14 +269,18 @@ request({
             }
         },function(error,response,body){
                 if(!error && response.statusCode==200){
-                    console.log("success");
+                    console.log("Signature file follows below in SDO (XML-based) format.");
+                    console.log("The entire signature file is too big to display here,");
+                    console.log("but it gives an example of the beginning of the file");
                     console.log(body);
-                    console.log(response);
                 }else if(response.statusCode==404){
                     console.log("Did you remember to sign the document in the example above first?");
                     console.log("The signed document file is not available before you have signed it");
                     console.log("Also, it can take a couple of seconds before it is available");
                     console.log("Please retry in a few seconds, or try signing above again");
+                }else if(response.statusCode==429){
+                    console.log("Unfortunately, too many are trying out this example right now.");
+                    console.log("please try again later, or use your own test credentials");
                 }else{
                     console.log(error);
                 }
