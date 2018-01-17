@@ -274,8 +274,9 @@ request({
                     console.log("but it gives an example of the beginning of this file:");
                     console.log(body);
                 }else if(response.statusCode==404){
-                    console.log("Did you remember to sign the document in the example above first?");
-                    console.log("The signed document file is not available before you have signed it");
+                    console.log("Did you remember to sign the document in the example above first and fill in documentId?");
+                    console.log("The signed document file is not available before you have signed it,");
+                    console.log("and the documentId parameter above cannot be blank");
                     console.log("Also, it can take a couple of seconds before it is available");
                     console.log("Please retry in a few seconds, or try signing above again");
                 }else if(response.statusCode==429){
