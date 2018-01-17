@@ -179,55 +179,55 @@ request({
             },
             externalId:"myDocumentID-42"
         };
+        //Now we make the actual signature request using the access token we got back from the OAuth2 server
+        request(
+        {
+            method:"POST",
+            url:"https://api.idfy.io/signature/documents",
+            json:true,
+            body:data,
+            auth:{
+                'bearer':accessToken
+            }
+        }, 
+        function(error,response,body){
+            if(!error && response.statusCode==200){
+                console.log("DocumentID:"+body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
+                
+                //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
+                request(
+                {
+                    method:"POST",
+                    url:"https://s.idfy.io",
+                    json:true,
+                    body:{Url:body.signers[0].url}
+                },
+                function(error,response,body){
+                    if(!error && response.statusCode==201){
+                        console.log("You can now use the following test user credentials:");
+                        console.log("Social security number/national ID: 05128938534");
+                        console.log("One time code: otp, personal password: qwer1234");
+                        console.log("Go to this link to start the signing: "+body.ShortUrl);
+                    }else if(response.statusCode==429){
+                        console.log("Unfortunately, too many are trying out this example right now.");
+                        console.log("please try again later, or use your own test credentials");}
+                    else{
+                        console.log(error);
+                    }
+                });
+            }else if(response.statusCode==429){
+                console.log("Unfortunately, too many are trying out this example right now.");
+                console.log("please try again later, or use your own test credentials");
+            }else{
+                console.log(error);
+            }
+        });
     }else if(response.statusCode==429){
         console.log("Unfortunately, too many are trying out this example right now.");
         console.log("please try again later, or use your own test credentials");
     }else{
         console.log(error);
     }
-    //Now we make the actual signature request using the access token we got back from the OAuth2 server
-    request(
-    {
-        method:"POST",
-        url:"https://api.idfy.io/signature/documents",
-        json:true,
-        body:data,
-        auth:{
-            'bearer':accessToken
-        }
-    }, 
-    function(error,response,body){
-        if(!error && response.statusCode==200){
-            console.log("DocumentID:"+body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
-            
-            //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
-            request(
-            {
-                method:"POST",
-                url:"https://s.idfy.io",
-                json:true,
-                body:{Url:body.signers[0].url}
-            },
-            function(error,response,body){
-                if(!error && response.statusCode==201){
-                    console.log("You can now use the following test user credentials:");
-                    console.log("Social security number/national ID: 05128938534");
-                    console.log("One time code: otp, personal password: qwer1234");
-                    console.log("Go to this link to start the signing: "+body.ShortUrl);
-                }else if(response.statusCode==429){
-                    console.log("Unfortunately, too many are trying out this example right now.");
-                    console.log("please try again later, or use your own test credentials");}
-                else{
-                    console.log(error);
-                }
-            });
-        }else if(response.statusCode==429){
-            console.log("Unfortunately, too many are trying out this example right now.");
-            console.log("please try again later, or use your own test credentials");
-        }else{
-            console.log(error);
-        }
-    });
 });
 
 {% endrunkit %}
