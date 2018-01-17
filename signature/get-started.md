@@ -73,8 +73,7 @@ Explanation of parameters:
 | externalId | "myDocumentID-42" | This is your reference for the document to be signed. Could e.g. be your own internal documentID in your system |
 
 Postman:
-
-![](/assets/postman-sign-create1.png)
+![](/assets/postman-sign-create1.PNG)
 
 **Step 5:**
 
