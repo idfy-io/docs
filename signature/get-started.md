@@ -4,7 +4,7 @@ Securely collect digital signatures from your customers for your contracts and a
 
 **Step 1:**
 
-First, you need to establish a test account and API credentials. You can get a free API account in Idfy test environments by completing our onboarding form here: [https://onboard.idfy.io](https://onboard.idfy.io) and specifying that you want access to our signature services. You will then receive an e-mail with your API credentials, as well as some more information, test users and code examples.
+First, you need to establish a test account and API credentials. You can get a free API account in Idfy test environments by completing our onboarding form [here](https://onboard.idfy.io), and specifying that you want access to our signature services. You will then receive an e-mail with your API credentials, as well as some more information, test users and code examples.
 
 **Step 2:**
 
