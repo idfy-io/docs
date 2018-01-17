@@ -193,6 +193,7 @@ request({
         function(error,response,body){
             if(!error && response.statusCode==200){
                 console.log("DocumentID:"+body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
+                console.log("(use this documentId in the example below when you have signed).");
                 
                 //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
                 request(
