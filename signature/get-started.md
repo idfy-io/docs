@@ -28,7 +28,7 @@ JSON:
             "redirectSettings":{
                 "redirectMode":"redirect",
                 "success":"https://www.idfy.io#success",
-                "abort":"https://www.idfy.io#abort",
+                "cancel":"https://www.idfy.io#cancel",
                 "error":"https://www.idfy.io#error"
             },
             "signatureType":{
