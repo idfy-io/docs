@@ -271,7 +271,7 @@ request({
                 if(!error && response.statusCode==200){
                     console.log("Signature file follows below in SDO (XML-based) format.");
                     console.log("The entire signature file is too big to display here,");
-                    console.log("but it gives an example of the beginning of the file");
+                    console.log("but it gives an example of the beginning of this file:");
                     console.log(body);
                 }else if(response.statusCode==404){
                     console.log("Did you remember to sign the document in the example above first?");
