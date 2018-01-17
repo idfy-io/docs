@@ -260,7 +260,9 @@ request({
             }
         },function(error,response,body){
                 if(!error && response.statusCode==200){
+                    console.log("success");
                     console.log(body);
+                    console.log(response);
                 }else if(response.statusCode==404){
                     console.log("Did you remember to sign the document in the example above first?");
                     console.log("The signed document file is not available before you have signed it");
