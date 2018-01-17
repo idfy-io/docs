@@ -74,7 +74,7 @@ Explanation of parameters:
 
 Postman:
 
-![](/assets/postman-sign-5.png)
+![](/assets/postman-sign-create1.png)
 
 **Step 5:**
 
