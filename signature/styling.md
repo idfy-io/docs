@@ -4,7 +4,9 @@ The signature API allows you to set the color theme and main spinner for the sig
 To include theming simply set the ui property of the signer as shown below. 
 
 ## Preview
-Visit [this page](https://sign-dev.idfy.io/theme-preview) to see a preview of the different themes
+Visit [this page](https://sign-test.idfy.io/theme-preview) to see a preview of the different themes
+
+<iframe width="560" height="315" src="https://sign-test.idfy.io/theme-preview" frameborder="0"></iframe>
 
 ## Request example
 
