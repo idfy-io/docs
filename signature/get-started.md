@@ -144,6 +144,7 @@ request({
     'scope':'document_read document_write document_file'
   }
 }, function(error, response, body) {
+    console.log("response hit");
     //Then when we get back the token, we parse the access token, and make some test data for the signature request
     if(!error && response.statusCode==200){
         var json=JSON.parse(body);
