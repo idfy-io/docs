@@ -233,7 +233,7 @@ request({
 
 {% endrunkit %}
 
-Now if you have tried the above code example in Runkit and signed the document, you can try to download the document using the documentId that was outputted in the Runkit console, to see that we get the signed file back:
+If you have tried the above code example in Runkit and completed signing the document with the test user, you can try to download the signed version of the document using the documentId that was outputted in the Runkit console:
 
 {% runkit %}
 var request=require('request');
