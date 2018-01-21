@@ -175,8 +175,7 @@ request({
                 email:"support@idfy.io"
             },
             dataToSign:{
-                fileName:"shortText.txt",
-                base64Content:"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
+                fileName:"shortText.txt",                 base64Content:"SGVsbG8gd29ybGQhIFNpZ24gdGhpcyBzaG9ydCB0ZXh0IHRvIHRyeSBvdXQgSWRmeSBBUElz"
             },
             externalId:"myDocumentID-42"
         };
@@ -193,8 +192,8 @@ request({
         }, 
         function(error,response,body){
             if(!error && response.statusCode==200){
-                console.log("documentId:"body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
-                console.log("(use this documentId in the example below when you have signed).");
+                console.log("documentId:"+body.documentId); //This is the documentId that you can use for downloading the signed document afterwards
+                console.log("(use the documentId in the example below when you have signed).");
                 
                 //As a last step, we shorten the signing URL through use of our URL shortening service. This is not necessary, and we only do it here because the signing URL is too long to display it in the Runkit window:
                 request(
