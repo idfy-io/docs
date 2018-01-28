@@ -23,7 +23,7 @@ If you want to know the status of our services or subscribe to notifications go 
 * 401 Unauthorized: Not authorized for this API
 * 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
 * 403 Forbidden: Not correct scope/access to this resource
-* 422 Unprocessable Entity: The request i syntax correct, but there is a business or logical error. For example sign xml signature with Swedish BankID that is not supported.
+* 422 Unprocessable Entity: The request syntax is correct, but there is a business or logical error. For example sign xml signature with Swedish BankID that is not supported.
 * 404 Not found: The route is not found or the entity is not found. Look at the reason phrase in the response to find detailed error.
 * 429 Too Many Requests: The API have built in throttling to prevent any singel customer taking the API down.
 * 503 Service Unavailable: A 3rd party services that this endpoint uses had an error or is unavailable.
