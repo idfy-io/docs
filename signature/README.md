@@ -1,27 +1,16 @@
 # Sign
 
-## Litt mer highlevel intro til konseptet signering.
+With Idfy signature services, you can easily let your customers sign contracts, declarations, forms and other documents, using digital signatures. Digital signatures can automate and replace today's cumbersome paper-based processes and save money and time spent on manual processing. Furthermore, it can help increase the conversion of new customers in your onboarding processes and rapidly reduce the time it takes to become a customer. Idfy signature services are web-based, and can be integrated in your website, app or business system through the use of our REST APIs or SDKs. Through our services, we offer different mechanisms for signing, depending on your business requirements.
 
-## Explore the possibilities of our signature API
+## Explore the possibilities of our signature APIs
 
-* [Quickstart](/identification/quickstart.md)
-* [Notifications](Notifications.md)
-* [Styling](styling.md)
-* Examples and tutorials
+* [Quickstart](/identification/quickstart.md) - get up and running in no time with a simple example that you can try yourself
+* [Notifications](Notifications.md) - explore the possibilities of sending signature notifications to your signers
+* [Styling](styling.md) - learn how you can customize the styling of the signature experience to suit your needs
+* [Signature formats](/signature/signature-formats.md) - learn about the different signature and packaging formats that are available
+* Examples and tutorials - more advanced examples and tutorials; coming soon
 
-## Packaging
 
-Bla bla sometinhg about the pades format
-
-### Customizing and styling
-
-Idfy signing service is very customizable bellow are a list of things that can be customized.
-
-* Logo on the page
-* Theme colors
-* Spinner type
-* Notification text \(both sms and email\)
-* Email text and email colors.
 
 
 
