@@ -6,3 +6,5 @@ Swedish BankID has 7,5 million active users. Many services are provided where ci
 
 Read more about Swedish BankID here: [https://www.bankid.com/en/om-bankid/detta-ar-bankid](https://www.bankid.com/en/om-bankid/detta-ar-bankid)
 
+
+
