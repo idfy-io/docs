@@ -6,3 +6,23 @@ Read more about NemID here: [https://www.nemid.nu/dk-en/about\_nemid/](https://w
 
 
 
+## Capabilities
+
+## Legal
+
+## Certificate
+
+## Screenshots from signing and identification process
+
+### Identification
+
+### Signing
+
+## Technical
+
+#### Test users
+
+#### Signature format
+
+
+
