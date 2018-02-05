@@ -22,8 +22,6 @@ Swedish BankID supports both identification and signature.
 
 ### Identification BankID on mobile
 
-### 
-
 ### ![](/assets/sbid-mobil-1.png)
 
 ### 
