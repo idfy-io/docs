@@ -46,9 +46,20 @@ Types of certificate
 
 BankID have two clients one is a javascript base client that is rendered in the browser \(Netcentric\), and the other is BankID mobile that is a sim toolkit base solution. Idfy supports both solutions. BankID mobile currently does not support signing other then plain text.
 
-#### Test users
+#### Test users Bankid
 
-Test BankID users can be created for free in the Idfy dashboard, for BankID mobile you will need to order a test simcard. To order a simcard send a support email to [support@idfy.io](mailto:support@idfy.io) there will a cost for 500 NOK for order.
+Test BankID users can be created for free in the Idfy dashboard. Or you may use the following:
+
+| SSN | Name | One time password | Password |
+| :--- | :--- | :--- | :--- |
+| 14041639785 | Musk, Elon | otp | qwer1234 |
+| 10120797412 | Woman, Wonder | otp | qwer1234 |
+
+#### Test users Bankid mobile
+
+For BankID mobile you will need to order a test simcard. To order a simcard send a support email to [support@idfy.io](mailto:support@idfy.io) there will a cost for 500 NOK for order.
+
+#### 
 
 #### Signature format
 
