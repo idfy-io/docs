@@ -40,7 +40,7 @@
   * [Swedish BankID](eid-providers/swedish-bankid.md)
   * [Danish NemID](eid-providers/nemid.md)
   * [Finnish Tupas](eid-providers/tupas.md)
-  * SoMe
+  * [SoMe](eid-providers/some.md)
 * [Dealer](dealer/README.md)
 * [Privacy and Data Protection](GDPR/README.md)
   * [GDPR](GDPR/gdpr.md)
