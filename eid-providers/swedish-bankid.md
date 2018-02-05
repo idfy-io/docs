@@ -8,3 +8,27 @@ Read more about Swedish BankID here: [https://www.bankid.com/en/om-bankid/detta-
 
 
 
+### BankID
+
+### BankID on mobile
+
+## Capabilities
+
+## Legal
+
+## Certificate
+
+## Screenshots from signing and identification process
+
+### Identification
+
+### Signing
+
+## Technical
+
+#### Test users
+
+#### Signature format
+
+
+
