@@ -14,7 +14,7 @@ TUPAS is a strong digital authentication method created by the Federation of Fin
 
 ### Identification
 
-![](/assets/tupas-auth-1.png)![](/assets/tupas-auth-2.png)![](/assets/tupas-auth-3.png)![](/assets/tupas-auth-4.png)![](/assets/tupas-auth-5.png)
+![](/assets/tupas1.png)![](/assets/tupas2.png)![](/assets/tupas3.png)![](/assets/tupas4.png)
 
 ### Signing
 
@@ -32,6 +32,8 @@ TUPAS is a strong digital authentication method created by the Federation of Fin
 | Osuuspankki | Testi Anna | 081181-9984 | 123456 | 7890 | 1234 |
 | LähiTapiola | Testi Tapio | 010170-960F | 12345678 | 123TAP | 9999 |
 | S-Pankki | Meikäläinen Maija | 010170-960F | 12345678 | 123456 | 1234 |
+
+Danske Bank doesn't offer any test users, its possible to use production users in the test environment.
 
 #### Signature format
 
