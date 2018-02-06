@@ -1,6 +1,6 @@
 # Buypass
 
-
+Buypass ID is a personal electronic ID used for secure identification, electronic signature and payment. With Buypass ID, you can quickly, safely and easily access a variety of public and private services.
 
 ## Capabilities
 
@@ -19,8 +19,6 @@
 #### Test users
 
 #### Signature format
-
-
 
 
 
