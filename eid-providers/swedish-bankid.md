@@ -34,6 +34,20 @@ Swedish BankID supports both identification and signature.
 
 #### Test users
 
+1. Go to [http://www.personnummer.nu/](http://www.personnummer.nu/) and generate a new social security number.
+
+![](/assets/sbidtest-1.png)2. Go to [https://demo.bankid/CreateCode.aspx](https://demo.bankid/CreateCode.aspx) and fill out this form, you will then recive a personal code that is valid for 30 days.
+
+![](/assets/sbidtest-2.png)3. Go to [https://demo.bankid.com/](https://demo.bankid.com/) and configure your bankid client. Click on how to configure your client for BankID test system. Follow the instructions for your device.
+
+![](/assets/sbidtest-3.png)
+
+4. Login with the personal code you received in step 2 \(check your email inbox\)
+
+![](/assets/sbidtest-4.png)5. Issue a new bankid with the social security number you generated. 
+
+![](/assets/Image 001.png)6. Add the new bankid in your client application and you are good to go!
+
 #### Signature format
 
 
