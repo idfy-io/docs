@@ -26,19 +26,9 @@ NemID supports both identification and signature.
 
 #### Test users
 
-1. Go to [https://appletk.danid.dk/developers/index.jsp](https://appletk.danid.dk/developers/index.jsp) and click autofill.
+If you need test users for NemID, please contact support@idfy.io
 
-![](/assets/nemid-test-1.png)2. Choose a username, password and name
 
-![](/assets/nemid-test-2.png)
-
-1. Click create identity and you are good to go! The identety detalis is presented.
-
-2. Click on OTP Card serial to see your pincodes.
-
-![](/assets/nemid-test-3.png)5. Use this url to get your user information \(insert your ID\):
-
-[https://appletk.danid.dk/developers/viewstatus.jsp?userid=YourUserID](https://appletk.danid.dk/developers/viewstatus.jsp?userid=YourUserID)
 
 #### Signature format
 
