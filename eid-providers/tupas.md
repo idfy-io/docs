@@ -14,7 +14,7 @@ TUPAS is a strong digital authentication method created by the Federation of Fin
 
 ### Identification
 
-![](/assets/tupas-auth-1.png)![](/assets/tupas-auth-2.png)![](/assets/tupas-auth-3.png)![](/assets/tupas-auth-4.png)![](/assets/tupas-auth-5.png)![](/assets/tupas-auth-success.png)
+![](/assets/tupas-auth-1.png)![](/assets/tupas-auth-2.png)![](/assets/tupas-auth-3.png)![](/assets/tupas-auth-4.png)![](/assets/tupas-auth-5.png)
 
 ### Signing
 

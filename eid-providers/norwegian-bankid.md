@@ -36,11 +36,11 @@ Types of certificate
 
 ### Identification
 
-![](/assets/nbid-1.png)![](/assets/nbid-2.png)![](/assets/nbid-3.png)![](/assets/nbid-success.png)
+![](/assets/nbid-1.png)![](/assets/nbid-2.png)![](/assets/nbid-3.png)
 
 ### Signing
 
-![](/assets/nbid-sign-1.png)![](/assets/nbid-sign-2.png)![](/assets/nbid-sign-3.png)![](/assets/nbid-sign-4.png)![](/assets/nbid-sign-5.png)![](/assets/nbid-sign-success.png)
+![](/assets/nbid-sign-1.png)![](/assets/nbid-sign-2.png)![](/assets/nbid-sign-3.png)![](/assets/nbid-sign-4.png)![](/assets/nbid-sign-5.png)
 
 ## Technical
 

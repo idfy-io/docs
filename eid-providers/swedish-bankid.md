@@ -26,7 +26,7 @@ Swedish BankID supports both identification and signature.
 
 ![](/assets/sbid-mobil-2.png)![](/assets/sbid-mobil-3.png)
 
-![](/assets/sbid-mobil-success.png)
+
 
 ### Signing
 
@@ -42,9 +42,9 @@ Swedish BankID supports both identification and signature.
 
 ![](/assets/sbidtest-3.png)
 
-4. Login with the personal code you received in step 2 \(check your email inbox\)
+1. Login with the personal code you received in step 2 \(check your email inbox\)
 
-![](/assets/sbidtest-4.png)5. Issue a new bankid with the social security number you generated. 
+![](/assets/sbidtest-4.png)5. Issue a new bankid with the social security number you generated.
 
 ![](/assets/Image 001.png)6. Add the new bankid in your client application and you are good to go!
 

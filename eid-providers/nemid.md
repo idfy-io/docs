@@ -16,11 +16,11 @@ NemID supports both identification and signature.
 
 ### Identification
 
-![](/assets/nemid-auth-1.png)![](/assets/nemid-auth-2.png)![](/assets/Nemid-auth-success.png)
+![](/assets/nemid-auth-1.png)![](/assets/nemid-auth-2.png)
 
 ### Signing
 
-![](/assets/nemid-sign-1.png)![](/assets/nemid-sign-2.png)![](/assets/nemid-sign-success.png)
+![](/assets/nemid-sign-1.png)![](/assets/nemid-sign-2.png)
 
 ## Technical
 
