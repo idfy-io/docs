@@ -16,7 +16,7 @@ NemID supports both identification and signature.
 
 ### Identification
 
-![](/assets/nemid-auth-1.png)![](/assets/nemid-auth-2.png)
+![](/assets/nemidauth1.png)![](/assets/nemidauth2.png)
 
 ### Signing
 
@@ -27,8 +27,6 @@ NemID supports both identification and signature.
 #### Test users
 
 If you need test users for NemID, please contact support@idfy.io
-
-
 
 #### Signature format
 
