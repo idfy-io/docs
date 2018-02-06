@@ -36,7 +36,7 @@ Types of certificate
 
 ### Identification
 
-![](/assets/nbid-1.png)![](/assets/nbid-2.png)![](/assets/nbid-3.png)
+![](/assets/nbid-auth-1.png)![](/assets/nbid-auth-2.png)![](/assets/nbid-auth-3.png)
 
 ### Signing
 
