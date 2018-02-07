@@ -34,6 +34,8 @@ Desktop:
 
 ### Signing
 
+![](/assets/sbid-sign-1.png)![](/assets/sbid-sign-2.png)![](/assets/sbid-sign-3.png)![](/assets/sbid-sign-4.jpg)
+
 ## Technical
 
 #### Test users

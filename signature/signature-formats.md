@@ -14,12 +14,12 @@ A significant advantage of PAdES is that it is being deployed by means of widely
 | Fileformat: | NOR BankID | Buypass | SWE BankID | NemID | Tupas |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | PDF | Yes |  | Yes | Yes \* \(1\) | N/A |
-| Text | Yes |  |  | Yes | N/A |
+| Text | Yes |  | Yes | Yes | N/A |
 | HTML |  |  |  | Yes | N/A |
-| XML |  |  |  | Yes | N/A |
+| XML | Yes |  |  | Yes | N/A |
 
-1.  Only a sub set of the PDF specification is supported for signing. Refer to section 5.4.2 PDF whitelisting. It is recommended that PDF documents used for signing comply with the PDF/A standard.   
-   [https://www.nets.eu/dk-da/kundeservice/nemid-tjenesteudbyder/NemID-tjenesteudbyderpakken/Documents/NemID%20Integration%20-%20OCES.pdf](https://www.nets.eu/dk-da/kundeservice/nemid-tjenesteudbyder/NemID-tjenesteudbyderpakken/Documents/NemID%20Integration%20-%20OCES.pdf)
+1. Only a sub set of the PDF specification is supported for signing. Refer to section 5.4.2 PDF whitelisting. It is recommended that PDF documents used for signing comply with the PDF/A standard.   
+   [https://www.nets.eu/dk-da/kundeservice/nemid-tjenesteudbyder/NemID-tjenesteudbyderpakken/Documents/NemID%20Integration%20-%20OCES.pdf](https://www.nets.eu/dk-da/kundeservice/nemid-tjenesteudbyder/NemID-tjenesteudbyderpakken/Documents/NemID Integration - OCES.pdf)
 
 
 
