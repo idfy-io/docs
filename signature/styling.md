@@ -12,9 +12,11 @@ The signature API allows you to set the color theme and main spinner for the sig
 
 ## Preview
 
-Visit [this page](https://sign-test.idfy.io/theme-preview) to see a preview of the different themes
+&lt;div class="iframe\_container"&gt;
 
-&lt;iframe src="[https://sign-test.idfy.io/theme-preview](https://sign-test.idfy.io/theme-preview)" height="500" width="600" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="[https://sign-test.idfy.io/theme-preview](https://sign-test.idfy.io/theme-preview)" height="500" width="600" frameborder="0" allowfullscreen="allowfullscreen"&gt; &lt;/iframe&gt;
+
+&lt;/div&gt;
 
 ## Request example
 
