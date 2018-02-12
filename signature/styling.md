@@ -13,7 +13,7 @@ The signature API allows you to set the color theme and main spinner for the sig
 ## Preview
 
 
-<iframe src="https://sign-test.idfy.io/theme-preview" height="500" width="600" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+<iframe src="https://sign-test.idfy.io/theme-preview" height="500" width="100%" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
 
 
 ## Request example
