@@ -13,6 +13,7 @@
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Dialogs](signature/dialogs.md)
   * [Notifications](signature/Notifications.md)
+  * [Redirect settings](signature/redirect-mode.md)
   * [Signature formats](signature/signature-formats.md)
   * [Styling](signature/styling.md)
 * [Events](events/README.md)

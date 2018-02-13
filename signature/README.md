@@ -8,8 +8,10 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 * [Events and files](/signature/events-and-files.md) - learn how to handle signature events and how to retrieve the signed files
 * [Dialogs](/signature/dialogs.md) - a quick and simple guide to include dialogs
 * [Notifications](Notifications.md) - explore the possibilities of sending signature notifications to your signers
+* [Signature formats](#) - learn about the different signature and packaging formats that are available
+
 * [Styling](styling.md) - learn how you can customize the styling of the signature experience to suit your needs
-* [Signature formats](/signature/signature-formats.md) - learn about the different signature and packaging formats that are available
+
 * Examples and tutorials - more advanced examples and tutorials; coming soon
 
 
