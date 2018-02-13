@@ -1,8 +1,16 @@
-# Idfy Info API
+# Information
 
-Get more information about a user or a company using our APIs towards public records such as national population and business registries.
+Our extra info APIs help you **gather information about persons and companies** in an efficient manner. We support data enrichment from many different data sources, both public and private.
 
-## Demo data
+Extra information can be used to enrich the data in for instance an onboarding process in combination with authentication or signatures, where you want to add more information like **address, phone number, credit ratings, AML/PEP lookups** and more.
 
-Nullam convallis ultricies erat at sodales. Etiam convallis lectus nisi, sed iaculis neque pharetra ut. Duis fermentum urna diam, at rhoncus arcu convallis eget. Maecenas scelerisque est erat, maximus luctus sapien porttitor in. Integer et mauris pellentesque, porttitor dui a, pulvinar risus. Duis tempor hendrerit sem, eu ornare velit euismod sit amet. Aenean venenatis lorem purus. Donec scelerisque purus eget elit interdum vestibulum.
+Our extra info APIs can be used either standalone, or in combination with for instance forms APIs, authentication APIs or signing APIs, where extra data points can be requested in the same flow as an authentication or a signature.
+
+## Test data
+
+In our test environment you have to use the test data below for the endpoints specified.
+
+
+
+
 
