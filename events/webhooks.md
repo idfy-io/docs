@@ -24,7 +24,8 @@ When configuring a webhook, you can choose which events you would like to subscr
 | [`document_signed`](/events/#documentsignedevent) | A document was signed by all required signers |
 
 ### Wildcard event
-We also support a wildcard (`*`) that will subscribe you to all events (including all new events in the future). 
+
+We also support a wildcard \(`*`\) that will subscribe you to all events \(including all new events in the future\).
 
 Adding the wildcard event to an existing webhook will remove the existing specific events.
 
@@ -55,13 +56,11 @@ Example:
 
 ## Creating webhooks
 
-Webhooks can be created and managed through the [Events API](http://event-test.idfy.io/#tag/Webhooks).
-
-In the future you will also be able to manage webhooks directly from the Idfy Dashboard.
+Webhooks can be created and managed through the [Events API](http://event-test.idfy.io/#tag/Webhooks), or from the Idfy Dashboard.
 
 ### Ping Event
 
-When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](http://event-test.idfy.io/#tag/Webhooks). A `ping` can also be triggered manually by using the [ping endpoint](http://event-test.idfy.io/#operation/Webhooks_PingWebhook).
+When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](http://event-test.idfy.io/#tag/Webhooks). A `ping` can also be triggered manually by using the [ping endpoint](http://event-test.idfy.io/#operation/Webhooks_PingWebhook), or from the Idfy Dashboard.
 
 ## Required 2XX Success response
 
@@ -76,9 +75,8 @@ For security reasons, we recommend you to ensure that the data is coming from Id
 
 ### Creating your secret token
 
-A secret token can be added to your webhook from the Idfy Dashboard or through the [Events API](http://event-test.idfy.io/#tag/Webhooks).
+A secret token can be added to your webhook from the Idfy Dashboard or through the [Events API](http://event-test.idfy.io/#tag/Webhooks).  
 It is recommended that you use a random string with high entropy.
-
 
 ### Validating payloads
 
