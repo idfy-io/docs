@@ -14,6 +14,7 @@
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Events and files](signature/events-and-files.md)
   * [Signature formats](signature/signature-formats.md)
+  * [Dialogs](signature/dialogs.md)
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
