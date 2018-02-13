@@ -34,7 +34,7 @@ If you want to know the status of our services or subscribe to notifications go 
 * Post: Create a new resource or exceute a command on the resource that is only can be exceuted once.
 * Put: Replace a resource or exceute a command on the resource that is only can be exceuted mulitple times.
 * Patch: Partially update a resoruce.
-* Delte: Delete a resoure.
+* Delete: Delete a resoure.
 
 ## Formats
 The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding. All responsens will be in UTF-8.
