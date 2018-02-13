@@ -20,7 +20,7 @@ It's up to you how you want to use our application. On each signer you need to s
 
 ### A simple explanation of the different redirect modes
 
-| Value | Explained | Depends on  |
+| Value | Explained | Depends on |
 | :--- | :--- | :--- |
 | donot\_redirect | The user will not leave our page during the signature process. | Nothing |
 | redirect | The user will be redirected to the specified urls on error/abort/success. | error, cancel, success |
@@ -28,9 +28,7 @@ It's up to you how you want to use our application. On each signer you need to s
 | iframe\_with\_redirect | You iframe the application, with no use of webmessaging. The signer will be redirected to the specified urls | error, cancel, success |
 | iframe\_with\_redirect\_and\_webmessaging | You get both redirect and webmessaging |  |
 
-
-
-### Redirect guide
+## Redirect guide
 
 ##### Step 1 - Create request
 
@@ -59,9 +57,9 @@ Let the signer do what they want to do
 
 ##### Step 3 - Retrieve the redirect response
 
-To make it easy for you the read some core data about the signature status we append a jwt token to the urls you defined. It will look like this: 
+To make it easy for you the read some core data about the signature status we append a jwt token to the urls you defined. It will look like this:
 
-https://example.com/sign/success?idfy-jwt=\[jwt is inserted here\]
+[https://example.com/sign/success?idfy-jwt=\[jwt](https://example.com/sign/success?idfy-jwt=[jwt) is inserted here\]
 
 If you use this token you should parse and validate it as described in step 5.
 
@@ -95,9 +93,73 @@ The response will look something like this, check the JwtValid and Expired prope
 
 
 
+## Iframe guide
 
+##### Step 1 - Create request
 
+Include the domain of the site that is hosting the signature app in an iframe. The domain is needed for our csp policy and for webmessaging.
 
+```
+{
+    ...
+    "signers":    [{    
+        ...
+        "redirectSettings":    {
+            "redirectMode": "redirect",
+            "domain": "example.com",
+        } 
+        ...   
+    ]
+    ...
+},
+```
+
+##### Step 2 - Sign or cancel \(hopefully no error\)
+
+Let the signer do what they want to do
+
+##### Step 3 - Read the webmessages if you want to
+
+The webmessage object we send have this structure. Some of the messages includes a payload.
+
+```
+{
+    "type": "spinner_on",
+    "payload" : undefined
+}
+```
+
+A very simple approach to read them:
+
+```
+<script>
+  window.addEventListener("message", receiveMessage, false);
+  
+  function receiveMessage(event) {
+   if (event.origin === 'https://sign.idfy.io' || event.origin === 'https://sign-test.idfy.io') {           
+      var data = JSON.parse(event.data);  
+      var type = data.type;
+      var payload = data.payload;
+      // Type and payload is now available
+    }
+  }
+    
+</script>
+```
+
+#### Message-types
+
+| type | Payload included |
+| :--- | :--- |
+| document\_expired | none |
+| eid\_selected | Selected eid \(signature method\) |
+| document\_read | none |
+| language\_changed | Selected language |
+| spinner\_on | none |
+| spinner\_off | none |
+| user\_canceled | none |
+| sign\_success | none |
+| sign\_error | none |
 
 
 
