@@ -26,7 +26,7 @@ It's up to you how you want to use our application. On each signer you need to s
 | redirect | The user will be redirected to the specified urls on error/abort/success. | error, cancel, success |
 | iframe\_with\_webmessaging | You iframe our application and can use webmessaging to do what you want on success/error/abort. No redirect is executed. | domain |
 | iframe\_with\_redirect | You iframe the application, with no use of webmessaging. The signer will be redirected to the specified urls | error, cancel, success |
-| iframe\_with\_redirect\_and\_webmessaging | You get both redirect and webmessaging |  |
+| iframe\_with\_redirect\_and\_webmessaging | You get both redirect and webmessaging | error, cancel, success, domain |
 
 ## Redirect guide
 
@@ -59,7 +59,7 @@ Let the signer do what they want to do
 
 To make it easy for you the read some core data about the signature status we append a jwt token to the urls you defined. It will look like this:
 
-[https://example.com/sign/success?idfy-jwt=\[jwt](https://example.com/sign/success?idfy-jwt=[jwt) is inserted here\]
+\[[https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt](https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt)\) is inserted here\]
 
 If you use this token you should parse and validate it as described in step 5.
 
@@ -90,8 +90,6 @@ The response will look something like this, check the JwtValid and Expired prope
   }
 }
 ```
-
-
 
 ## Iframe guide
 
@@ -134,7 +132,7 @@ A very simple approach to read them:
 ```
 <script>
   window.addEventListener("message", receiveMessage, false);
-  
+
   function receiveMessage(event) {
    if (event.origin === 'https://sign.idfy.io' || event.origin === 'https://sign-test.idfy.io') {           
       var data = JSON.parse(event.data);  
@@ -143,11 +141,11 @@ A very simple approach to read them:
       // Type and payload is now available
     }
   }
-    
+
 </script>
 ```
 
-#### Message-types
+#### Webmessage-types
 
 | type | Payload included |
 | :--- | :--- |
@@ -160,16 +158,6 @@ A very simple approach to read them:
 | user\_canceled | none |
 | sign\_success | none |
 | sign\_error | none |
-
-
-
-
-
-
-
-
-
-
 
 
 
