@@ -71,7 +71,9 @@ Idfy expects a response within 10 seconds of sending the webhook event.
 ## Securing your webhooks
 
 By default, a webhook endpoint is open and may receive a payload from anybody who knows the URL.  
-For security reasons, we recommend you to ensure that the data is coming from Idfy. This can be done by setting up a secret token and use it to validate the payload.
+For security reasons, we recommend you to ensure that the data is coming from Idfy. This can be done by setting up a secret token and use it to validate the payload. 
+
+For security reasons we recommend that you always use https for your webhooks. This will secure the transfer and also the receiving part. Idfy will not accept self signed certificates only trusted certificates for domains are accepted.
 
 ### Creating your secret token
 
