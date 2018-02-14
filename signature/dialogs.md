@@ -2,8 +2,6 @@
 
 In our signature api you can include dialogs with information to the signer. You can setup dialogs that will be displayed before and/or after the document is signed. In the dialog before you can also include a checkbox stating that the signer has understood the text before they can continue.
 
-
-
 The dialogs object is placed under signers.ui.dialogs
 
 #### Example request:
@@ -32,9 +30,7 @@ The dialogs object is placed under signers.ui.dialogs
 }
 ```
 
-
-
-### How it looks in the application
+### Application screenshots
 
 ![](/assets/Dialog-Before.PNG)![](/assets/dialog-after.PNG)
 
