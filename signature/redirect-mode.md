@@ -59,7 +59,7 @@ Let the signer do what they want to do
 
 To make it easy for you the read some core data about the signature status we append a jwt token to the urls you defined. It will look like this:
 
-\[[https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt](https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt)\) is inserted here\]
+\[\[[https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\)\](https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt%29\)\) is inserted here\]
 
 If you use this token you should parse and validate it as described in step 5.
 
@@ -157,7 +157,7 @@ A very simple approach to read them:
 | spinner\_off | none |
 | user\_canceled | none |
 | sign\_success | none |
-| sign\_error | none |
+| sign\_error | {"code": "Error code if it exists", "message": "Error message   if it exists" } |
 
 
 
