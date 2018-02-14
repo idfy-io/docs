@@ -161,3 +161,9 @@ A very simple approach to read them:
 
 
 
+## Other ways to retrive document status
+
+Check out our [Events](/events/README.md) API
+
+
+
