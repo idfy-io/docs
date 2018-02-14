@@ -1,4 +1,4 @@
-# Account
+# Admin
 
 The account API enable you to perform operations on our account directly. This could be used to edit your account, add and remove Oauth clients.
 
