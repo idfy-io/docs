@@ -59,7 +59,7 @@ Let the signer do what they want to do
 
 To make it easy for you the read some core data about the signature status we append a jwt token to the urls you defined. It will look like this:
 
-\[\[[https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\]\(https://example.com/sign/success?idfy-jwt=\[jwt\)\](https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt%29\)\) is inserted here\]
+[https://example.com/sign/success?idfy-jwt=](https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt%29]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt]%28https://example.com/sign/success?idfy-jwt=[jwt%29%29\)&lt;jwt is inserted as a query parameter called idfy-jwt&gt;
 
 If you use this token you should parse and validate it as described in step 5.
 
