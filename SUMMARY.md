@@ -9,6 +9,7 @@
   * Examples and tutorials
 * [Sign](signature/README.md)
   * [Quickstart](signature/get-started.md)
+  * [Attachments](signature/attachments.md)
   * [Events and files](signature/events-and-files.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Dialogs](signature/dialogs.md)
