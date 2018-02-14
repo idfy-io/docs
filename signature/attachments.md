@@ -69,15 +69,9 @@ When all the attachments are uploaded the document job will continue it's work a
 
 ### Application screenshots
 
-
+![](/assets/init.png)![](/assets/doc overview 1.PNG)
 
 ![](/assets/attach1.png)
 
-
-
 ![](/assets/overview2.png)
-
-
-
-
 
