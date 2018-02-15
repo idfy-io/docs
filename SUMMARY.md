@@ -16,7 +16,6 @@
   * [Dialogs](signature/dialogs.md)
   * [Redirect settings](signature/redirect-mode.md)
   * [Signature formats](signature/signature-formats.md)
-  * [Styling](signature/styling.md)
   * [Styling and notifications](signature/styling-and-notifications.md)
     * [Notifications](signature/styling-and-notifications/notifications.md)
 * [Events](events/README.md)
