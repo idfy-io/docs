@@ -11,6 +11,7 @@
   * [Quickstart](signature/get-started.md)
   * [Attachments](signature/attachments.md)
   * [Events and files](signature/events-and-files.md)
+  * [Error codes](signature/error-codes.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Dialogs](signature/dialogs.md)
   * [Notifications](signature/Notifications.md)
