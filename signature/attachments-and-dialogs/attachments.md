@@ -53,7 +53,8 @@ Include the document id you retrieve in step one as a path parameter.
     "title": "Attachment 1 - Type description",
     "data": "Base 64 encoded pdf",
     "description": "This attachment describes bla bla bla...",
-    "type": "show_accept"
+    "type": "show_accept",
+    "signers": null
 
 }
 ```
@@ -62,6 +63,10 @@ Include the document id you retrieve in step one as a path parameter.
 
 * The fileName must include the .pdf extension
 * The data property must be a base64 encoded valid pdf
+
+###### Hint:
+
+If you only want some of the signers to retrieve an attachment; specify which in the signers property which is sat to null in the example above. The data type is a list with the signer id's you want to include.
 
 ### Step 3 - Result
 
