@@ -26,9 +26,10 @@
   * [Styling and notifications](signature/styling-and-notifications.md)
     * [Notifications](signature/styling-and-notifications/notifications.md)
     * [Styling](signature/styling-and-notifications/styling.md)
-* [Events](events/README.md)
-  * [Webhooks](events/webhooks.md)
-  * [.NET Events Client](events/net-events-client.md)
+* [Notification](events/README.md)
+  * [Events](events/events.md)
+    * [Webhooks](events/webhooks.md)
+    * [.Net Events Client](events/net-events-client.md)
 * [eSeal](eseal.md)
   * Quickstart
   * Examples and tutorials
