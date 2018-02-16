@@ -10,7 +10,9 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 * [Notifications](Notifications.md) - explore the possibilities of sending signature notifications to your signers
 * [Signature formats](#) - learn about the different signature and packaging formats that are available
 
-* [Styling](styling.md) - learn how you can customize the styling of the signature experience to suit your needs
+* ### [Styling and notifications](/signature/styling-and-notifications.md)
+
+This API is highly customizable when it comes to styling and notifications
 
 * Examples and tutorials - more advanced examples and tutorials; coming soon
 
