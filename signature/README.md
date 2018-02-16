@@ -12,11 +12,11 @@ Get up and running in no time with a simple inline example that you can try out 
 
 Need more than just the main document? Then this is the section for you
 
-* ### [Events, redirect settings and files](/signature/events-and-files.md) 
+* ### [Events, redirect settings and files](/signature/events-and-files.md)
 
 Learn how to handle signature events, use of redirect/iframe and how to retrieve the signed files
 
-* ### [Signature formats](#)
+* ### [Signature formats, data and eid](/signature/signature-formats-and-data-to-sign.md)
 
 Learn about the different signature and packaging formats that are available
 
