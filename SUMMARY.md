@@ -14,7 +14,7 @@
     * [Dialogs](signature/attachments-and-dialogs/dialogs.md)
   * [Events, redirect settings and files ](signature/events-and-files.md)
     * Events
-    * Files
+    * [Files](signature/events-and-files/files.md)
     * [Redirect settings](signature/events-and-files/redirect-settings.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Other information](signature/other-information.md)
