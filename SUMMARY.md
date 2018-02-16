@@ -9,7 +9,8 @@
   * Examples and tutorials
 * [Sign](signature/README.md)
   * [Quickstart](signature/get-started.md)
-  * [Events and files](signature/events-and-files.md)
+  * [Events, redirect settings and files ](signature/events-and-files.md)
+    * [Redirect settings](signature/events-and-files/redirect-settings.md)
   * [Error codes](signature/error-codes.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Redirect settings](signature/redirect-mode.md)
