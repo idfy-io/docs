@@ -14,7 +14,9 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 
 This API is highly customizable when it comes to styling and notifications
 
-* Examples and tutorials - more advanced examples and tutorials; coming soon
+* ### Examples and tutorials 
+
+more advanced examples and tutorials; coming soon
 
 
 
