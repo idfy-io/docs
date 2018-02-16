@@ -9,17 +9,21 @@
   * Examples and tutorials
 * [Sign](signature/README.md)
   * [Quickstart](signature/get-started.md)
-  * [Events, redirect settings and files ](signature/events-and-files.md)
-    * [Redirect settings](signature/events-and-files/redirect-settings.md)
-  * [Error codes](signature/error-codes.md)
-  * [Examples and tutorials](signature/examples-and-tutorials.md)
-  * [Signature formats](signature/signature-formats.md)
-  * [Styling and notifications](signature/styling-and-notifications.md)
-    * [Notifications](signature/styling-and-notifications/notifications.md)
-    * [Styling](signature/styling-and-notifications/styling.md)
   * [Attachments and dialogs](signature/attachments-and-dialogs.md)
     * [Attachments](signature/attachments-and-dialogs/attachments.md)
     * [Dialogs](signature/attachments-and-dialogs/dialogs.md)
+  * [Events, redirect settings and files ](signature/events-and-files.md)
+    * Events
+    * Files
+    * [Redirect settings](signature/events-and-files/redirect-settings.md)
+  * [Examples and tutorials](signature/examples-and-tutorials.md)
+  * Other information
+    * [Error codes](signature/error-codes.md)
+  * Signature formats and Data to sign
+    * [Signature formats](signature/signature-formats.md)
+  * [Styling and notifications](signature/styling-and-notifications.md)
+    * [Notifications](signature/styling-and-notifications/notifications.md)
+    * [Styling](signature/styling-and-notifications/styling.md)
 * [Events](events/README.md)
   * [Webhooks](events/webhooks.md)
   * [.NET Events Client](events/net-events-client.md)
