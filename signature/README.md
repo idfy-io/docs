@@ -7,16 +7,14 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 * [Quickstart ](/signature/get-started.md)- get up and running in no time with a simple inline example that you can try out yourself
 * [Events and files](/signature/events-and-files.md) - learn how to handle signature events and how to retrieve the signed files
 * [Dialogs](/signature/dialogs.md) - a quick and simple guide to include dialogs
-* [Notifications](Notifications.md) - explore the possibilities of sending signature notifications to your signers
+
 * [Signature formats](#) - learn about the different signature and packaging formats that are available
 
 * ### [Styling and notifications](/signature/styling-and-notifications.md)
 
 This API is highly customizable when it comes to styling and notifications
 
-* ### Examples and tutorials 
+* ### Examples and tutorials
 
 more advanced examples and tutorials; coming soon
-
-
 
