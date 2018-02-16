@@ -13,7 +13,6 @@
     * [Redirect settings](signature/events-and-files/redirect-settings.md)
   * [Error codes](signature/error-codes.md)
   * [Examples and tutorials](signature/examples-and-tutorials.md)
-  * [Redirect settings](signature/redirect-mode.md)
   * [Signature formats](signature/signature-formats.md)
   * [Styling and notifications](signature/styling-and-notifications.md)
     * [Notifications](signature/styling-and-notifications/notifications.md)
