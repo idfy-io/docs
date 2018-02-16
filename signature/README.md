@@ -4,31 +4,31 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 
 ## Explore the possibilities of our signature APIs
 
-* ### [Quickstart ](/signature/get-started.md)
+#### [Quickstart ](/signature/get-started.md)
 
 Get up and running in no time with a simple inline example that you can try out yourself
 
-* ### [Attachments and dialogs](/signature/attachments-and-dialogs.md)
+#### [Attachments and dialogs](/signature/attachments-and-dialogs.md)
 
 Need more than just the main document? Then this is the section for you
 
-* ### [Events, redirect settings and files](/signature/events-and-files.md)
+#### [Events, redirect settings and files](/signature/events-and-files.md)
 
 Learn how to handle signature events, use of redirect/iframe and how to retrieve the signed files
 
-* ### [Signature formats, data and eid](/signature/signature-formats-and-data-to-sign.md)
+#### [Signature formats, data and eid](/signature/signature-formats-and-data-to-sign.md)
 
 Learn about the different signature and packaging formats that are available
 
-* ### [Styling and notifications](/signature/styling-and-notifications.md)
+#### [Styling and notifications](/signature/styling-and-notifications.md)
 
 This API is highly customizable when it comes to styling and notifications
 
-* ### Examples and tutorials
+#### [Examples and tutorials](/account/examples-and-tutorials.md)
 
 More advanced examples and tutorials; coming soon
 
-* ### Other info
+#### [Other info](/signature/other-information.md)
 
 Error messages and other information
 
