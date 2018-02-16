@@ -21,6 +21,7 @@
     * [Error codes](signature/error-codes.md)
   * [Signature formats, data and eid](signature/signature-formats-and-data-to-sign.md)
     * [Data to sign](signature/data-to-sign.md)
+    * [Eid providers / signature methods](signature/eid-providers.md)
     * [Signature formats](signature/signature-formats.md)
   * [Styling and notifications](signature/styling-and-notifications.md)
     * [Notifications](signature/styling-and-notifications/notifications.md)
