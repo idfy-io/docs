@@ -12,14 +12,35 @@ Events can be handled in multiple ways:
 
 Each event has a similar JSON schema, but will also contain a unique `payload` object with relevant event information.
 
+* [DocumentBeforeDeletedEvent](#documentbeforedeletedevent)
 * [DocumentCanceledEvent](#documentcanceledevent)
 * [DocumentCreatedEvent](#documentcreatedevent)
 * [DocumentDeletedEvent](#documentdeletedevent)
 * [DocumentExpiredEvent](#documentexpiredevent)
+* [DocumentEmailOpenedEvent](#documentemailopenedevent)
 * [DocumentPackagedEvent](#documentpackagedevent)
 * [DocumentPartiallySignedEvent](#documentpartiallysignedevent)
 * [DocumentReadEvent](#documentreadevent)
 * [DocumentSignedEvent](#documentsignedevent)
+
+### DocumentBeforeDeletedEvent
+
+Triggered when a document is about to be deleted.
+
+#### Payload
+| key | type | description |
+| :--- | :--- | :--- |
+| `documentId` | `string` | A unique identifier for the document |
+| `externalDocumentId` | `string` | The external identifier for the document |
+
+#### Payload example
+
+```json
+{
+  "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+  "externalDocumentId": "8577545740"
+}
+```
 
 ### DocumentCanceledEvent
 
@@ -102,6 +123,28 @@ Triggered when a document expires.
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
   "externalDocumentId": "8577545740"
+}
+```
+
+### DocumentEmailOpenedEvent
+
+Triggered when a signer opens a document email.
+
+#### Payload
+| key | type | description |
+| :--- | :--- | :--- |
+| `documentId` | `string` | A unique identifier for the document |
+| `externalDocumentId` | `string` | The external identifier for the document |
+| `signerId` | `string` | A unique identifier for the signer |
+| `email` | `string` | The email address of the signer |
+
+#### Payload example
+```json
+{
+  "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+  "externalDocumentId": "8577545740",
+  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
+  "email": "john@doe.com"
 }
 ```
 
