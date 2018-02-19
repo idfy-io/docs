@@ -165,7 +165,7 @@ Triggered when a form is partially signed.
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `schemaId` | `string` | A unique identifier for the form |
 | `schema` | `string` | The name of the form |
-| `formFields` | `object` | The name and description of the form's fields |
+| `formFields` | `object` | The names and values of the form's fields |
 | `signer` | `object` | Details about the signer |
 
 #### Payload example
@@ -177,8 +177,8 @@ Triggered when a form is partially signed.
   "schemaId": "f12d3961-3e9c-4094-b0ef-b4d01a54aeee",
   "schema": "Property declaration form",
   "formFields": {
-    "name": "",
-    "address": ""
+    "company": "Affordable Housing Inc."
+    "address": "300 Main Street",
   },
   "signer": {
     "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
@@ -204,7 +204,7 @@ Triggered when a form is signed by all required signers.
 | `externalDocumentId` | `string` | The external identifier for the document |
 | `schemaId` | `string` | A unique identifier for the form |
 | `schema` | `string` | The name of the form |
-| `formFields` | `object` | The name and description of the form's fields |
+| `formFields` | `object` | The names and values of the form's fields |
 | `signedTime` | `string` | A timestamp with the date and time the document was signed |
 | `signers` | `array` | An array of signer objects with details about each signer |
 
@@ -217,8 +217,8 @@ Triggered when a form is signed by all required signers.
   "schemaId": "f12d3961-3e9c-4094-b0ef-b4d01a54aeee",
   "schema": "Property declaration form",
   "formFields": {
-    "name": "",
-    "address": ""
+    "company": "Affordable Housing Inc."
+    "address": "300 Main Street",
   },
   "signedTime": "2017-03-01T13:00:00Z",
   "signers": [{
