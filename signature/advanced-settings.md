@@ -28,5 +28,23 @@ Why add document tags?
 }
 ```
 
+### Departement Id
+
+If you want to mark the documents on your invoice with separate departements you should specify it in the departementId field
+
+###### Example \(Create document\)
+
+```
+{
+    ...
+
+    "Advanced": {
+    "departmentId": "A-1702"
+    }
+    ...
+
+}
+```
+
 
 
