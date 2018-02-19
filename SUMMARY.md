@@ -12,7 +12,7 @@
   * [Attachments and dialogs](signature/attachments-and-dialogs.md)
     * [Attachments](signature/attachments-and-dialogs/attachments.md)
     * [Dialogs](signature/attachments-and-dialogs/dialogs.md)
-  * [Events, redirect settings and files ](signature/events-and-files/files.md)
+  * [Events, redirect settings and files ](signature/events-and-files.md)
     * [Files](signature/events-and-files/files.md)
     * [Redirect settings](/signature/events-and-files/redirect-settings.md#redirect-settings)
   * [Examples and tutorials](/signature/other-information.md#other-information)
