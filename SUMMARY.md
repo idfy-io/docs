@@ -27,7 +27,7 @@
     * [Styling](signature/styling-and-notifications/styling.md)
   * [Advanced](signature/advanced.md)
     * [Advanced settings](signature/advanced-settings.md)
-    * Security
+    * [Security](signature/security.md)
 * [Notification](events/README.md)
   * [Events](events/events.md)
     * [Webhooks](events/webhooks.md)

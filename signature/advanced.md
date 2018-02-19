@@ -6,7 +6,7 @@ This section covers security settings and some of the more advanced features
 
 Covers tags, departementId, signature queues and more
 
-#### 
+#### [Security](/signature/security.md)
 
-
+Time to live, Auth before sign, IP-whitelist, one time use and more
 
