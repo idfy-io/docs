@@ -16,19 +16,17 @@ Why add document tags?
 ```
 {
     ...
-    
+
     "Advanced": {
     "Tags": [
       "departement_2",
       "sales"
     ]
-    
+
     ...
 
 }
 ```
-
-
 
 
 
