@@ -21,7 +21,7 @@ When configuring a webhook, you can choose which events you would like to subscr
 | [`document_expired`](/notification/events#documentexpiredevent) | A document has expired and can no longer be signed |
 | [`document_email_opened`](/notification/events#documentemailopenedevent) | A signer opened a document email |
 | [`document_form_partially_signed`](/notification/events#documentformpartiallysignedevent) | A form was partially signed |
-| [`document_form_signed`](/notification/events#documentcanceledevent) | A form was signed by all required signers |
+| [`document_form_signed`](/notification/events#documentformsignedevent) | A form was signed by all required signers |
 | [`document_link_opened`](/notification/events#documentlinkopenedevent) | A document link was opened by a signer |
 | [`document_packaged`](/notification/events#documentpackagedevent) | A document was packaged with all signatures |
 | [`document_partially_signed`](/notification/events#documentpartiallysignedevent) | A document was partially signed |
