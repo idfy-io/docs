@@ -1,4 +1,4 @@
-# Advanced settings
+### Advanced settings
 
 Enjoy some of the more advanced settings
 
@@ -99,10 +99,6 @@ You can specify how long a signature job should live \(default/maximum 45 days\)
 
 }
 ```
-
-
-
-
 
 
 
