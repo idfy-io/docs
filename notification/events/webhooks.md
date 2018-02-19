@@ -94,7 +94,7 @@ const crypto = require('crypto');
 const secret = 'your-secret-token';
 
 const payload = {
-"message": "Hello, world"
+  "message": "Hello, world"
 };
 
 const hmac = crypto.createHmac('sha256', secret);
