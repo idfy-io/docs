@@ -17,12 +17,11 @@ Why add document tags?
 {
     ...
 
-    "Advanced": {
-    "Tags": [
-      "departement_2",
-      "sales"
-    ]
-
+    "advanced": {
+        "tags": [
+          "departement_2",
+          "sales"
+        ]
     ...
 
 }
@@ -38,8 +37,8 @@ If you want to mark the documents on your invoice with separate departements you
 {
     ...
 
-    "Advanced": {
-    "departmentId": "A-1702"
+    "advanced": {
+        "departmentId": "A-1702"
     }
     ...
 
@@ -56,13 +55,38 @@ If your bankid certificate allows it, you can retrieve the signers social securi
 {
     ...
 
-    "Advanced": {
-    "getSocialSecurityNumber": true
+    "advanced": {
+        "getSocialSecurityNumber": true
     }
     ...
 
 }
 ```
+
+### Time to live
+
+You can specify how long a signature job should live \(default/maximum 45 days\), how long we keep the document after it is signed \(default/maximum 7 days\) and how long each signer has to sign the document
+
+###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\) - Document deadline and delete after hours
+
+```
+{
+    ...
+
+    "advanced": {
+        "timeToLive": {
+            "deadline": "2018-02-20T07:58:05Z",
+            "deleteAfterHours": 5
+        }
+    }
+    ...
+
+}
+```
+
+
+
+
 
 
 
