@@ -18,6 +18,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 * [DocumentDeletedEvent](#documentdeletedevent)
 * [DocumentExpiredEvent](#documentexpiredevent)
 * [DocumentEmailOpenedEvent](#documentemailopenedevent)
+* [DocumentFormPartiallySignedEvent](#documentformpartiallysignedevent)
 * [DocumentPackagedEvent](#documentpackagedevent)
 * [DocumentPartiallySignedEvent](#documentpartiallysignedevent)
 * [DocumentReadEvent](#documentreadevent)
@@ -145,6 +146,43 @@ Triggered when a signer opens a document email.
   "externalDocumentId": "8577545740",
   "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
   "email": "john@doe.com"
+}
+```
+
+### DocumentFormPartiallySignedEvent
+
+Triggered when a form is partially signed.
+
+#### Payload
+| key | type | description |
+| :--- | :--- | :--- |
+| `documentId` | `string` | A unique identifier for the document |
+| `externalDocumentId` | `string` | The external identifier for the document |
+| `schemaId` | `string` | A unique identifier for the form |
+| `schema` | `string` | The name of the form |
+| `formFields` | `object` | The form fields and their values that were filled out |
+| `signer` | `object` | Details about the signer |
+
+#### Payload example
+```json
+{
+  "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+  "externalDocumentId": "8577545740",
+  "schemaId": "f12d3961-3e9c-4094-b0ef-b4d01a54aeee",
+  "schema": "Property declaration form",
+  "formFields": {
+    "name": "John Doe",
+    "address": "310 Main Street"
+  },
+  "signer": {
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "fullName": "John Doe",
+    "signedTime": "2017-03-01T13:00:00Z",
+    "dateOfBirth": "1988-01-01",
+    "externalSignerId": "GJNHS0UHAD",
+    "signatureMethod": "no_bankid",
+    "signatureMethodUniqueId": "9876-5000-4-32100"
+  }
 }
 ```
 
