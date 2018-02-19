@@ -1,6 +1,6 @@
 # Notification
 
-Our Notication API is used for handling notifications such as events.
+Our Notication service is used for handling notifications such as events.
 
 #### [Events](/events/events.md)
 
