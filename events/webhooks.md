@@ -14,14 +14,14 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 | Type | Description |
 | :--- | :--- |
-| [`document_canceled`](/events/#documentcanceledevent) | A document was canceled |
-| [`document_created`](/events/#documentcreatedevent) | A new document has been created |
-| [`document_deleted`](/events/#documentdeletedevent) | A document was deleted |
-| [`document_expired`](/events/#documentexpiredevent) | A document has expired and can no longer be signed |
-| [`document_packaged`](/events/#documentpackagedevent) | A document was packaged with all signatures |
-| [`document_partially_signed`](/events/documentpartiallysignedevent) | A document was partially signed |
-| [`document_read`](/events/#documentreadevent) | A document was read by a signer |
-| [`document_signed`](/events/#documentsignedevent) | A document was signed by all required signers |
+| [`document_canceled`](/events/events/#documentcanceledevent) | A document was canceled |
+| [`document_created`](/events/events/#documentcreatedevent) | A new document has been created |
+| [`document_deleted`](/events/events/#documentdeletedevent) | A document was deleted |
+| [`document_expired`](/events/events/#documentexpiredevent) | A document has expired and can no longer be signed |
+| [`document_packaged`](/events/events/#documentpackagedevent) | A document was packaged with all signatures |
+| [`document_partially_signed`](/events/events/#documentpartiallysignedevent) | A document was partially signed |
+| [`document_read`](/events/events/#documentreadevent) | A document was read by a signer |
+| [`document_signed`](/events/events/#documentsignedevent) | A document was signed by all required signers |
 
 ### Wildcard event
 
