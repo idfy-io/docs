@@ -3,7 +3,6 @@
 Webhooks allow you to subscribe to certain events on your Idfy account. When one of those events is triggered, we'll send a HTTP POST payload to the webhook's configured URL.
 
 * [Webhook events](#webhook-events)
-* [Event format](#event-format)
 * [Creating webhooks](#creating-webhooks)
 * [Required 2xx Success response](#required-2xx-success-response)
 * [Securing your webhooks](#securing-your-webhooks)
@@ -33,31 +32,6 @@ When configuring a webhook, you can choose which events you would like to subscr
 We also support a wildcard \(`*`\) that will subscribe you to all events \(including all new events in the future\).
 
 Adding the wildcard event to an existing webhook will remove the existing specific events.
-
-## Event format
-
-All webhook events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](/events/#event-types--payloads) for a complete list of the various event payloads.
-
-| Property | Type | Description |
-| --- | --- | --- |
-| `id` | `string` | Unique identifier for the event |
-| `timestamp` | `string` | Time at which the event was created \(ISO 8601\) |
-| `type` | `string` | The type of event that occured |
-| `payload` | `object` | Unique object determined by the event type |
-
-Example:
-
-```json
-{
-  "id": "fce05bc5-0c13-42fd-96e2-bc51c8975eb1",
-  "timestamp": "2017-10-30T09:00:00Z",
-  "type": "document_created",
-  "payload": {
-    "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
-    "externalDocumentId": "8577545740"
-  }
-}
-```
 
 ## Creating webhooks
 

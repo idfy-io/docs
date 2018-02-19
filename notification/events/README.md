@@ -8,6 +8,31 @@ Events can be handled in multiple ways:
 * [Webhooks](/notification/events/webhooks.md)
 * [.NET Events Client](/notification/events/net-events-client.md)
 
+## Event format
+
+All events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](#event-types--payloads) for a complete list of the various event payloads.
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `id` | `string` | Unique identifier for the event |
+| `timestamp` | `string` | Time at which the event was created \(ISO 8601\) |
+| `type` | `string` | The type of event that occured |
+| `payload` | `object` | Unique object determined by the event type |
+
+Example:
+
+```json
+{
+  "id": "fce05bc5-0c13-42fd-96e2-bc51c8975eb1",
+  "timestamp": "2017-10-30T09:00:00Z",
+  "type": "document_created",
+  "payload": {
+    "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+    "externalDocumentId": "8577545740"
+  }
+}
+```
+
 ## Event Types & Payloads
 
 Each event has a similar JSON schema, but will also contain a unique `payload` object with relevant event information.
