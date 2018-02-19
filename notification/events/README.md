@@ -5,8 +5,8 @@ Events are our way of letting you know when something happens in your account. F
 Events can be handled in multiple ways:
 
 * [Events REST API](https://event-test.idfy.io)
-* [Webhooks](/events/webhooks.md)
-* [.NET Events Client](/events/net-events-client.md)
+* [Webhooks](/notification/events/webhooks.md)
+* [.NET Events Client](/notification/events/net-events-client.md)
 
 ## Event Types & Payloads
 
