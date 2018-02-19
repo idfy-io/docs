@@ -30,8 +30,8 @@
     * [Security](signature/security.md)
 * [Notification](notification/README.md)
   * [Events](notification/events.md)
-    * [Webhooks](notification/events/webhooks.md)
-    * [.Net Events Client](notification/events/net-events-client.md)
+    * [Webhooks](notification/webhooks.md)
+    * [.Net Events Client](notification/net-events-client.md)
 * [eSeal](eseal.md)
   * Quickstart
   * Examples and tutorials
