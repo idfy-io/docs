@@ -100,6 +100,60 @@ You can specify how long a signature job should live \(default/maximum 45 days\)
 }
 ```
 
+### Required signatures
+
+Our api allows setting number of required signatures. I.e. you want to send the document link to 10 signers, but it is enough if 5 of them signs the document. Then you setup the 10 signers as usual and set requiredSignatures to 5.
+
+###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\)
+
+```
+{
+    ...
+
+    "advanced": {
+        "requiredSignatures": 5
+    }
+    ...
+
+}
+```
+
+
+
+### Signer queue
+
+You can set up a signer queue if you want. This way you can easily manage the signature flow. This can be done in two ways:
+
+###### Required signers \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\) 
+
+If you mark a signer as required, this signer have to sign the document before anyone else are allowed to sign.
+
+###### Order \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\) 
+
+You can set an order to a signer. Here is an example of 5 signers with order
+
+| Signer | Order | Explained |
+| :--- | :--- | :--- |
+| Signer 1 | 1 | Can sign instantly |
+| Signer 2 | 1 | Can sign instantly |
+| Signer 3 | 2 | Can sign when signer 1 and 2 has signed |
+| Signer 4 | 3 | Can sign when signer 3 has signed |
+| Signer 5 | 3 | Can sign when signer 3 has signed |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
