@@ -28,10 +28,10 @@
   * [Advanced](signature/advanced.md)
     * [Advanced settings](signature/advanced-settings.md)
     * [Security](signature/security.md)
-* [Notification](events/README.md)
-  * [Events](events/events.md)
-    * [Webhooks](events/webhooks.md)
-    * [.Net Events Client](events/net-events-client.md)
+* [Notification](notification/README.md)
+  * [Events](notification/events/README.md)
+    * [Webhooks](notification/events/webhooks.md)
+    * [.Net Events Client](notification/events/net-events-client.md)
 * [eSeal](eseal.md)
   * Quickstart
   * Examples and tutorials
