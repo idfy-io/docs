@@ -46,5 +46,27 @@ If you want to mark the documents on your invoice with separate departements you
 }
 ```
 
+### Get social security number
+
+If your bankid certificate allows it, you can retrieve the signers social security number
+
+###### Example \(Create document\)
+
+```
+{
+    ...
+
+    "Advanced": {
+    "getSocialSecurityNumber": true
+    }
+    ...
+
+}
+```
+
+
+
+
+
 
 
