@@ -1,6 +1,14 @@
 ### Other information
 
-This section contains general information
+This section contains information not covered elsewhere
+
+
+
+#### [Advanced settings](/Advanced settings)
+
+Features for advanced users
+
+
 
 #### [Error codes](/signature/error-codes.md)
 

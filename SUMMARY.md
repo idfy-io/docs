@@ -18,6 +18,7 @@
   * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Other information](signature/other-information.md)
     * [Error codes](signature/error-codes.md)
+    * [Advanced settings](signature/advanced-settings.md)
   * [Signature formats, data and eid](signature/signature-formats-and-data-to-sign.md)
     * [Data to sign](signature/data-to-sign.md)
     * [Eid providers / signature methods](signature/eid-providers.md)
