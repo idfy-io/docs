@@ -2,7 +2,7 @@
 
 This section contains all the info you need when you are deciding how the signature flow should be handled at your end.
 
-#### [Events](/events/README.md)
+#### [Events](/notification/events/README.md)
 
 The easiest way to be kept up to date on what's happening with your customers signatures is using our events API
 

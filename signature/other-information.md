@@ -2,15 +2,7 @@
 
 This section contains information not covered elsewhere
 
-
-
-#### [Advanced settings](/Advanced settings)
-
-Features for advanced users
-
-
-
-#### [Error codes](/signature/error-codes.md)
+#### [Error codes](//signature/error-codes.md#error-codes)
 
 A table with error codes
 

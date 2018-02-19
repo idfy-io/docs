@@ -118,17 +118,15 @@ Our api allows setting number of required signatures. I.e. you want to send the 
 }
 ```
 
-
-
 ### Signer queue
 
 You can set up a signer queue if you want. This way you can easily manage the signature flow. This can be done in two ways:
 
-###### Required signers \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\) 
+###### Required signers \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\)
 
 If you mark a signer as required, this signer have to sign the document before anyone else are allowed to sign.
 
-###### Order \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\) 
+###### Order \([Create document](https://developer.idfy.io/api#operation/Documents_Create) - See signers\)
 
 You can set an order to a signer. Here is an example of 5 signers with order
 
@@ -139,22 +137,6 @@ You can set an order to a signer. Here is an example of 5 signers with order
 | Signer 3 | 2 | Can sign when signer 1 and 2 has signed |
 | Signer 4 | 3 | Can sign when signer 3 has signed |
 | Signer 5 | 3 | Can sign when signer 3 has signed |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
