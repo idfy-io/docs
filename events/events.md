@@ -20,6 +20,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 * [DocumentEmailOpenedEvent](#documentemailopenedevent)
 * [DocumentFormPartiallySignedEvent](#documentformpartiallysignedevent)
 * [DocumentFormSignedEvent](#documentformsignedevent)
+* [DocumentLinkOpenedEvent](#documentlinkopenedevent)
 * [DocumentPackagedEvent](#documentpackagedevent)
 * [DocumentPartiallySignedEvent](#documentpartiallysignedevent)
 * [DocumentReadEvent](#documentreadevent)
@@ -232,6 +233,33 @@ Triggered when a form is signed by all required signers.
 }
 ```
 
+### DocumentLinkOpenedEvent
+
+Triggered when a document link is opened by a signer.
+
+#### Payload
+
+| key | type | description |
+| :--- | :--- | :--- |
+| `documentId` | `string` | A unique identifier for the document |
+| `externalDocumentId` | `string` | The external identifier for the document |
+| `signerId` | `string` | A unique identifier for the signer |
+| `userAgent` | `string` | The signers user agent |
+| `ipAddress` | `string` | The signers IP address |
+
+#### Payload example
+
+```json
+{
+  "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+  "externalDocumentId": "8577545740"
+  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+  "ipAddress": "255.255.255.0"
+}
+```
+
+
 ### DocumentPackagedEvent
 
 Triggered when a document is packaged with all the signatures.
@@ -301,7 +329,10 @@ Triggered when a document is read by one of the signers.
 ```json
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
-  "externalDocumentId": "8577545740"
+  "externalDocumentId": "8577545740",
+  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+  "ipAddress": "255.255.255.0"
 }
 ```
 
