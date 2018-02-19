@@ -14,7 +14,7 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 | Type | Description |
 | :--- | :--- |
-| [`document_canceled`](/events/events.md#documentcanceledevent) | A document was canceled |
+| [`document_canceled`](/notification/events#documentcanceledevent) | A document was canceled |
 | [`document_created`](/events/events.md#documentcreatedevent) | A new document has been created |
 | [`document_deleted`](/events/events.md#documentdeletedevent) | A document was deleted |
 | [`document_expired`](/events/events.md#documentexpiredevent) | A document has expired and can no longer be signed |
@@ -35,10 +35,10 @@ All webhook events share a common structure that includeds the necessary informa
 
 | Property | Type | Description |
 | --- | --- | --- |
-| `id` | string | Unique identifier for the event |
-| `timestamp` | string | Time at which the event was created \(ISO 8601\) |
-| `type` | string | The type of event that occured |
-| `payload` | object | Unique object determined by the event type |
+| `id` | `string` | Unique identifier for the event |
+| `timestamp` | `string` | Time at which the event was created \(ISO 8601\) |
+| `type` | `string` | The type of event that occured |
+| `payload` | `object` | Unique object determined by the event type |
 
 Example:
 
