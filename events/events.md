@@ -252,7 +252,7 @@ Triggered when a document link is opened by a signer.
 ```json
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
-  "externalDocumentId": "8577545740"
+  "externalDocumentId": "8577545740",
   "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
   "ipAddress": "255.255.255.0"
