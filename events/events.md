@@ -177,7 +177,7 @@ Triggered when a form is partially signed.
   "schemaId": "f12d3961-3e9c-4094-b0ef-b4d01a54aeee",
   "schema": "Property declaration form",
   "formFields": {
-    "company": "Affordable Housing Inc."
+    "company": "Affordable Housing Inc.",
     "address": "300 Main Street",
   },
   "signer": {
@@ -217,7 +217,7 @@ Triggered when a form is signed by all required signers.
   "schemaId": "f12d3961-3e9c-4094-b0ef-b4d01a54aeee",
   "schema": "Property declaration form",
   "formFields": {
-    "company": "Affordable Housing Inc."
+    "company": "Affordable Housing Inc.",
     "address": "300 Main Street",
   },
   "signedTime": "2017-03-01T13:00:00Z",
