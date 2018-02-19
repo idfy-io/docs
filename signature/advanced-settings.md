@@ -65,9 +65,9 @@ If your bankid certificate allows it, you can retrieve the signers social securi
 
 ### Time to live
 
-You can specify how long a signature job should live \(default/maximum 45 days\), how long we keep the document after it is signed \(default/maximum 7 days\) and how long each signer has to sign the document
+You can specify how long a signature job should live \(default/maximum 45 days\), how long we keep the document after it is signed \(default/maximum 7 days\) and how long each signer has to sign the document \(defaults to document deadline\).
 
-###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\) - Document deadline and delete after hours
+###### Example 1 \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\) - Document deadline and delete after hours
 
 ```
 {
@@ -83,6 +83,24 @@ You can specify how long a signature job should live \(default/maximum 45 days\)
 
 }
 ```
+
+###### Example 2 \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\) - Signer deadline
+
+```
+{
+    ...
+
+    "signers": [{
+        ...
+        "signUrlExpires": "2018-02-18T07:58:05Z"
+        ...        
+    }]
+    ...
+
+}
+```
+
+
 
 
 
