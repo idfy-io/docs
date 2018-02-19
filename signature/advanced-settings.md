@@ -11,7 +11,7 @@ Why add document tags?
 * You can query your documents with tags at a later time
 * The tag is included in webhooks and events, this way it is easy to separate document events based on tags
 
-###### Example \(Create document\)
+###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\)
 
 ```
 {
@@ -32,7 +32,7 @@ Why add document tags?
 
 If you want to mark the documents on your invoice with separate departements you should specify it in the departementId field
 
-###### Example \(Create document\)
+###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\)
 
 ```
 {
@@ -50,7 +50,7 @@ If you want to mark the documents on your invoice with separate departements you
 
 If your bankid certificate allows it, you can retrieve the signers social security number
 
-###### Example \(Create document\)
+###### Example \([Create document](https://developer.idfy.io/api#operation/Documents_Create "Create document")\)
 
 ```
 {
@@ -63,10 +63,6 @@ If your bankid certificate allows it, you can retrieve the signers social securi
 
 }
 ```
-
-
-
-
 
 
 
