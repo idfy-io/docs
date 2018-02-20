@@ -14,6 +14,8 @@ Buypass supports both identification and signature.
 
 ### Identification
 
+![](/assets/buypass-auth-1.png)
+
 ### Signing
 
 ## Technical
