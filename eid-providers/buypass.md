@@ -22,6 +22,8 @@ Buypass supports both identification and signature.
 
 #### Test users
 
+Contact us if you need a test user.
+
 #### Signature format
 
 
