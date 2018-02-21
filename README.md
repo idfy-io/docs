@@ -22,7 +22,7 @@ Use the documentation on this site to learn how to implement Idfy services. Choo
 
 ## Get started
 
-To use the API, you need an API account. You can create a free test account by going to our onboarding site and filling out a form: [https://onboard.idfy.io](https://onboard.idfy.no)
+To use the API, you need an API account. You can create a free test account by going to our onboarding site and filling out a form: [https://onboard.idfy.io](https://onboard.idfy.io)
 
 ## Dashboard
 
