@@ -15,18 +15,18 @@ Visit our [status page](https://developer.idfy.io/status) if you want to know th
 # REST API
 
 ## HTTP status codes
-* 200 OK: The request was successful.
-* 201 Created: A new resource was successfully created.
-* 204 No content: The request was successful but returns no body.
-* 400 Bad request: The request was invalid, often due to missing a required parameter.
-* 401 Unauthorized: Authentication failed due to invalid credentials.
-* 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
-* 403 Forbidden: Not correct scope/access to this resource
-* 422 Unprocessable Entity: The request syntax is correct, but there is a business or logical error. For example sign xml signature with Swedish BankID that is not supported.
-* 404 Not found: The route is not found or the entity is not found. Look at the reason phrase in the response to find detailed error.
-* 429 Too Many Requests: The API have built in throttling to prevent any singel customer taking the API down.
-* 503 Service Unavailable: A 3rd party services that this endpoint uses had an error or is unavailable.
-* 50x Server errors: Something is wrong on the Idfy servers or the hosting environment.
+* `200 OK`: The request was successful.
+* `201 Created`: A new resource was successfully created.
+* `204 No content`: The request was successful but returns no body.
+* `400 Bad request`: The request was invalid, often due to missing a required parameter.
+* `401 Unauthorized`: Authentication failed due to invalid credentials.
+* `402 Payment Required`: The endpoint is not accessible in your current subscription. Contact sales@idfy.io.
+* `403 Forbidden`: Authorization failed due to insufficient scope/access.
+* `404 Not found`: The specified resource does not exist.
+* `422 Unprocessable Entity`: The server understood the request, but was unable to process it due to a business or logical error (For example creating an XML signature with Swedish BankID which is not supported).
+* `429 Too Many Requests`: The request was blocked due to rate limiting.
+* `500 Internal Server Error`: An internal server error occured.
+* `503 Service Unavailable`: A third party service that this endpoint depends on caused an error or is unavailable.
 
 ## Http verbs
 * Get: Get a resource
