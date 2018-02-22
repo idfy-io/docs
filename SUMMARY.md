@@ -35,9 +35,9 @@
 * [eSeal](eseal/README.md)
   * [Quickstart](eseal/quickstart.md)
   * Examples and tutorials
-* [File Vault](file-vault.md)
-  * Quickstart
-  * Examples and tutorials
+* [File Vault](file-vault/README.md)
+  * [Quickstart](file-vault/quickstart.md)
+  * [Examples and tutorials](file-vault/examples-and-tutorials.md)
 * [Prove](audit-log/README.md)
   * [Quickstart](audit-log/quickstart.md)
 * [Info](extra-information/README.md)
