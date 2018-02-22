@@ -29,15 +29,15 @@ Visit our [status page](https://developer.idfy.io/status) if you want to know th
 * `503 Service Unavailable`: A third party service that this endpoint depends on caused an error or is unavailable.
 
 ## Http verbs
-* Get: Get a resource
-* Post: Create a new resource or exceute a command on the resource that is only can be exceuted once.
-* Put: Replace a resource or exceute a command on the resource that is only can be exceuted mulitple times.
-* Patch: Partially update a resoruce.
-* Delete: Delete a resoure.
+* `GET`: Retrieves a resource or lists resources.
+* `POST`: Creates or exceutes a commandand on a resource.
+* `PUT`: Replaces a resource.
+* `PATCH`: Partially updates a resoruce.
+* `DELETE`: Deletes a resoure.
 
 ## Formats
-The Idfy API only support json format at the time beeing. All request must use the Content-type header set top application/json. The json will use camelCasing. All request must use the UTF-8 encoding. All responsens will be in UTF-8.
-All file download will be a standard http download result.
+The Idfy API only supports JSON format. All request must use the `Content-type` header set to `application/json`. The JSON will use camelCasing. All request must use the UTF-8 encoding, and all responsens will be in UTF-8.
+All file download wills be a standard HTTP download result.
 
 ## Idempotent Requests
 The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalId  to guarantee that only a single document/identification is created.
@@ -47,7 +47,7 @@ The Idfy API do change from time to time, but all changes will follow strict rul
 If an API are to be deprecated all customers will be given notice well in advance and not shutdown until all customers have converted to the new API's.
 
 ## Pagination (linked lists)
-When using paging the list will be wrapped in a linked list object. The data contains the list-data in the result. There will also be navigation links for next, first, last and previous. The total amount of results (size) will also be inlcuded.
+When using paging the list will be wrapped in a linked list object. The data contains the list-data in the result. There will also be navigation links for next, first, last and previous page. The total amount of results (size) will also be inlcuded.
 Example:
 ```json
 {
