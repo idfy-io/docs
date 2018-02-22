@@ -32,8 +32,8 @@
   * [Events](notification/events/README.md)
     * [Webhooks](notification/events/webhooks.md)
     * [.Net Events Client](notification/events/net-events-client.md)
-* [eSeal](eseal.md)
-  * Quickstart
+* [eSeal](eseal/README.md)
+  * [Quickstart](eseal/quickstart.md)
   * Examples and tutorials
 * [File Vault](file-vault.md)
   * Quickstart
