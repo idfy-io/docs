@@ -2,22 +2,24 @@
 The Idfy API is a RESTful API that use the OAuth 2.0 protocol for authorization. All request and response bodies are formatted in JSON.
 
 # Getting started
+
 ## Get an account
-To use the API, you need an API account at Idfy You can get a free test account by going to our onboarding site and filling out the form there: [https://onboard.idfy.io](https://onboard.idfy.io) 
+To use the API you need an account at Idfy. You can get a free test account by signing up through our [onboarding site](https://onboard.idfy.io).
+
 ## Support
-We’re here to help. Get in touch and we’ll get back to you as soon as we can. [Contact us](support@idfy.io).
+We’re here to help! Get in touch with support at support@idfy.io and we’ll get back to you as soon as we can.
 
 # Statuspage
-If you want to know the status of our services or subscribe to notifications go to our Statuspage: [http://signere.statuspage.io/](http://signere.statuspage.io/)
+Visit our [status page](https://developer.idfy.io/status) if you want to know the status of our services or subscribe to notifications.
 
 # REST API
 
-## Statuscodes
-* 200 OK: Everything worked as expected.
-* 201 Created: New resource is created for example a new document for signing.
-* 204 No content: The response code when a resource is deleted.
-* 400 Bad request: The request was unacceptable, often due to missing a required parameter, or parameter not following given restrictions.
-* 401 Unauthorized: Not authorized for this API
+## HTTP status codes
+* 200 OK: The request was successful.
+* 201 Created: A new resource was successfully created.
+* 204 No content: The request was successful but returns no body.
+* 400 Bad request: The request was invalid, often due to missing a required parameter.
+* 401 Unauthorized: Authentication failed due to invalid credentials.
 * 402 Payment Required: When trying to access an endpoint that are not in your current subscription. Contact sales@idfy.io.
 * 403 Forbidden: Not correct scope/access to this resource
 * 422 Unprocessable Entity: The request syntax is correct, but there is a business or logical error. For example sign xml signature with Swedish BankID that is not supported.
