@@ -28,6 +28,7 @@
 | SA-1021 | Error starting swedish Bankid \(Session not found\) |
 | SA-1022 | Error initiation buypass client |
 | SA-1023 | Error during buypass signature |
+| SA-1024 | Session id mismatch in buypass response |
 
 
 
