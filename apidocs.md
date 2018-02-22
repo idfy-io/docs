@@ -61,32 +61,33 @@ Example:
      "previous": ""
    },
    "data": [
-      "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
-      "name": "Bruce Wayne",
-      "status": "SUCCESS",
-      "clientIp": "192.168.1.1",
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
-      "identityProviderType": "NO_BANKID_WEB",
-      "language": "NO",
-      "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
-      "timestamp": "2017-07-19T18:29:53.7550972Z",
-      "iframe": false,
-      "socialSecurityNumber": false
-    },
-    {
-      "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
-      "name": "Joker",
-      "status": "ERROR",
-      "clientIp": "192.168.1.1",
-      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
-      "identityProviderType": "FI_TUPAS",
-      "language": "NO",
-      "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
-      "errorcode": "TIMEOUT",
-      "timestamp": "2017-07-19T18:29:53.7550972Z",
-      "iframe": false,
-      "socialSecurityNumber": false
-    }
+      {
+         "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
+         "name": "Bruce Wayne",
+         "status": "SUCCESS",
+         "clientIp": "192.168.1.1",
+         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+         "identityProviderType": "NO_BANKID_WEB",
+         "language": "NO",
+         "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
+         "timestamp": "2017-07-19T18:29:53.7550972Z",
+         "iframe": false,
+         "socialSecurityNumber": false
+      },
+      {
+         "id": "2519011552909132317BrJ6VqOrcBYfwmgQ2eypM5XP7DEbCm8",
+         "name": "Joker",
+         "status": "ERROR",
+         "clientIp": "192.168.1.1",
+         "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+         "identityProviderType": "FI_TUPAS",
+         "language": "NO",
+         "externalid": "gtWEH8euBHeSWPTcjwB0Bg5o1mjsH106wmjTDMxoFnadzvNSsnSSY0zbJTpy",
+         "errorcode": "TIMEOUT",
+         "timestamp": "2017-07-19T18:29:53.7550972Z",
+         "iframe": false,
+         "socialSecurityNumber": false
+      }
   ]
 }
 ```
