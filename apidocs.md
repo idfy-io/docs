@@ -92,14 +92,14 @@ Example:
 }
 ```
 
-## Http Response headers
+## HTTP response headers
 All API request have some standard http headers theese are:
 * X-Idfy-Environment: (test or prod) this header tells you if you are talking to the test or the production environment.
 * X-Idfy-AccountId: The Idfy accountID for the request.
 * RequestId: Each API request has an associated request identifier. You can find this value in the response headers, under Request-Id. You will also be able to use this to search in the logs in the Idfy dashboard. If you need to contact us about a specific request, providing the request identifier will ensure the fastest possible resolution.
 
-# API Authentication
-This API uses OAuth2 for authentication the requests. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use client_credentials as grant type when connecting to this API. 
+# Authentication
+This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials` as grant type when connecting to this API. 
 
 <b>Simple step by step guide to receive required access token </b><br/><br/>
 1) Get access token <br/><br/>
