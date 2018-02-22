@@ -118,5 +118,5 @@ In the response you will receive an item containing the id token you should use 
 &bull; This token can then be added to the header in the requests to this API:<br/> 
 &nbsp;&nbsp; Authorization: Bearer [access_token]
 <br><br><i>Hint: The access token has a limited lifetime, check how long it will live in the response. Then you can save it to cache and reuse it.</i><br><br>
-You can read more about OAuth2 [here](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+You can read more about OAuth2 here: https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2.
 <!-- ReDoc-Inject: <security-definitions> -->
