@@ -102,14 +102,14 @@ All API request have some standard http headers theese are:
 This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials` as grant type when connecting to this API. 
 
 <b>Simple step by step guide to receive required access token </b><br/><br/>
-1) Get access token <br/><br/>
-http POST to https://oauth2test.signere.com/connect/token for test or https://oauth.signere.no/connect/token for prod <br/><br/>
-&bull; Request Headers: <br/>
+1) Create access token <br/><br/>
+`HTTP POST https://api.idfy.io/oauth/connect/token`<br/><br/>
+&bull; Request headers: <br/>
 &nbsp;&nbsp;Content-Type: application/x-www-form-urlencoded <br/>
 &nbsp;&nbsp;Authorization: Basic auth with ClientId as username, and ClientSecret as password<br/>
 &nbsp;&nbsp;<i>Pseudo code: Authorization: "[ClientId]:[Secret]".ToBase64String() (utf-8) </i> <br/>
 <br>
-&bull; Request Body:<br/>
+&bull; Request body:<br/>
 &nbsp;&nbsp;grant_type: client_credentials<br/>
 &nbsp;&nbsp;scope: [insert scope(s) here] (Contact us if you dont have access to this scope) <br/>
 <br>
@@ -117,9 +117,7 @@ http POST to https://oauth2test.signere.com/connect/token for test or https://oa
 In the response you will receive an item containing the id token you should use to connect to our API's named access_token.<br/>
 &bull; This token can then be added to the header in the requests to this API:<br/> 
 &nbsp;&nbsp; Authorization: Bearer [access_token]
-<br><br>
-We have created a guide to create Oauth2 tokens for different languages here: [https://sdk.signere.com/oauthtoken.html](https://sdk.signere.com/oauthtoken.html)
-<br><br><i>Hint: The access token has a limited lifetime, check how long it will live in the response. Then you can save it to cache and reuse it (our .NET nuget client does this for you)</i><br><br>
-Read more aboute OAuth2 here: 
+<br><br><i>Hint: The access token has a limited lifetime, check how long it will live in the response. Then you can save it to cache and reuse it.</i><br><br>
+You can read more about OAuth2 here: 
 [https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 <!-- ReDoc-Inject: <security-definitions> -->
