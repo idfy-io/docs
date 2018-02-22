@@ -4,6 +4,8 @@ Buypass ID is a personal electronic ID used for secure identification, electroni
 
 ## Capabilities
 
+Buypass supports both identification and signature.
+
 ## Legal
 
 ## Certificate
@@ -12,11 +14,15 @@ Buypass ID is a personal electronic ID used for secure identification, electroni
 
 ### Identification
 
+![](/assets/buypass-auth-1.png)
+
 ### Signing
 
 ## Technical
 
 #### Test users
+
+Contact us if you need a test user.
 
 #### Signature format
 
