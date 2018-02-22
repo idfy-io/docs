@@ -7,9 +7,6 @@ To use the API, you need an API account at Idfy You can get a free test account 
 ## Support
 We’re here to help. Get in touch and we’ll get back to you as soon as we can. [Contact us](support@idfy.io).
 
-
-[sitecontent]
-
 # Statuspage
 If you want to know the status of our services or subscribe to notifications go to our Statuspage: [http://signere.statuspage.io/](http://signere.statuspage.io/)
 
@@ -123,4 +120,3 @@ We have created a guide to create Oauth2 tokens for different languages here: [h
 Read more aboute OAuth2 here: 
 [https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 <!-- ReDoc-Inject: <security-definitions> -->
-
