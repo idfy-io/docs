@@ -1,5 +1,5 @@
 # Introduction
-[intro]
+The Idfy API is a RESTful API that use the OAuth 2.0 protocol for authorization. All request and response bodies are formatted in JSON.
 
 # Getting started
 ## Get an account
