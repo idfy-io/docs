@@ -14,7 +14,7 @@ This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secu
 
 ## Obtaining an access token
 
-An access creating can be obtained by making a request to the OAuth2 token endpoint.
+An access token can be obtained by making a request to the OAuth2 token endpoint.
 
 The request must include the following parameters:
 
@@ -34,7 +34,7 @@ grant_type=client_credentials
 scope=document_read
 ```
 
-**Note**: This request must authenticate using HTTP basic with your *Client Id* as the username and *Client Secret* as the password. The format is the base-64 encoded string `client_id:client_secret`.  
+**Note**: This request must authenticate using HTTP basic authentication with your *Client Id* as the username and *Client Secret* as the password. The format is the base-64 encoded string `client_id:client_secret`.  
 
 If your credentials are valid, the server will respond with a JSON body containing the access token and its expiration time:
 ```
