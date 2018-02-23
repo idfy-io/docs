@@ -9,8 +9,47 @@ To use the API you need an account at Idfy. You can get a free test account by s
 ## Support
 We’re here to help! Get in touch with support at support@idfy.io and we’ll get back to you as soon as we can.
 
-# Statuspage
-Visit our [status page](https://developer.idfy.io/status) if you want to know the status of our services or subscribe to notifications.
+# Authentication
+This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials` as grant type when connecting to this API. 
+
+## Obtaining an access token
+
+An access creating can be obtained by making a request to the OAuth2 token endpoint.
+
+The request must include the following parameters:
+
+| Parameter | Value |
+|----------|----------|
+| `grant_type` | The type of grant used to authenticate the request. In this case: `client_credentials`. |
+| `scope` | Space-delimited list of requested scope permissions. |
+
+Example:
+
+```
+POST https://api.idfy.io/oauth/connect/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic Y2xpZW50SWQ6Y2xpZW50U2VjcmV0
+ 
+grant_type=client_credentials
+scope=document_read
+```
+
+**Note**: This request must authenticate using HTTP basic with your *Client Id* as the username and *Client Secret* as the password. The format is the base-64 encoded string `client_id:client_secret`.  
+
+If your credentials are valid, the server will respond with a JSON body containing the access token and its expiration time:
+```
+{
+    "access_token": "xxxxx.yyyyy.zzzzz",
+    "expires_in": 3600,
+    "token_type": "Bearer"
+}
+```
+
+You can now store and use the access token to make authenticated request by passing it as an authentication header:
+
+`Authorization: Bearer xxxxx.yyyyy.zzzzz`
+
+You can read more about OAuth2 [here](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
 # REST API
 
@@ -97,46 +136,7 @@ All API request have some standard HTTP headers:
 * `X-Idfy-AccountId`: The Idfy accountID for the request.
 * `RequestId`: Each API request has an associated request identifier. You will also be able to use this to search in the logs in the Idfy dashboard. If you need to contact us about a specific request, providing the request identifier will ensure the fastest possible resolution.
 
-# Authentication
-This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials` as grant type when connecting to this API. 
-
-## Obtaining an access token
-
-An access creating can be obtained by making a request to the OAuth2 token endpoint.
-
-The request must include the following parameters:
-
-| Parameter | Value |
-|----------|----------|
-| `grant_type` | The type of grant used to authenticate the request. In this case: `client_credentials`. |
-| `scope` | Space-delimited list of requested scope permissions. |
-
-Example:
-
-```
-POST https://api.idfy.io/oauth/connect/token
-Content-Type: application/x-www-form-urlencoded
-Authorization: Basic Y2xpZW50SWQ6Y2xpZW50U2VjcmV0
- 
-grant_type=client_credentials
-scope=document_read
-```
-
-**Note**: This request must authenticate using HTTP basic with your *Client Id* as the username and *Client Secret* as the password. The format is the base-64 encoded string `client_id:client_secret`.  
-
-If your credentials are valid, the server will respond with a JSON body containing the access token and its expiration time:
-```
-{
-    "access_token": "xxxxx.yyyyy.zzzzz",
-    "expires_in": 3600,
-    "token_type": "Bearer"
-}
-```
-
-You can now store and use the access token to make authenticated request by passing it as an authentication header:
-
-`Authorization: Bearer xxxxx.yyyyy.zzzzz`
-
-You can read more about OAuth2 [here](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+# Status page
+Visit our [status page](https://developer.idfy.io/status) if you want to know the status of our services or subscribe to notifications.
 
 <!-- ReDoc-Inject: <security-definitions> -->
