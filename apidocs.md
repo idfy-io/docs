@@ -100,22 +100,43 @@ All API request have some standard HTTP headers:
 # Authentication
 This API uses OAuth2 for authentication. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials` as grant type when connecting to this API. 
 
-<b>Simple step by step guide to receive required access token </b><br/><br/>
-1) Create access token <br/><br/>
-`HTTP POST https://api.idfy.io/oauth/connect/token`<br/><br/>
-&bull; Request headers: <br/>
-&nbsp;&nbsp;Content-Type: application/x-www-form-urlencoded <br/>
-&nbsp;&nbsp;Authorization: Basic auth with ClientId as username, and ClientSecret as password<br/>
-&nbsp;&nbsp;<i>Pseudo code: Authorization: "[ClientId]:[Secret]".ToBase64String() (utf-8) </i> <br/>
-<br>
-&bull; Request body:<br/>
-&nbsp;&nbsp;grant_type: client_credentials<br/>
-&nbsp;&nbsp;scope: [insert scope(s) here] (Contact us if you dont have access to this scope) <br/>
-<br>
-2) Use access token to access our API<br/><br/>
-In the response you will receive an item containing the id token you should use to connect to our API's named access_token.<br/>
-&bull; This token can then be added to the header in the requests to this API:<br/> 
-&nbsp;&nbsp; Authorization: Bearer [access_token]
-<br><br><i>Hint: The access token has a limited lifetime, check how long it will live in the response. Then you can save it to cache and reuse it.</i><br><br>
-You can read more about OAuth2 here: https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2.
+## Obtaining an access token
+
+An access creating can be obtained by making a request to the OAuth2 token endpoint.
+
+The request must include the following parameters:
+
+| Parameter | Value |
+|----------|----------|
+| `grant_type` | The type of grant used to authenticate the request. In this case: `client_credentials`. |
+| `scope` | Space-delimited list of requested scope permissions. |
+
+Example:
+
+```
+POST https://api.idfy.io/oauth/connect/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic Y2xpZW50SWQ6Y2xpZW50U2VjcmV0
+ 
+grant_type=client_credentials
+scope=document_read
+```
+
+**Note**: This request must authenticate using HTTP basic with your *Client Id* as the username and *Client Secret* as the password. The format is the base-64 encoded string `client_id:client_secret`.  
+
+If your credentials are valid, the server will respond with a JSON body containing the access token and its expiration time:
+```
+{
+    "access_token": "xxxxx.yyyyy.zzzzz",
+    "expires_in": 3600,
+    "token_type": "Bearer"
+}
+```
+
+You can now store and use the access token to make authenticated request by passing it as an authentication header:
+
+`Authorization: Bearer xxxxx.yyyyy.zzzzz`
+
+You can read more about OAuth2 [here](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+
 <!-- ReDoc-Inject: <security-definitions> -->
