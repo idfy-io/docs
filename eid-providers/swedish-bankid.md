@@ -8,7 +8,17 @@ Website: [https://www.bankid.com/en/](https://www.bankid.com/en/)
 
 ### BankID
 
+Bankid säkerhetsprogram is available for download from this location:
+
+[https://install.bankid.com/](https://install.bankid.com/)
+
 ### BankID on mobile
+
+BankID säkerhetsapp is available for download from the following locations:
+
+Android version: [https://play.google.com/store/apps/details?id=com.bankid.bus](https://play.google.com/store/apps/details?id=com.bankid.bus) 
+
+iOS: [https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8](https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8)
 
 ## Capabilities
 
