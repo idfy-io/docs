@@ -30,5 +30,7 @@ If you need test users for NemID, please contact support@idfy.io
 
 #### Signature format
 
+XMLDSig is the native format for Danish NemID. It also support packaging to PAdES \(PDF Advances Electronic Signature\).
+
 
 
