@@ -25,9 +25,13 @@ Buypass supports identification, signature and payment.
 
 ### Identification
 
+**Insert the card into the card reader and enter your 4-digit PIN.**
+
 ![](/assets/buypass-auth-1.png)
 
 ### Signing
+
+Coming soon.
 
 ## Technical
 
@@ -43,8 +47,6 @@ You will need the buypass card with the certificate and a card reader for your c
 
 . ![](/assets/kortleser.jpeg)![](/assets/buypass.jpg)
 
-
-
 #### Test users
 
 Test cards are issued by Buypass.
@@ -55,5 +57,5 @@ You may find contact info here:
 
 #### Signature format
 
-
+Coming soon
 
