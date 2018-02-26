@@ -2,7 +2,7 @@
 
 Buypass ID on Smartcard is an personal electronic ID that allows easy and secure online identification and signature.
 
-**Buypass ID on smart card**can be used atallpublic serviceprovidersthat use "ID-porten"for identification.A number ofother public andprivate organizationsoffer the use ofBuypassIDfor identification andelectronic signature.
+**Buypass ID on smart card**can be used atallpublic serviceprovidersthat use "ID-porten"for identification.A number ofother public andprivate organizationsoffer the use ofBuypassIDfor identification andelectronic signature.
 
 * Secure user identification for easy access to self-service
 * Safe exchange and access to sensitive information \(PKI\)
@@ -12,7 +12,7 @@ Buypass ID on Smartcard is an personal electronic ID that allows easy and secure
 
 ## Capabilities
 
-Buypass supports both identification and signature. It also support payment.
+Buypass supports identification, signature and payment.
 
 ## Legal
 
@@ -30,7 +30,7 @@ Buypass supports both identification and signature. It also support payment.
 
 #### Test users
 
-Test cards are issued by Buypass. 
+Test cards are issued by Buypass.
 
 You may find contact info here:
 
