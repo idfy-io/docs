@@ -1,10 +1,18 @@
 # Buypass
 
-Buypass ID is a personal electronic ID used for secure identification, electronic signature and payment. With Buypass ID, you can quickly, safely and easily access a variety of public and private services.
+Buypass ID on Smartcard is an personal electronic ID that allows easy and secure online identification and signature.
+
+**Buypass ID on smart card**can be used atallpublic serviceprovidersthat use "ID-porten"for identification.A number ofother public andprivate organizationsoffer the use ofBuypassIDfor identification andelectronic signature.
+
+* Secure user identification for easy access to self-service
+* Safe exchange and access to sensitive information \(PKI\)
+* Legally binding e-signatures and encryption with Buypass ID ensures paperless processes
+* Digitization, simplification and streamlining of administrative procedures and processes
+* Buypass ID can also be used for payment
 
 ## Capabilities
 
-Buypass supports both identification and signature.
+Buypass supports both identification and signature. It also support payment.
 
 ## Legal
 
@@ -22,7 +30,11 @@ Buypass supports both identification and signature.
 
 #### Test users
 
-Contact us if you need a test user.
+Test cards are issued by Buypass. 
+
+You may find contact info here:
+
+[https://www.buypass.no/kundeservice/kontakt-oss](https://www.buypass.no/kundeservice/kontakt-oss)
 
 #### Signature format
 
