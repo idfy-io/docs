@@ -9,6 +9,7 @@ Buypass ID on Smartcard is an personal electronic ID that allows easy and secure
 * Legally binding e-signatures and encryption with Buypass ID ensures paperless processes
 * Digitization, simplification and streamlining of administrative procedures and processes
 * Buypass ID can also be used for payment
+* Over 2.2 million Norwegians currently has a Buypass ID
 
 Website: [https://www.buypass.com](https://www.buypass.com)
 
@@ -29,6 +30,20 @@ Buypass supports identification, signature and payment.
 ### Signing
 
 ## Technical
+
+#### Software
+
+You will need the program called "Buypass Javafree solution".
+
+Download it from this page: [https://www.buypass.com/support/download-center](https://www.buypass.com/support/download-center)
+
+#### Hardware
+
+You will need the buypass card with the certificate and a card reader for your computer
+
+. ![](/assets/kortleser.jpeg)![](/assets/buypass.jpg)
+
+
 
 #### Test users
 
