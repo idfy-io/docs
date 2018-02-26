@@ -63,5 +63,7 @@ For BankID mobile you will need to order a test simcard. To order a simcard send
 
 #### Signature format
 
+SEID-SDO is the native format for Norwegian BankID. It also support packaging to PAdES \(PDF Advances Electronic Signature\).
+
 
 
