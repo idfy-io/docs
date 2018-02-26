@@ -10,6 +10,8 @@ Buypass ID on Smartcard is an personal electronic ID that allows easy and secure
 * Digitization, simplification and streamlining of administrative procedures and processes
 * Buypass ID can also be used for payment
 
+Website: [https://www.buypass.com](https://www.buypass.com)
+
 ## Capabilities
 
 Buypass supports identification, signature and payment.
