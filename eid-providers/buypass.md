@@ -49,11 +49,7 @@ You will need the buypass card with the certificate and a card reader for your c
 
 #### Test users
 
-Test cards are issued by Buypass.
-
-You may find contact info here:
-
-[https://www.buypass.no/kundeservice/kontakt-oss](https://www.buypass.no/kundeservice/kontakt-oss)
+Test cards are issued by Buypass. you may contact them by email, [kundeservice@buypass.no.](mailto:kundeservice@buypass.no.)
 
 #### Signature format
 
