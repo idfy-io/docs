@@ -164,8 +164,8 @@ Triggered when a signer opens a document email.
 | :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
-| `signerId` | `string` | A unique identifier for the signer |
 | `email` | `string` | The email address of the signer |
+| `signer` | `object` | Details about the signer |
 
 #### Payload example
 
@@ -173,8 +173,11 @@ Triggered when a signer opens a document email.
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
   "externalDocumentId": "8577545740",
-  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
-  "email": "john@doe.com"
+  "email": "john@doe.com",
+  "signer": {
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "externalSignerId": "GJNHS0UHAD"
+  }
 }
 ```
 
@@ -268,9 +271,9 @@ Triggered when a document link is opened by a signer.
 | :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
-| `signerId` | `string` | A unique identifier for the signer |
 | `userAgent` | `string` | The signers user agent |
 | `ipAddress` | `string` | The signers IP address |
+| `signer` | `object` | Details about the signer |
 
 #### Payload example
 
@@ -278,9 +281,12 @@ Triggered when a document link is opened by a signer.
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
   "externalDocumentId": "8577545740",
-  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-  "ipAddress": "255.255.255.0"
+  "ipAddress": "255.255.255.0",
+  "signer": {
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "externalSignerId": "GJNHS0UHAD"
+  }
 }
 ```
 
@@ -345,9 +351,9 @@ Triggered when a document is read by one of the signers.
 | :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
-| `signerId` | `string` | A unique identifier for the signer |
 | `userAgent` | `string` | The signers user agent |
 | `ipAddress` | `string` | The signers IP address |
+| `signer` | `object` | Details about the signer |
 
 #### Payload example
 
@@ -355,9 +361,12 @@ Triggered when a document is read by one of the signers.
 {
   "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
   "externalDocumentId": "8577545740",
-  "signerId": "954393cf-1086-4a2b-a98a-97e1feeded87",
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
-  "ipAddress": "255.255.255.0"
+  "ipAddress": "255.255.255.0",
+  "signer": {
+    "id": "954393cf-1086-4a2b-a98a-97e1feeded87",
+    "externalSignerId": "GJNHS0UHAD"
+  }
 }
 ```
 
