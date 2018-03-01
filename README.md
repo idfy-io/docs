@@ -22,7 +22,7 @@ Use the documentation on this site to learn how to implement Idfy services. Choo
 
 ## Get started
 
-To use the API, you need an API account. You can create a free test account by going to our onboarding site and filling out a form: [https://onboard.idfy.io](https://onboard.idfy.io)
+To use the API you need an account at Idfy. You can get a free test account by signing up through our [onboarding site](https://onboard.idfy.io).
 
 ## Dashboard
 
@@ -45,7 +45,7 @@ It is also easy to grant access to other collegues, the dashboard utilies our Op
 
 ## Status page
 
-If you want to know the status of our services, or subscribe to notifications go to our Statuspage: [http://signere.statuspage.io/](http://signere.statuspage.io/)
+Visit our [status page](https://developer.idfy.io/status) if you want to know the status of our services or subscribe to notifications.
 
 ## Support
 
