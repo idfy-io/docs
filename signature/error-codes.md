@@ -31,6 +31,7 @@
 | SA-1024 | Session id mismatch in buypass response |
 | SA-1025 | Error loading main document \(txt/xml\) |
 | SA-1026 | Error initiating eaccept sign |
+| SA-1027 | Error saving handwritten signature |
 
 
 
