@@ -2,13 +2,23 @@
 
 BankID is the leading electronic identification in Sweden, but BankID has been developed by a number of large banks for use by members of the public, authorities and companies.
 
-Swedish BankID has 7,5 million active users. Many services are provided where citizens can use their BankID for digital identification as well as signing transactions and documents. The services vary from online and mobile banking, e-trade to tax declaration and are provided by government, municipality, banks and companies. Swedish BankID is used both for identification as well as signing. According to Swedish law, and within the European Union, BankID is an advanced signature and a signature made with a BankID is legally binding.
+Swedish BankID has 7,5 million active users. Many services are provided where citizens can use their BankID for digital identification as well as signing transactions and documents. The services vary from online and mobile banking, e-trade to tax declaration and are provided by government, municipality, banks and companies. Swedish BankID is used both for identification as well as signing. According to Swedish law, and within the European Union, BankID is an advanced signature and a signature made with a BankID is legally binding. Swedish BankID is available as a soft certificate and as an app for smartphones and tablets.
 
-Read more about Swedish BankID here: [https://www.bankid.com/en/om-bankid/detta-ar-bankid](https://www.bankid.com/en/om-bankid/detta-ar-bankid)
+Website: [https://www.bankid.com/en/](https://www.bankid.com/en/)
 
 ### BankID
 
+Bankid säkerhetsprogram is available for download from this location:
+
+[https://install.bankid.com/](https://install.bankid.com/)
+
 ### BankID on mobile
+
+BankID säkerhetsapp is available for download from the following locations:
+
+Android version: [https://play.google.com/store/apps/details?id=com.bankid.bus](https://play.google.com/store/apps/details?id=com.bankid.bus) 
+
+iOS: [https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8](https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8)
 
 ## Capabilities
 

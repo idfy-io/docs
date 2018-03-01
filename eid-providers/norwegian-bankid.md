@@ -12,7 +12,9 @@ BankID is also known as bank-stored BankID. It is the most frequently used form 
 
 Users of BankID on mobile have their BankID stored on their mobile phone’s SIM card. BankID on mobile is a user-friendly, secure and highly accessible form of ID that is growing rapidly, with more than 1,200,000 users at present. In order to sign something or verify your identity using BankID on mobile, you use your mobile phone number, date of birth and a self-selected PIN code. You need an ordinary BankID to get BankID on mobile. Setting up BankID on mobile is easy in your online banking solution, and it is ready for use in no time.
 
-Read more on [BankID.no](https://www.bankid.no/en/about-us/)
+
+
+Website: [https://www.bankid.no/en](https://www.bankid.no/en)
 
 ## Capabilities
 
@@ -63,5 +65,5 @@ For BankID mobile you will need to order a test simcard. To order a simcard send
 
 #### Signature format
 
-
+SEID-SDO is the native format for Norwegian BankID. It also support packaging to PAdES \(PDF Advances Electronic Signature\).
 

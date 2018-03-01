@@ -34,12 +34,3 @@ To use the Idfy api apply the following steps:
 Log on to our dashboard and create an OpenID Connect client, choose the OpenID connect flow that suits you usecase. If you are not sure what flow to use read this guide by one of the experts in the field: <a href="https://leastprivilege.com/2016/01/17/which-openid-connectoauth-2-o-flow-is-the-right-one/" target="_blank">https://leastprivilege.com/2016/01/17/which-openid-connectoauth-2-o-flow-is-the-right-one/</a>. The use the following OpenID endpoints:
  * Test: https://oauth2test.signere.com
  * Production https://oauth.signere.no
- 
-
-
-
-{% runkit %}
-// GeoJSON!
-var greeting = "Hello, World!";
-console.log(greeting);
-{% endrunkit %}
