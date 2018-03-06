@@ -88,6 +88,7 @@ If you create your own notification texts you can include some "merge-fields" in
 | {signed-date} | \(For use in signatureReceipt, format: dd.MM.yyyy\) |
 | {signed-name} | \(For use in signatureReceipt, we insert the name retrieved from the signature method provider\) |
 | {signature-method} | \(For use in signatureReceipt, specifies which signature method was used \) |
+| {url} | We insert the sign url here. Will only work on request and reminder sms notifications \(in email notifications the sign url is always included as a button themed with the same color as the sign application\) |
 
 You can use them in your text like this:
 
