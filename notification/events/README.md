@@ -16,6 +16,7 @@ All events share a common structure that includeds the necessary information to 
 | --- | --- | --- |
 | `id` | `string` | Unique identifier for the event |
 | `timestamp` | `string` | Time at which the event was created \(ISO 8601\) |
+| `accountId` | `string` | Unique identifier for the Idfy account | 
 | `type` | `string` | The type of event that occured |
 | `payload` | `object` | Unique object determined by the event type |
 
@@ -25,6 +26,7 @@ Example:
 {
   "id": "fce05bc5-0c13-42fd-96e2-bc51c8975eb1",
   "timestamp": "2017-10-30T09:00:00Z",
+  "accountId": "e0e7e75e-d6ac-42bf-be4b-128ca29dfe4c",
   "type": "document_created",
   "payload": {
     "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
