@@ -8,5 +8,5 @@ Covers tags, departementId, time to live, signature queues and more
 
 #### [Security](/signature/security.md)
 
-Auth before sign, IP-whitelist, one time use and more
+Auth before sign, IP-whitelist, Csp, one time use and more
 
