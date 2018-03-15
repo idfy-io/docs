@@ -26,5 +26,58 @@ Auth before sign has to be set on each signer.
   }
 ```
 
+### 
+
+### Ip-whitelist
+
+Coming soon
+
+
+
+### One time use
+
+Coming soon
+
+
+
+### Csp
+
+If you are implemeting a strict csp policy when iframing our solution you need to enable include the following framesources
+
+###### Eid framesources
+
+```
+"https://appletk.danid.dk", "https://applet.danid.dk", "blob:", "https://csfe-preprod.bankid.no",
+"https://csfe.bankid.no", "https://services.bankid.no", "*.buypass.no",
+"https://tupas.nordea.fi", "https://online.s-pankki.fi", "https://kultaraha.op.fi", 
+"https://verkkopankki.sampopankki.fi", "https://tunnistepalvelu.samlink.fi",
+"https://auth.aktia.fi", "https://online.alandsbanken.fi", "https://online.s-pankki.fi", 
+"https://tupas.saastopankki.fi", "https://tupas.poppankki.fi"
+
+```
+
+###### Api framesources
+
+```
+"https://sign-api-test.idfy.io", "https://sign-api.idfy.io"    
+```
+
+###### App framesources
+
+```
+https://sign-test.idfy.io, https://sign.idfy.io
+```
+
+###### Identification framesources \(if using eaccept or auth before sign\)
+
+```
+"https://id.signere.no","https://idtest.signere.no","https://id2.signere.no", 
+"https://id.idfy.io", "https://id-test.idfy.io", "https://id2.idfy.io" 
+```
+
+
+
+
+
 
 
