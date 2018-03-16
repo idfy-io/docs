@@ -47,4 +47,4 @@ Visit our [status page](https://developer.idfy.io/status) if you want to know th
 
 ## Support
 
-We’re here to help! Get in touch with support at support@idfy.io and we’ll get back to you as soon as we can.
+We’re here to help! Get in touch with support at [support@idfy.io](mailto:support@idfy.io) and we’ll get back to you as soon as we can.
