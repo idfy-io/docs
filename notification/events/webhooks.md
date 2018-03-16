@@ -59,7 +59,7 @@ It is recommended that you use a random string with high entropy.
 
 ### Validating payloads
 
-Using your secret token, we create an HMAC-SHA256 signature of the request body. All requests include an `X-Idfy-Signature` containing this signature, which you then can use to validate the integrity of the payload and its origin.
+Using your secret token, we create an HMAC-SHA256 signature of the request body. All requests include an `X-Idfy-Signature` header containing this signature, which you then can use to validate the integrity of the payload and its origin.
 
 To validate the request, compute the HMAC digest using your secret token as the signing key and ensure that it matches the signature from the header. Below is an example of how this can be done with Node.js:
 
