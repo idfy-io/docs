@@ -61,8 +61,6 @@
   * [GDPR](GDPR/gdpr.md)
   * [Data handling](data-handling.md)
 * [eIDAS](eidas.md)
-* [APIs](apis.md)
-  * [Test](apis/test.md)
 * [Account](account/README.md)
   * Quickstart
   * [Examples and tutorials](account/examples-and-tutorials.md)
