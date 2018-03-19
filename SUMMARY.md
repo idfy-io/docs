@@ -60,7 +60,7 @@
 * [Privacy and Data Protection](GDPR/README.md)
   * [GDPR](GDPR/gdpr.md)
   * [Data handling](data-handling.md)
-* [eIDAS](eidas.md)
+* [eIDAS](eidas/README.md)
 * [Account](account/README.md)
   * [Quickstart](account/quickstart.md)
   * [Examples and tutorials](account/examples-and-tutorials.md)
