@@ -15,7 +15,7 @@
   * [Events, redirect settings and files ](signature/events-and-files.md)
     * [Files](signature/events-and-files/files.md)
     * [Redirect settings](/signature/events-and-files/redirect-settings.md#redirect-settings)
-  * [Examples and tutorials](/signature/other-information.md#other-information)
+  * [Examples and tutorials](signature/examples-and-tutorials.md)
   * [Other information](signature/other-information.md)
     * [Error codes](/signature/error-codes.md#error-codes)
   * [Signature formats, data and eid](/signature/signature-formats-and-data-to-sign.md#signature-formats-data-and-eid)
