@@ -1,4 +1,4 @@
-# Authenticate
+# Authentication
 
 We support two different authentication flows. You could choose between using our REST API or the OpenID Connect standard.
 
