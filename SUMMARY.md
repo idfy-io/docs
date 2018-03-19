@@ -62,6 +62,6 @@
   * [Data handling](data-handling.md)
 * [eIDAS](eidas.md)
 * [Account](account/README.md)
-  * Quickstart
+  * [Quickstart](account/quickstart.md)
   * [Examples and tutorials](account/examples-and-tutorials.md)
 
