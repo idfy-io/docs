@@ -1,6 +1,6 @@
 # Data handling
 
-#### Idfy's services are delivered as Software-as-a-Service \(SaaS\). Provding **best-in-class security** and service levels are top priorities for us. We go to great lengths to ensure that our services have fail-overs and that our systems are penetration tested.
+Idfy's services are delivered as Software-as-a-Service \(SaaS\). Provding **best-in-class security** and service levels are top priorities for us. We go to great lengths to ensure that our services have fail-overs and that our systems are penetration tested.
 
 With Idfy you have the opportunity of consuming our services using dedicated instances in Norwegian data centers. This means you are protected by some of the world’s most **rigorous privacy and data protection laws**. Or, if you prefer a different setup, we can provide our services using leading cloud providers such as Microsoft Azure and Amazon Web Services.
 
