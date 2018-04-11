@@ -5,21 +5,21 @@ We support two different authentication flows. You could choose between using ou
 See the comparision below to find out whats best suits your need.
 
 ## OpenID Connect
-### Pros
+**Pros**
 * Industry standard
 * Supported in many libraries and framework
 * Can be used in javascript client where API keys are not possible to protect.
 
-### Cons
+**Cons**
 * Do not support iframes (There may be support for this in the future)
 * Higher entrace level, the developer have to read up on the spec and the flow of the standard.
 
 ## Idfy REST API
-### Pros
+**Pros**
 * Simpler just download the client library and make the call. (See further down for the flow)
 * Supports iFrame
 
-### Cons
+**Cons**
 * Propraitary protocol have to write your own flow.
 
 ## Using the Idfy REST API
