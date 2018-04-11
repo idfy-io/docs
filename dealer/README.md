@@ -57,11 +57,15 @@ Example result:
 {
       "Environment": "PreProd",
       "AccountId": "54f907ef-738e-4266-9af1-1dfac5f7948f",
-      "PrimaryKey": "sguhiue4h543uhnbgerjhb54iyb654y85ju7i65mlkgmeslkdm3",
-      "SecondaryKey": "shgewoj544r6mnhjfdnhudsikh4t983w49kj3p2wkfp409k3",
       "DealerRef": "435678",  
-      "MvaNumber": "123456789",  
-   "EventConnectionString": "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
+      "MvaNumber": "123456789",     
+      "EventConnectionString":       "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
+      "OauthCredentials": 
+      {
+            "ClientId": "315daf91-45ae-47c2-89de-ebf9b46af894",
+            "ClientSecret": "uandiuqn329oj2qm3dimdpamepodawdpa",
+            "Scopes": ["identify", "document_read", "document_write"]
+      }
 }
 
 ```
