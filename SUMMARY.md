@@ -65,5 +65,6 @@
   * [Quickstart](account/quickstart.md)
   * [Examples and tutorials](account/examples-and-tutorials.md)
 * [Merchant sign](merchant-sign.md)
-  * Pades
+  * [Pades](merchant-sign/pades.md)
+  * Quick start
 
