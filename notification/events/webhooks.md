@@ -2,10 +2,10 @@
 
 Webhooks allow you to subscribe to certain events on your Idfy account. When one of those events is triggered, we'll send a HTTP POST payload to the webhook's configured URL.
 
-* [Webhook events](#webhook-events)
-* [Creating webhooks](#creating-webhooks)
-* [Required 2xx Success response](#required-2xx-success-response)
-* [Securing your webhooks](#securing-your-webhooks)
+* [Webhook events](webhooks.md#webhook-events)
+* [Creating webhooks](webhooks.md#creating-webhooks)
+* [Required 2xx Success response](webhooks.md#required-2xx-success-response)
+* [Securing your webhooks](webhooks.md#securing-your-webhooks)
 
 ## Webhook events
 
@@ -13,19 +13,19 @@ When configuring a webhook, you can choose which events you would like to subscr
 
 | Type | Description |
 | :--- | :--- |
-| [`document_before_deleted`](/notification/events#documentbeforedeletedevent) | A document is about to be deleted |
-| [`document_canceled`](/notification/events#documentcanceledevent) | A document was canceled |
-| [`document_created`](/notification/events#documentcreatedevent) | A new document has been created |
-| [`document_deleted`](/notification/events#documentdeletedevent) | A document was deleted |
-| [`document_expired`](/notification/events#documentexpiredevent) | A document has expired and can no longer be signed |
-| [`document_email_opened`](/notification/events#documentemailopenedevent) | A signer opened a document email |
-| [`document_form_partially_signed`](/notification/events#documentformpartiallysignedevent) | A form was partially signed |
-| [`document_form_signed`](/notification/events#documentformsignedevent) | A form was signed by all required signers |
-| [`document_link_opened`](/notification/events#documentlinkopenedevent) | A document link was opened by a signer |
-| [`document_packaged`](/notification/events#documentpackagedevent) | A document was packaged with all signatures |
-| [`document_partially_signed`](/notification/events#documentpartiallysignedevent) | A document was partially signed |
-| [`document_read`](/notification/events#documentreadevent) | A document was read by a signer |
-| [`document_signed`](/notification/events#documentsignedevent) | A document was signed by all required signers |
+| [`document_before_deleted`](./#documentbeforedeletedevent) | A document is about to be deleted |
+| [`document_canceled`](./#documentcanceledevent) | A document was canceled |
+| [`document_created`](./#documentcreatedevent) | A new document has been created |
+| [`document_deleted`](./#documentdeletedevent) | A document was deleted |
+| [`document_expired`](./#documentexpiredevent) | A document has expired and can no longer be signed |
+| [`document_email_opened`](./#documentemailopenedevent) | A signer opened a document email |
+| [`document_form_partially_signed`](./#documentformpartiallysignedevent) | A form was partially signed |
+| [`document_form_signed`](./#documentformsignedevent) | A form was signed by all required signers |
+| [`document_link_opened`](./#documentlinkopenedevent) | A document link was opened by a signer |
+| [`document_packaged`](./#documentpackagedevent) | A document was packaged with all signatures |
+| [`document_partially_signed`](./#documentpartiallysignedevent) | A document was partially signed |
+| [`document_read`](./#documentreadevent) | A document was read by a signer |
+| [`document_signed`](./#documentsignedevent) | A document was signed by all required signers |
 
 ### Wildcard event
 
@@ -63,7 +63,7 @@ Using your secret token, we create an HMAC-SHA256 signature of the request body.
 
 To validate the request, compute the HMAC digest using your secret token as the signing key and ensure that it matches the signature from the header. Below is an example of how this can be done with Node.js:
 
-```js
+```javascript
 const crypto = require('crypto');
 const secret = 'your-secret-token';
 
@@ -75,6 +75,4 @@ const hmac = crypto.createHmac('sha256', secret);
 const signature = hmac.update(JSON.stringify(payload)).digest('hex');
 console.log(signature) // => def564b8df06ae55c788493cb414068b2cf017385d96ecb39aa3e844fdbbcdea
 ```
-
-
 

@@ -16,9 +16,9 @@ Bankid säkerhetsprogram is available for download from this location:
 
 BankID säkerhetsapp is available for download from the following locations:
 
-Android version: [https://play.google.com/store/apps/details?id=com.bankid.bus](https://play.google.com/store/apps/details?id=com.bankid.bus) 
+Android version: [https://play.google.com/store/apps/details?id=com.bankid.bus](https://play.google.com/store/apps/details?id=com.bankid.bus)
 
-iOS: [https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8](https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8)
+iOS: [https://itunes.apple.com/se/app/bankid-s%C3%A4kerhetsapp/id433151512?mt=8](https://itunes.apple.com/se/app/bankid-säkerhetsapp/id433151512?mt=8)
 
 ## Capabilities
 
@@ -32,19 +32,27 @@ Swedish BankID supports both identification and signature.
 
 ### Identification BankID on mobile
 
-### ![](/assets/sbid-auth-1.png)![](/assets/sbid-auth-2.png)
+![](../.gitbook/assets/sbid-auth-1.png)
+
+![](../.gitbook/assets/sbid-auth-2.png)
 
 Mobile:
 
-![](/assets/sbid-mobil-3.png)
+![](../.gitbook/assets/sbid-mobil-3.png)
 
 Desktop:
 
-![](/assets/sbid-auth-3.png)
+![](../.gitbook/assets/sbid-auth-3.png)
 
 ### Signing
 
-![](/assets/sbid-sign-1.png)![](/assets/sbid-sign-2.png)![](/assets/sbid-sign-3.png)![](/assets/sbid-sign-4.jpg)
+![](../.gitbook/assets/sbid-sign-1.png)
+
+![](../.gitbook/assets/sbid-sign-2.png)
+
+![](../.gitbook/assets/sbid-sign-3.png)
+
+![](../.gitbook/assets/sbid-sign-4.jpg)
 
 ## Technical
 
@@ -52,19 +60,35 @@ Desktop:
 
 1. Go to [http://www.personnummer.nu/](http://www.personnummer.nu/) and generate a new social security number.
 
-![](/assets/sbidtest-1.png)2. Go to [https://demo.bankid/CreateCode.aspx](https://demo.bankid/CreateCode.aspx) and fill out this form, you will then recive a personal code that is valid for 30 days.
+![](../.gitbook/assets/sbidtest-1.png)
 
-![](/assets/sbidtest-2.png)3. Go to [https://demo.bankid.com/](https://demo.bankid.com/) and configure your bankid client. Click on how to configure your client for BankID test system. Follow the instructions for your device.
+2. Go to 
 
-![](/assets/sbidtest-3.png)
+[https://demo.bankid/CreateCode.aspx](https://demo.bankid/CreateCode.aspx)
+
+ and fill out this form, you will then recive a personal code that is valid for 30 days.
+
+![](../.gitbook/assets/sbidtest-2.png)
+
+3. Go to 
+
+[https://demo.bankid.com/](https://demo.bankid.com/)
+
+ and configure your bankid client. Click on how to configure your client for BankID test system. Follow the instructions for your device.
+
+![](../.gitbook/assets/sbidtest-3.png)
 
 1. Login with the personal code you received in step 2 \(check your email inbox\)
 
-![](/assets/sbidtest-4.png)5. Issue a new bankid with the social security number you generated.
+![](../.gitbook/assets/sbidtest-4.png)
 
-![](/assets/Image 001.png)6. Add the new bankid in your client application and you are good to go!
+5. Issue a new bankid with the social security number you generated.
+
+![](../.gitbook/assets/image-001.png)
+
+6. Add the new bankid in your client application and you are good to go
+
+!
 
 #### Signature format
-
-
 
