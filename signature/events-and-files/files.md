@@ -12,7 +12,7 @@ You can read more about the different file formats available here: [Signature fo
 
 ##### Option 1:
 
-Use our [Event ](/events/README.md)API to be notified when the document is packaged 
+Use our [Notification](/notification/README.md "Notification")[ ](/events/README.md)API to be notified when the document is packaged
 
 * API reference: [https://developer.idfy.io/api\#tag/Notification-Endpoint](https://developer.idfy.io/api#tag/Notification-Endpoint)
 
@@ -36,27 +36,11 @@ Run http Get
  https://api.idfy.io/signature/files/documents/f7e5b94e-159a-42a9-9e07-33515db61a46?fileType=pades
 ```
 
-
-
 ### Retrieve file for signer
 
 This endpoint can return the signed file for each signer \(native or packaged\) before they are merged together to one file
 
-
-
 ### Retrieve attachment file and attachment file for signer
 
 Works the same way as Retrieve file, only for attachments
-
-
-
-
-
-
-
-
-
-
-
-
 
