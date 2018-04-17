@@ -12,7 +12,7 @@ You can read more about the different file formats available here: [Signature fo
 
 ### Option 1:
 
-Use our [Notification](/notification/README.md "Notification") API to be notified when the document is packaged
+Use our [Notification](../../notification/) API to be notified when the document is packaged
 
 * API reference: [https://developer.idfy.io/api\#tag/Notification-Endpoint](https://developer.idfy.io/api#tag/Notification-Endpoint)
 
