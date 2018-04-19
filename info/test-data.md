@@ -21,3 +21,9 @@ Password: qwer1234
 
 
 
+### Bisnode
+
+Production users, will return outdated info.
+
+
+
