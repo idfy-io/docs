@@ -19,11 +19,7 @@ Password: qwer1234
 | 01025900290 | LUNDER | RIGMOR |
 | 01027000289 | NISSEN | DAGNY |
 
-
-
-### Bisnode
+### Bisnode Matchit
 
 Production users, will return outdated info.
-
-
 
