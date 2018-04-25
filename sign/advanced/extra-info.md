@@ -4,19 +4,19 @@
 
 ###### Signer
 
-> personalInfo,
+> personalInfo
 >
->         companyInfo,
+>  companyInfo
 >
->         companyInfoAutoComplete,
+>  companyInfoAutoComplete
 >
->         personalCreditCheck,
+>  personalCreditCheck
 >
->         businessCreditCheck,
+>  businessCreditCheck
 >
->         officialPersonalInfo,
+>  officialPersonalInfo
 >
->         amlB2cIdentifyAndScreening,
+>  [amlB2cIdentifyAndScreening](/sign/advanced/extra-info/b2c-identify-and-screening.md)
 
 ###### Document
 
