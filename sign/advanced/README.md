@@ -10,3 +10,7 @@ Covers tags, departementId, time to live, signature queues and more
 
 Auth before sign, IP-whitelist, Csp, one time use and more
 
+## [Extra info](/sign/advanced/extra-info.md)
+
+How to retrieve extra information about signer, document or both
+

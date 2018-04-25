@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
@@ -26,6 +26,7 @@
   * [Advanced](sign/advanced/README.md)
     * [Advanced settings](sign/advanced/advanced-settings.md)
     * [Security](sign/advanced/security.md)
+    * [Extra info](sign/advanced/extra-info.md)
   * [Other information](sign/other-information/README.md)
     * [Error codes](sign/other-information/error-codes.md)
 * [Notification](notification/README.md)
