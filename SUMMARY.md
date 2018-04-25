@@ -27,6 +27,7 @@
     * [Advanced settings](sign/advanced/advanced-settings.md)
     * [Security](sign/advanced/security.md)
     * [Extra info](sign/advanced/extra-info.md)
+      * [B2C Identify and screening](sign/advanced/extra-info/b2c-identify-and-screening.md)
   * [Other information](sign/other-information/README.md)
     * [Error codes](sign/other-information/error-codes.md)
 * [Notification](notification/README.md)
