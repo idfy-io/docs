@@ -2,8 +2,6 @@
 
 Person screening with data enhancement enabled for nationalities where data enhancement is provided. For other nationalities the data enhancement will be skipped.
 
-
-
 ###### Example request \(Create document request\)
 
 ```
@@ -16,18 +14,39 @@ Person screening with data enhancement enabled for nationalities where data enha
                 "specialProperties": {
                     "amlMode": "identify_and_screen"
                 }
-                
+
             }
-        
+
         ...        
     }
     ....
 }
 ```
 
+###### 
 
+###### Example response \(get document\)
 
-###### Example response \(Retrieved from links array on signer in response\)
+```
+{
+    ...
+    "signers": [
+        ...
+        "links" : [{
+            "href": "https://api.idfy.io/blablabla",
+            "rel": "amlB2cIdentifyAndScreening",
+            "type": "GET"
+        }]
+        ...
+    ]
+    ...   
+}
+
+```
+
+###### 
+
+###### Example data \(Retrieved from links array on signer in response\)
 
 ```
 {
