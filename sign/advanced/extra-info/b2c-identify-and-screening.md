@@ -10,7 +10,7 @@ Person screening with data enhancement enabled for nationalities where data enha
     "advanced": {
         ...
             "extraInfo": {
-                "type": "amlB2cIdentifyAndScreening",
+                "types": ["amlB2cIdentifyAndScreening"],
                 "specialProperties": {
                     "amlMode": "identify_and_screen"
                 }
@@ -41,7 +41,6 @@ Person screening with data enhancement enabled for nationalities where data enha
     ]
     ...   
 }
-
 ```
 
 ###### 
