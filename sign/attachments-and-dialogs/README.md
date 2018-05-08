@@ -6,9 +6,9 @@ You can also include dialogs specified for each signer with an info text.
 
 ## [Attachments](attachments.md)
 
-Attachments is pdf files that can be signed, showed to or accepted by the signer
+Attachments are PDF documents that can be signed, showed to or accepted by the signer.
 
 ## [Dialogs](dialogs.md)
 
-Dialogs contains information text the signer is shown/accepted before and/or after the signing
+Dialogs contains information text that is displayed to the signer before and/or after the signing.
 
