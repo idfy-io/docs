@@ -149,6 +149,7 @@ A very simple approach to read them:
 
 | type | Payload included |
 | :--- | :--- |
+| app\_started | none |
 | document\_expired | none |
 | eid\_selected | Selected eid \(signature method\) |
 | document\_read | none |
@@ -158,4 +159,6 @@ A very simple approach to read them:
 | user\_canceled | none |
 | sign\_success | none |
 | sign\_error | {"code": "Error code if it exists", "message": "Error message   if it exists" } |
+
+
 
