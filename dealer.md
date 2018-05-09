@@ -12,30 +12,31 @@ Advandtages of beeing a dealer:
 
 Idfy have a automatic onboarding solution for that dealers also could use, below you can find the url parameters that you could use. You can get your dealerId from the Dashboard or from support@idfy.io.
 
-**Site url : https://onboard.idfy.no/register**
+**Site url : **[https://onboard.idfy.no/register](https://onboard.idfy.no/register)
 
 The onboarding site can be used as is, with Idfy logo and description, or you can define the url with optional parameters to change the look of the onboarding solution. The form fields can be prefilled with these parameters, and the delivery of the user credentials can be set. See information below.
 
 ### Onboarding url with optional parameters
 
-[https://onboard.idfy.no/register?environment=\[env\]&dealer=\[dealer\]&dealerref=\[dealerref\]&product=\[product\]&lang=\[lang\]&pushurl=\[url\]&orgnr=\[orgnr\]&contactperson=\[contactperson\]&mobilenr=\[mobilenr\]&email=\[email\]&createevent=\[createevent\]&dealerhandlessign=\[dealerhandlessign\]&returnurl=\[returnurl](https://onboard.idfy.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl)\]
+\[[https://onboard.idfy.no/register?environment=\[env\]&dealer=\[dealer\]&dealerref=\[dealerref\]&product=\[product\]&lang=\[lang\]&pushurl=\[url\]&orgnr=\[orgnr\]&contactperson=\[contactperson\]&mobilenr=\[mobilenr\]&email=\[email\]&createevent=\[createevent\]&dealerhandlessign=\[dealerhandlessign\]&returnurl=\[returnurl\]\(https://onboard.idfy.no/register?environment=\[env\]&dealer=\[dealer\]&dealerref=\[dealerref\]&product=\[product\]&lang=\[lang\]&pushurl=\[url\]&orgnr=\[orgnr\]&contactperson=\[contactperson\]&mobilenr=\[mobilenr\]&email=\[email\]&createevent=\[createevent\]&dealerhandlessign=\[dealerhandlessign\]&returnurl=\[returnurl\)\](https://onboard.idfy.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl]%28https://onboard.idfy.no/register?environment=[env]&dealer=[dealer]&dealerref=[dealerref]&product=[product]&lang=[lang]&pushurl=[url]&orgnr=[orgnr]&contactperson=[contactperson]&mobilenr=[mobilenr]&email=[email]&createevent=[createevent]&dealerhandlessign=[dealerhandlessign]&returnurl=[returnurl%29\)\]
 
 | Parameter | Type | Possible values | Description |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | environment | string | prod, test, prodAndtest | Sets the signere environment the new customer will be granted \(default is test\) |
 | dealer | GUID |  | If the dealerid exists, the site will be presented with the dealer logo and description text \(if defined\) |
 | dealerref | string | Any | dealer reference |
 | product | string | API | The product that the customer will be granted \(For now only API is available in the onboarding solution\) |
-| lang | string | no, en | Set the language of the page upon arrival |
+| lang | string | no, en, da, sv | Set the language of the page upon arrival |
+| country | string | no, se, dk, fi, other | Set the organization country, combine with org number to autocomplete form |
 | pushurl | string | Any valid pushurl | If defined the credentials will be pushed to this url as a signed jwt hook |
-| orgnr | int |  | The orgnumber for the new customer |
+| orgnr | int |  | The orgnumber for the new customer. Combine this with country to autocomplete form. |
 | contactperson | string |  | Name of the contactperson |
 | mobilenr | string |  | The contactperson's mobile nr |
 | email | string |  | The contactperson's email address |
-| createevent | boolean | 0, false, 1, true | If set to true, a rebusqueue event connectionstring will be added and provided with the API keys |
 | dealerhandlessign | boolean | 0, false, 1, true | If set to true, the dealer will have to create the user agreement and handle signing of this |
 | returnurl | string | any valid url \(Must include http://, https://\) | Define this to redirect here after registration is complete |
 | idproviders | string | nobank,buypass,swebank,nemid,tupas,mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
+| includelegacy | boolean | 0, false, 1, true | Set this to true if you need the legacy api keys |
 
 #### Onboarding webhook
 
@@ -67,7 +68,7 @@ Example result:
 
 For security reasons you have to check that the received JWT signature is valid. You can do this by sending a HTTP request to our API, we will then check that the signature is ours. If the JWT is valid we will return http status 200 \(ok\), if the signature is corrupted the return message is http status 400 \(Bad request\).
 
-Address \(Http GET\) [https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt)\]
+Address \(Http GET\) \[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29\)\]
 
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
