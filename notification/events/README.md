@@ -303,6 +303,9 @@ Triggered when a document is packaged with all the signatures.
 | :--- | :--- | :--- |
 | `documentId` | `string` | A unique identifier for the document |
 | `externalDocumentId` | `string` | The external identifier for the document |
+| `downloadUrl` | `string` | URL to download the signed PAdES (for .PDF documents only) |
+| `urlExpiresAt` | `string` | Time at which the download URL expires \(ISO 8601\) |
+| `checksum` | `string` | SHA-256 checksum of the PAdES |
 
 #### Payload example
 
