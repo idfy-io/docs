@@ -30,6 +30,7 @@
       * [B2C Identify and screening](sign/advanced/extra-info/b2c-identify-and-screening.md)
   * [Other information](sign/other-information/README.md)
     * [Error codes](sign/other-information/error-codes.md)
+  * [Common tasks](sign/common-tasks.md)
 * [Notification](notification/README.md)
   * [Events](notification/events/README.md)
     * [Webhooks](notification/events/webhooks.md)
