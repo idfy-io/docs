@@ -32,4 +32,7 @@
 | SA-1025 | Error loading main document \(txt/xml\) |
 | SA-1026 | Error initiating eaccept sign |
 | SA-1027 | Error saving handwritten signature |
+| SA-1028 | The signer is not allowed to see this document \(auth before sign\) |
+
+
 
