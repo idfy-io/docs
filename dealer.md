@@ -68,7 +68,7 @@ Example result:
 
 For security reasons you have to check that the received JWT signature is valid. You can do this by sending a HTTP request to our API, we will then check that the signature is ours. If the JWT is valid we will return http status 200 \(ok\), if the signature is corrupted the return message is http status 400 \(Bad request\).
 
-Address \(Http GET\) \[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29\)\]
+Address \(Http GET\) \[\[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29%29\)\]
 
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
