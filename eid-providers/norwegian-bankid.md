@@ -20,7 +20,7 @@ Norwegian BankID supports both identification and signature.
 
 ## Legal
 
-Legal stuff
+Legal information
 
 ## Certificate
 
@@ -30,7 +30,7 @@ How to order, prices...
 
 **Technical info**
 
-Types of certificate
+Types of certificates
 
 ## Screenshots from signing and identification process
 
@@ -56,11 +56,11 @@ Types of certificate
 
 ## Technical
 
-BankID have two clients one is a javascript base client that is rendered in the browser \(Netcentric\), and the other is BankID mobile that is a sim toolkit base solution. Idfy supports both solutions. BankID mobile currently does not support signing other then plain text.
+BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
 
 #### Test users Bankid
 
-Test BankID users can be created for free in the Idfy dashboard. Or you may use the following:
+Test users for BankID can be created for free in the Idfy dashboard. You may also use the following public test users:
 
 | SSN | Name | One time password | Password |
 | :--- | :--- | :--- | :--- |
@@ -69,7 +69,7 @@ Test BankID users can be created for free in the Idfy dashboard. Or you may use 
 
 #### Test users Bankid mobile
 
-For BankID mobile you will need to order a test simcard. To order a simcard send a support email to [support@idfy.io](mailto:support@idfy.io) there will a cost for 500 NOK for order.
+For BankID mobile you will need a test simcard from BankID. This costs 500 NOK and can be ordered by contacting us on support at [support@idfy.io](mailto:support@idfy.io).
 
 #### Signature format
 
