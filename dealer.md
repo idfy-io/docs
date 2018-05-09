@@ -35,7 +35,7 @@ You can add these query parameters to the onboarding site url for extra function
 | email | string |  | The contactperson's email address |
 | dealerhandlessign | boolean | 0, false, 1, true | If set to true, the dealer will have to create the user agreement and handle signing of this |
 | returnurl | string | any valid url \(Must include http://, https://\) | Define this to redirect here after registration is complete |
-| idproviders | string | nobank,buypass,swebank,nemid,tupas,mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
+| idproviders | string | nobank, buypass, swebank, nemid, tupas, mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
 | includelegacy | boolean | 0, false, 1, true | Set this to true if you need the legacy api keys |
 
 #### Onboarding webhook
