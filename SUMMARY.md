@@ -32,6 +32,7 @@
     * [Error codes](sign/other-information/error-codes.md)
     * [Session timeouts](sign/other-information/session-timeouts.md)
   * [Common tasks](sign/common-tasks.md)
+    * [Change deadline](sign/common-tasks/change-deadline.md)
 * [Notification](notification/README.md)
   * [Events](notification/events/README.md)
     * [Webhooks](notification/events/webhooks.md)
