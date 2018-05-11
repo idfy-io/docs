@@ -35,7 +35,7 @@ You can add these query parameters to the onboarding site url for extra function
 | email | string |  | The contactperson's email address |
 | dealerhandlessign | boolean | 0, false, 1, true | If set to true, the dealer will have to create the user agreement and handle signing of this |
 | returnurl | string | any valid url \(Must include http://, https://\) | Define this to redirect here after registration is complete |
-| idproviders | string | nobank,buypass,swebank,nemid,tupas,mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
+| idproviders | string | nobank, buypass, swebank, nemid, tupas, mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
 | includelegacy | boolean | 0, false, 1, true | Set this to true if you need the legacy api keys |
 
 #### Onboarding webhook
@@ -68,7 +68,7 @@ Example result:
 
 For security reasons you have to check that the received JWT signature is valid. You can do this by sending a HTTP request to our API, we will then check that the signature is ours. If the JWT is valid we will return http status 200 \(ok\), if the signature is corrupted the return message is http status 400 \(Bad request\).
 
-Address \(Http GET\) \[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29\)\]
+Address \(Http GET\) \[\[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29%29\)\]
 
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
