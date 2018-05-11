@@ -51,9 +51,7 @@ Example result:
       "Environment": "PreProd",
       "AccountId": "54f907ef-738e-4266-9af1-1dfac5f7948f",
       "DealerRef": "435678",  
-      "MvaNumber": "123456789",     
-      "EventConnectionString":       "Endpoint=sb://signerelocaleventtest.servicebus.windows.net/;SharedAccessKeyName=6dfgrehgrythytrjnfdghrfyujht;SharedAccessKey=dfgjh6ytujtjuythjdujyrytkdsafgte="
-      "OauthCredentials": 
+      "MvaNumber": "123456789",         
       {
             "ClientId": "315daf91-45ae-47c2-89de-ebf9b46af894",
             "ClientSecret": "uandiuqn329oj2qm3dimdpamepodawdpa",
@@ -68,7 +66,7 @@ Example result:
 
 For security reasons you have to check that the received JWT signature is valid. You can do this by sending a HTTP request to our API, we will then check that the signature is ours. If the JWT is valid we will return http status 200 \(ok\), if the signature is corrupted the return message is http status 400 \(Bad request\).
 
-Address \(Http GET\) \[\[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29%29\)\]
+Address \(Http GET\) \[\[\[\[[https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\]\(https://onboard.idfy.io/api/jwt/verify?jwt=\[jwt\)\)\)\)\](https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt]%28https://onboard.idfy.io/api/jwt/verify?jwt=[jwt%29%29%29%29\)\]
 
 To become a dealer contact [sales@idfy.io](mailto:sales@idfy.io)
 
