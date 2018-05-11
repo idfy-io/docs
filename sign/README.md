@@ -32,3 +32,7 @@ More advanced examples and tutorials; coming soon
 
 Error messages and other information
 
+### [Common tasks](/sign/common-tasks.md)
+
+Examples of common tasks \(i.e change sign deadline\)
+
