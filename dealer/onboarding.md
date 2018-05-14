@@ -63,7 +63,7 @@ Instead of using a webhook, you can poll an enpoint to retrieve the credentials.
 
 1. Create a unique alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters. \(You cannot reuse a pollkey twice\)
 2. Setup onboard url with a pollkey. For example: [https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2](https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2)
-3. After the account is created you have 3 minutes to get the response. Retrieve the result at \[[https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/\[pollkey\]\(https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/\[pollkey\)\](https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey%29\)\]. 
+3. After the account is created you have 3 minutes to get the response. Retrieve the result at [https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollke](https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey%29]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey%29%29\)y} 
    | Status code | Explanation |
    | :--- | :--- |
    | 200 | Ok, the response is included |
