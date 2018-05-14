@@ -34,7 +34,7 @@ You can add these query parameters to the onboarding site url for extra function
 
 **How to use push url / JWT webhook**
 
-When a push url is added as a parameter in the onboarding url, the generated API keys will be delievered as a signed JWT to this address. If both prod and pre-prod environment is ordered they will be sent as two separate JWT messages.
+When a push url is added as a parameter in the onboarding url, the generated API keys will be delievered as a signed JWT to this address \(POST\). If both prod and pre-prod environment is ordered they will be sent as two separate JWT messages.
 
 Example result:
 
@@ -61,9 +61,9 @@ Instead of using a webhook, you can poll an enpoint to retrieve the credentials.
 
 ###### Steps
 
-1. Create a unique alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters. \(You cannot reuse a pollkey twice\)
+1. Create a unique alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters. \(You cannot reuse a pollkey twice\). The key can be validated here \(GET\): [https://signereonboardingapi.azurewebsites.net/api/dealer/validatekey/{pollkey}](https://signereonboardingapi.azurewebsites.net/api/dealer/validatekey/{pollkey})
 2. Setup onboard url with a pollkey. For example: [https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2](https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2)
-3. After the account is created you have 3 minutes to get the response. Retrieve the result at [https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollke](https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey%29]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey]%28https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/[pollkey%29%29\)y} 
+3. After the account is created you have 3 minutes to get the response. Retrieve \(GET\) the result at [https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollkey}](https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollkey})
    | Status code | Explanation |
    | :--- | :--- |
    | 200 | Ok, the response is included |
