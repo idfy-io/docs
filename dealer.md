@@ -38,6 +38,7 @@ You can add these query parameters to the onboarding site url for extra function
 | idproviders | string | nobank, buypass, swebank, nemid, tupas, mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
 | includelegacy | boolean | 0, false, 1, true | Set this to true if you need the legacy api keys |
 | disablenotifications | boolean | 0, false, 1, true | Set to true if you want to disable email/sms notifications to contact person |
+| pollkey | string | Alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters | If this is set you can poll our api for credentials \( |
 
 #### Onboarding webhook
 
@@ -57,11 +58,41 @@ Example result:
             "ClientId": "315daf91-45ae-47c2-89de-ebf9b46af894",
             "ClientSecret": "uandiuqn329oj2qm3dimdpamepodawdpa",
             "Scopes": ["identify", "document_read", "document_write"]
-      }
+      },
+      "ErrorCode": null
 }
 ```
 
 **Info: Environment can have the value "Prod" and "PreProd"**
+
+#### Poll data
+
+Instead of using a webhook, you can poll an enpoint to retrieve the credentials.
+
+###### Steps
+
+1. Create a unique alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters. \(You cannot reuse a pollkey twice\)
+2. Setup onboard url with a pollkey. For example: [https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2](https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2)
+3. After the account is created you have 3 minutes to get the response. Retrieve the result at https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/\[pollkey\]. 
+   | Status code | Explanation |
+   | :--- | :--- |
+   | 200 | Ok, the response is included |
+   | 404 | The data has not been created yet/ or does not exist |
+   | 410 | The data is expired and has been deleted |
+
+4.
+
+
+
+
+
+#### Error codes
+
+The jwt and poll data can include an error code
+
+| Code | Description |
+| :--- | :--- |
+| 1000 | This account \(mva number\) already exists in our system |
 
 **Validate JWT**
 
