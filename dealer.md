@@ -37,6 +37,7 @@ You can add these query parameters to the onboarding site url for extra function
 | returnurl | string | any valid url \(Must include http://, https://\) | Define this to redirect here after registration is complete |
 | idproviders | string | nobank, buypass, swebank, nemid, tupas, mconnect | Choose which id providers the customer can choose between, separate by comma \(ex. [https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect](https://onboard.idfy.no/register?idproviders=nobank,swebank,mconnect) |
 | includelegacy | boolean | 0, false, 1, true | Set this to true if you need the legacy api keys |
+| disablenotifications | boolean | 0, false, 1, true | Set to true if you want to disable email/sms notifications to contact person |
 
 #### Onboarding webhook
 
