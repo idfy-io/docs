@@ -63,6 +63,7 @@
   * [Finnish Tupas](eid-providers/finnish-tupas.md)
   * [SoMe](eid-providers/some.md)
 * [Dealer](dealer.md)
+  * [Onboarding](dealer/onboarding.md)
 * [Privacy and Data Protection](privacy-and-data-protection/README.md)
   * [GDPR](privacy-and-data-protection/gdpr.md)
   * Data handling
