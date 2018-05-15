@@ -36,3 +36,9 @@ Error messages and other information
 
 Examples of common tasks \(i.e change sign deadline\)
 
+### [Limits](/sign/limits.md)
+
+We have some limits to your requests
+
+
+
