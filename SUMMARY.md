@@ -15,7 +15,7 @@
     * [Dialogs](sign/attachments-and-dialogs/dialogs.md)
   * [Events, redirect settings and files](sign/events-redirect-settings-and-files/README.md)
     * [Files](sign/events-redirect-settings-and-files/files.md)
-    * [Redirect settings](sign/events-redirect-settings-and-files/redirect-settings.md)
+    * [Redirect settings and webmessages](sign/events-redirect-settings-and-files/redirect-settings.md)
   * [Signature formats, data and eid](sign/signature-formats-data-and-eid/README.md)
     * [Data to sign](sign/signature-formats-data-and-eid/data-to-sign.md)
     * [Eid providers / signature methods](sign/signature-formats-data-and-eid/eid-providers-signature-methods.md)
