@@ -5,7 +5,7 @@ Get familiar with the Idfy products and explore their features:
 * [Identification](authenticate/)
 * [Sign](sign/)
 * [Notification](/notification/README.md)
-* [eSeal](https://github.com/idfy-io/docs/tree/9fb73e77ea2c6ea96df446df7b977361de545599/eseal.md)
+* [eSeal](/eseal/README.md)
 * [File Vault](/file-vault/README.md)
 * [Prove](/prove/README.md)
 * [Info](/info/README.md)
