@@ -1,7 +1,5 @@
 # Introduction
 
-## Idfy API Documentation
-
 Get familiar with the Idfy products and explore their features:
 
 * [Authenticate](authenticate/)
