@@ -15,7 +15,7 @@ Idfy lets you identify your users using our REST API or the OpenID Connect stand
 * Currently no iframe support
 * Higher entrace level, the developer has to read up on the spec and various flows
 
-## [Idfy REST API](/authenticate/classic-rest-flow.md)
+##  [REST API](/authenticate/classic-rest-flow.md)
 
 **Pros**
 
