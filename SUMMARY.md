@@ -5,6 +5,7 @@
 * [Identification](authenticate/README.md)
   * [OpenID Connect](authenticate/openid-connect.md)
   * [REST API Flow](authenticate/classic-rest-flow.md)
+    * [Status codes](authenticate/classic-rest-flow/status-codes.md)
 * [Sign](sign/README.md)
   * [Quickstart](sign/quickstart.md)
   * [Examples and tutorials](sign/examples-and-tutorials.md)
