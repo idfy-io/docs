@@ -8,11 +8,9 @@ See our [API reference](https://developer.idfy.io/api#tag/Identification-Endpoin
 
 Follow these three steps to identify a user:
 
-1. Create a new identification session
-2. Direct the user to the returned URL
-3. Retrieve identified user data
-
-
+1. [Create a new identification session](#step-1-create-a-new-identification-session)
+2. [Direct the user to the returned URL](#step-2-direct-the-user-to-the-returned-url)
+3. [Retrieve identified user data](#step-3-retrieve-identified-user-data)
 
 ### Step 1: Create a new identification session
 
