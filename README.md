@@ -9,7 +9,6 @@ Get familiar with the Idfy products and explore their features:
 * [File Vault](/file-vault/README.md)
 * [Prove](/prove/README.md)
 * [Info](/info/README.md)
-* Integrations
 * [Forms](/forms/README.md)
 * [Validate](/validate/README.md)
 
