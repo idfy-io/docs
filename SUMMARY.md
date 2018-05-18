@@ -4,7 +4,7 @@
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Identification](authenticate/README.md)
   * OpenID Connect
-  * [REST API](authenticate/classic-rest-flow.md)
+  * [REST API Flow](authenticate/classic-rest-flow.md)
 * [Sign](sign/README.md)
   * [Quickstart](sign/quickstart.md)
   * [Examples and tutorials](sign/examples-and-tutorials.md)
