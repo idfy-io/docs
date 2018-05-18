@@ -45,7 +45,7 @@ When directing the user to the URL returned from step 1, the Norwegian BankID lo
 
 ### Step 3: Retrieve identified user data
 
-After the identification process is complete and the user is redirected back to the specified \`successUrl\`, the session and associated user data can be retrieved with the unique session ID:
+After the identification process is complete and the user is redirected back to the specified `successUrl`, the session and associated user data can be retrieved with the unique session ID:
 
 ```
 GET https://api.idfy.io/identification/session?requestId={ID}
