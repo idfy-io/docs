@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Identification](authenticate/README.md)
-  * OpenID Connect
+  * [OpenID Connect](authenticate/openid-connect.md)
   * [REST API Flow](authenticate/classic-rest-flow.md)
 * [Sign](sign/README.md)
   * [Quickstart](sign/quickstart.md)
