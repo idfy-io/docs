@@ -1,4 +1,4 @@
-# Identification REST API
+# Identification REST API Flow
 
 The REST API provides endpoints that lets you implement identification with only a few API calls. Alternatively you can use one of our available [SDKs](https://developer.idfy.io/sdk).
 
