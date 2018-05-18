@@ -8,8 +8,8 @@ This is an overview of the various statuses that an identification session can h
 | USERINITIATED | The user has initiated the identification process |
 | SUCCESS | Identification successfully completed |
 | INVALIDATED | Session has been invalidated and can no longer be used |
-| TIMEOUT | The identification process timed out, see \`error\` object in response for details |
-| ERROR | Identification failed, see \`error\` object in response for details |
+| TIMEOUT | The identification process timed out, see `error` object in response for details |
+| ERROR | Identification failed, see `error` object in response for details |
 
 
 
