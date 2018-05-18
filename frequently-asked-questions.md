@@ -1,8 +1,6 @@
-# Frequently Asked Questions
-
 ## Frequently Asked Questions
 
-* **What is an electronic ID \(eID\)?**
+## What is an electronic ID \(eID\)?
 
 In general, an eID \(electronic ID\) is a mechanism with which users can perform **online authentication** towards public services, banks and other institutions supporting such mechanisms. An eID is issued by a so-called trust service provider such as public authorities or banks, which give a level of guarantee of the physical identification performed by the user and the security mechanism backing the eID.
 
@@ -10,13 +8,15 @@ An eID is usually created by performing a physical one-time identification of th
 
 In addition to online authentication, many \(but not necessarily all\) eIDs also support the possibility to **digitally sign documents**, texts and other formats \(for PKI based eID mechanisms\). BankID in Norway and Sweden for instance, supports both authentication and signing capabilities.
 
-* **What is PKI?**
+## What is PKI?
 
 Often \(but not always\) the technology used in an eID is PKI-based \(**Public Key Infrastructure**\), meaning that the user is issued a digital certificate, keys and security modules by the trust service provider when the eID instance is created for the user. BankID in Norway is an example of a PKI-based eID mechanism, that links the data from the physical passport to the digital identity.
 
-* **What is BankID?**
-* [Norwegian BankID](eid-providers/norwegian-bankid.md) is a centralized electronic identification and signature infrastructure and technology, owned by all Norwegian banks through the Norwegian BankID cooperation entity BankID Norge AS. BankID Norge AS is responsible for developing and operating the central trust infrastructure in BankID.
-* [Swedish BankID](eid-providers/swedish-bankid.md) is similar to the Norwegian one. Swedish BankID is the leading eID in Sweden, and has been developed by a number of large banks for use by members of the public, authorities and companies. Swedish BankID has 7,5 million active users. Many services are provided where citizens can use their BankID for digital identification as well as signing transactions and documents.
+## What is BankID?
+
+[Norwegian BankID](eid-providers/norwegian-bankid.md) is a centralized electronic identification and signature infrastructure and technology, owned by all Norwegian banks through the Norwegian BankID cooperation entity BankID Norge AS. BankID Norge AS is responsible for developing and operating the central trust infrastructure in BankID.
+
+[Swedish BankID](eid-providers/swedish-bankid.md) is similar to the Norwegian one. Swedish BankID is the leading eID in Sweden, and has been developed by a number of large banks for use by members of the public, authorities and companies. Swedish BankID has 7,5 million active users. Many services are provided where citizens can use their BankID for digital identification as well as signing transactions and documents.
 
 BankID is used by all Swedish and Norwegian banks and is the de-facto standard to log in to Internet banks, mobile apps etc., and to sign documents. BankID is used by the public authorities as a login mechanism for all public services, and BankID is also used as the preferred method for electronic ID and signatures in a wide range of areas in the private sector.
 
