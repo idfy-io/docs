@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
-* [Authenticate](authenticate/README.md)
+* [Identification](authenticate/README.md)
   * [Quickstart](authenticate/quickstart.md)
   * OpenID Connect
   * Classic REST flow
