@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
+* [API authentication](api-authentication.md)
 * [Identification](authenticate/README.md)
   * [OpenID Connect](authenticate/openid-connect.md)
   * [REST API Flow](authenticate/classic-rest-flow.md)
@@ -68,7 +69,5 @@
   * [GDPR](privacy-and-data-protection/gdpr.md)
   * Data handling
 * [eIDAS](eidas.md)
-* [Account](account/README.md)
-  * [Quickstart](account/quickstart.md)
-  * [Examples and tutorials](account/examples-and-tutorials.md)
+* API access token
 
