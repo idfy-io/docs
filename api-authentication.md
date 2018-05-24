@@ -4,7 +4,7 @@ To access our API's you need to authenticate with the oauth 2.0 standard. OAuth2
 
 ### Endpoint
 
-`https://api.idfy.io/oauth/connect/token `
+`https://api.idfy.io/oauth/connect/token`
 
 Use this endpoint for both test and production environment.
 
@@ -19,9 +19,7 @@ The request must include the following parameters:
 | Parameter | Value |
 | :--- | :--- |
 | `grant_type` | The type of grant used to authenticate the request. In this case: `client_credentials`. |
-| `scope` | Space-delimited list of requested scope permissions.  |
-
-
+| `scope` | Space-delimited list of requested scope permissions. |
 
 Example
 
@@ -29,7 +27,7 @@ Example
 POST https://api.idfy.io/oauth/connect/token
 Content-Type: application/x-www-form-urlencoded
 Authorization: Basic Y2xpZW50SWQ6Y2xpZW50U2VjcmV0
- 
+
 grant_type=client_credentials
 scope=document_read
 ```
@@ -38,7 +36,7 @@ scope=document_read
 
 #### Scopes
 
-When you retrieve the access token you have to set which scopes you need, our API-enpoints requires different scopes. 
+When you retrieve the access token you have to set which scopes you need, our API-enpoints requires different scopes.
 
 A complete list can be found in our [API-reference](https://developer.idfy.io/api)
 
@@ -52,7 +50,7 @@ A complete list can be found in our [API-reference](https://developer.idfy.io/ap
 | event | [notification](https://developer.idfy.io/api#tag/Notification-Endpoint) | Full access to [notification](https://developer.idfy.io/api#tag/Notification-Endpoint) endpint |
 | identify | [identification ](https://developer.idfy.io/api#tag/Identification-Endpoint) | Read/Write access to [identification ](https://developer.idfy.io/api#tag/Identification-Endpoint)endpoint |
 
-**Note: **The client you are using must be set up with the correct scopes to be able to return an access token. If the response says invalid scope please edit your api client in our dashboards:[ test environment](https://dashboard-test.idfy.io) / [prod environment](https://dashboard.idfy.io)
+**Note: **The client you are using must be set up with the correct scopes to be able to return an access token. If the response says invalid scope please edit your api client in our dashboards:[ test environment](https://dashboard-test.idfy.io) / [prod environment](https://dashboard.idfy.io) or contact support@idfy.io
 
 #### Response
 
@@ -65,8 +63,6 @@ If your credentials are valid, the server will respond with a JSON body containi
     "token_type": "Bearer"
 }
 ```
-
-
 
 ### 2\) Use the obtained token
 
