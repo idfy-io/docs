@@ -118,7 +118,18 @@ Include the document id you retrieve in step one as a path parameter.
 }
 ```
 
+###### Requirements:
+
+* The fileName must include the .pdf extension
+* The data property must be a base64 encoded valid pdf
+
+###### **Hint:**
+
+If you only want some of the signers to retrieve an attachment; specify which in the signers property which is sat to null in the example above. The data type is a list with the signer id's you want to include.
+
 #### [Read more about attachments here](/sign/attachments-and-dialogs/attachments.md)
+
+#### 
 
 ### Step 3 - Result
 
