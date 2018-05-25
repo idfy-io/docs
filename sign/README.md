@@ -8,6 +8,10 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 
 Get up and running in no time with a simple inline example that you can try out yourself
 
+### [Sign scenarios](/sign/sign-scenarios.md)
+
+A collection of different scenarios explaining how the sign API can be used as intended
+
 ### [Attachments and dialogs](attachments-and-dialogs/)
 
 Need more than just the main document? Then this is the section for you
@@ -39,6 +43,4 @@ Examples of common tasks \(i.e change sign deadline\)
 ### [Limits](/sign/limits.md)
 
 We have some limits to your requests
-
-
 
