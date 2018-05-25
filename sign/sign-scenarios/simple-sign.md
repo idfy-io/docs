@@ -20,9 +20,7 @@ First of all you need an API token, [**click here** ](/api-authentication.md)to 
 
 ###### API-reference
 
-```
-https://developer.idfy.io/api#operation/Documents_Create
-```
+[https://developer.idfy.io/api\#operation/Documents\_Create](https://developer.idfy.io/api#operation/Documents_Create "Check out the API reference")
 
 ###### API-endpoint
 
