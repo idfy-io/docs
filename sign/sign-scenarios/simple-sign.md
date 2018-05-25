@@ -131,7 +131,5 @@ When the document is signed and ready it is time to retrieve the signed document
 
 ### Optional - Include email / sms notifications
 
-We can handle the email / sms notifications for you
-
-
+We can handle the email / sms notifications regarding this document for you, [implementation guide is here](/sign/styling-and-notifications/notifications.md)
 

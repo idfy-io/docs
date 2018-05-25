@@ -1,4 +1,4 @@
-# Notifications
+# Email / sms
 
 in our signature API you can specify if you want us to notify the signers with email and/or sms for you. Our notification service let's you manage a lot of the content in the notification, if you want to of course. We also supply standard texts if you want the quick and easy solution.
 
@@ -105,4 +105,6 @@ If you setup reminders you need to specify a schedule in cron format \(quartz\).
 
 * [https://www.freeformatter.com/cron-expression-generator-quartz.html](https://www.freeformatter.com/cron-expression-generator-quartz.html)
 * [http://www.quartz-scheduler.org/documentation/quartz-2.x/tutorials/crontrigger.html](http://www.quartz-scheduler.org/documentation/quartz-2.x/tutorials/crontrigger.html)
+
+
 

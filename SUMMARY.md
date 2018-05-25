@@ -23,7 +23,7 @@
       * [Eid providers / signature methods](sign/signature-formats-data-and-eid/eid-providers-signature-methods.md)
       * [Signature formats](sign/signature-formats-data-and-eid/signature-formats.md)
     * [Styling and notifications](sign/styling-and-notifications/README.md)
-      * [Notifications](sign/styling-and-notifications/notifications.md)
+      * [Email / sms](sign/styling-and-notifications/notifications.md)
       * [Styling](sign/styling-and-notifications/styling.md)
     * [Advanced](sign/advanced/README.md)
       * [Advanced settings](sign/advanced/advanced-settings.md)
