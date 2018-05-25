@@ -1,6 +1,6 @@
 # API Authetication
 
-To access our API's you need to authenticate with the oauth 2.0 standard. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials`as grant type when connecting.
+To access our API's you need to authenticate with the oauth 2.0 standard. OAuth2 - an open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications. Be sure to use `client_credentials`as grant type when connecting. 
 
 ### Endpoint
 
