@@ -10,3 +10,7 @@ A table with error codes.
 
 Information about signature session timeouts
 
+### [Limits](/sign/limits.md)
+
+API limitations
+
