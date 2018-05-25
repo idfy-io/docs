@@ -13,6 +13,7 @@
     * [Quickstart](sign/quickstart.md)
     * [Sign scenarios](sign/sign-scenarios.md)
       * [Simple sign](sign/sign-scenarios/simple-sign.md)
+      * [Sign multiple documents](sign/sign-scenarios/sign-multiple-documents.md)
     * [Attachments and dialogs](sign/attachments-and-dialogs/README.md)
       * [Attachments](sign/attachments-and-dialogs/attachments.md)
       * [Dialogs](sign/attachments-and-dialogs/dialogs.md)
