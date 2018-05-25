@@ -28,10 +28,6 @@ Learn about the different signature and packaging formats that are available
 
 This API is highly customizable when it comes to styling and notifications
 
-### [Examples and tutorials](../account/examples-and-tutorials.md)
-
-More advanced examples and tutorials; coming soon
-
 ### [Other info](other-information/)
 
 Error messages and other information
