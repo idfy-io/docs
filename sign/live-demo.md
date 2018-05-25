@@ -14,7 +14,9 @@ Click one of the links below to see a demo of our sign application
 
 #### [Demo with multiple documents to sign](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&attachment=sign)
 
-Norwegian bankid test user:
+### Norwegian bankid test user:
+
+You can try to sign a document with this test user \(choose norwegian bankid\)
 
 | Personal id | One time password | Password |
 | :--- | :--- | :--- |
