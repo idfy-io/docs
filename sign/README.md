@@ -4,6 +4,10 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 
 ## Explore the possibilities of our signature APIs
 
+### [Live demo](/sign/live-demo.md)
+
+Test our signature application here
+
 ### [Quickstart ](quickstart.md)
 
 Get up and running in no time with a simple inline example that you can try out yourself
