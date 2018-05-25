@@ -9,6 +9,8 @@ A simple guide explaining how to sign a single document with one or more signers
 > Step 3 - Read response
 >
 > Step 4 - Retrieve signed file
+>
+> Optional - Include email / sms notifications
 
 ### Step 1 - Get an api token
 
@@ -26,7 +28,7 @@ https://developer.idfy.io/api#operation/Documents_Create
 
 ```
  [POST]
- https://api.idfy.io/signature/documents 
+ https://api.idfy.io/signature/documents
 ```
 
 ###### Headers
