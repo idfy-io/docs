@@ -18,15 +18,6 @@ You can choose between 3 types of attachments:
 | read\_accept | The signer have to click on a checkbox to confirm that they have read and understood the attachment content | Coming soon |
 | sign | The signer have to sign the attachment with the same signature method as the main document. | Coming soon&lt;br&gt;Extra cost per signature |
 
-#### Requirements:
-
-* The fileName must include the .pdf extension
-* The data property must be a base64 encoded valid pdf
-
-**Hint:**
-
-If you only want some of the signers to retrieve an attachment; specify which in the signers property which is sat to null in the example above. The data type is a list with the signer id's you want to include.
-
 ## Implementation guide
 
 See our [Sign multiple documents scenario](/sign/sign-scenarios/sign-multiple-documents.md)
