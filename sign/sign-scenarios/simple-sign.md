@@ -2,15 +2,15 @@
 
 A simple guide explaining how to sign a single document with one or more signers, no more fuzz.
 
-> Step 1 - Get an api token
+> [Step 1 - Get an api token](#step-1---get-an-api-token)
 >
-> Step 2 - Create request
+> [Step 2 - Create request](#step-2---create-request)
 >
-> Step 3 - Read response
+> [Step 3 - Read response](#step-3---read-response)
 >
-> Step 4 - Retrieve signed file
+> [Step 4 - Retrieve signed file](#step-4---retrieve-signed-file)
 >
-> Optional - Include email / sms notifications
+> [Optional - Include email / sms notifications](#optional---include-email--sms-notifications)
 
 ### Step 1 - Get an api token
 
