@@ -20,7 +20,7 @@ Demo with 3 documents that has to be signed
 
 #### [Demo with dialogs](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&useDialogs=true)
 
-A dialog is presented before and after the signing
+A dialog is presented before and after the signing 
 
 #### 
 
