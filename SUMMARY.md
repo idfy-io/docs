@@ -9,6 +9,7 @@
     * [REST API Flow](authenticate/classic-rest-flow.md)
       * [Status codes](authenticate/classic-rest-flow/status-codes.md)
   * [Sign](sign/README.md)
+    * [Live demo](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&attachment=show_accept)
     * [Quickstart](sign/quickstart.md)
     * [Sign scenarios](sign/sign-scenarios.md)
       * [Simple sign](sign/sign-scenarios/simple-sign.md)
