@@ -129,7 +129,9 @@ When the document is signed and ready it is time to retrieve the signed document
 
 #### [Click here to read about file retrieval](/sign/events-redirect-settings-and-files/files.md)
 
-###### 
+### Optional - Include email / sms notifications
+
+We can handle the email / sms notifications for you
 
 
 
