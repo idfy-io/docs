@@ -9,7 +9,7 @@
     * [REST API Flow](authenticate/classic-rest-flow.md)
       * [Status codes](authenticate/classic-rest-flow/status-codes.md)
   * [Sign](sign/README.md)
-    * [Live demo](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&attachment=show_accept)
+    * [Live demo](sign/live-demo.md)
     * [Quickstart](sign/quickstart.md)
     * [Sign scenarios](sign/sign-scenarios.md)
       * [Simple sign](sign/sign-scenarios/simple-sign.md)
@@ -34,8 +34,7 @@
       * [Security](sign/advanced/security.md)
       * [Extra info](sign/advanced/extra-info.md)
         * [B2C Identify and screening](sign/advanced/extra-info/b2c-identify-and-screening.md)
-    * [Common tasks](sign/common-tasks.md)
-      * [Change deadline](sign/common-tasks/change-deadline.md)
+    * Live demo
   * [Notification](notification/README.md)
     * [Events](notification/events/README.md)
       * [Webhooks](notification/events/webhooks.md)
