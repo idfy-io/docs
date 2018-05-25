@@ -12,7 +12,7 @@ Attachments that has to be viewed before signing of main document
 
 #### [Demo with dark theme](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&attachment=show_accept&theme=dark)
 
-#### [Demo with one document and only norwegian bankid](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&signatureMethod=no_bankid)
+#### [Demo with only norwegian bankid](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&signatureMethod=no_bankid)
 
 #### [Demo with multiple documents to sign](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&attachment=sign)
 
@@ -20,7 +20,7 @@ Demo with 3 documents that has to be signed
 
 #### [Demo with dialogs](https://signretestnotest.azurewebsites.net/IdfySign?redir=donot_redirect&useDialogs=true)
 
-A dialog is presented before and after the signing 
+A dialog is presented before and after the signing
 
 #### 
 
