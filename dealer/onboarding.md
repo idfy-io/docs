@@ -1,12 +1,12 @@
-## Onboarding
+# Onboarding
 
 Idfy have a automatic onboarding solution for that dealers also could use, below you can find the url parameters that you could use. You can get your dealerId from the Dashboard or from support@idfy.io.
 
-**Site url : **[https://onboard.idfy.no/register](https://onboard.idfy.no/register)
+**Site url :** [https://onboard.idfy.no/register](https://onboard.idfy.no/register)
 
 The onboarding site can be used as is, with Idfy logo and description, or you can define the url with optional parameters to change the look of the onboarding solution. The form fields can be prefilled with these parameters, and the delivery of the user credentials can be set. See information below.
 
-### Onboarding url with optional parameters
+## Onboarding url with optional parameters
 
 You can add these query parameters to the onboarding site url for extra functionality
 
@@ -30,7 +30,7 @@ You can add these query parameters to the onboarding site url for extra function
 | disablenotifications | boolean | 0, false, 1, true | Set to true if you want to disable email/sms notifications to contact person |
 | pollkey | string | Alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters | If this is set you can poll our api for credentials \( |
 
-#### Onboarding webhook
+### Onboarding webhook
 
 **How to use push url / JWT webhook**
 
@@ -55,15 +55,16 @@ Example result:
 
 **Info: Environment can have the value "Prod" and "PreProd"**
 
-#### Poll data
+### Poll data
 
 Instead of using a webhook, you can poll an enpoint to retrieve the credentials.
 
-###### Steps
+#### Steps
 
 1. Create a unique alphanumeric string of at least 25 characters, 1 digit and both upper-/lowercase letters. \(You cannot reuse a pollkey twice\). The key can be validated here \(GET\): [https://signereonboardingapi.azurewebsites.net/api/dealer/validatekey/{pollkey}](https://signereonboardingapi.azurewebsites.net/api/dealer/validatekey/{pollkey})
 2. Setup onboard url with a pollkey. For example: [https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2](https://onboard.idfy.io/register?dealer=48911379-477d-4d3c-8bec-e3be65a50d0e&disablenotifications=true&pollkey=tstuauhsdB8oksadkoå3s2pokoksdofksdpofkPOKPOKPOKPOKPOKPOÅk2)
 3. After the account is created you have 3 minutes to get the response. Retrieve \(GET\) the result at [https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollkey}](https://signereonboardingapi.azurewebsites.net/api/dealer/onboardingdata/{pollkey})
+
    | Status code | Explanation |
    | :--- | :--- |
    | 200 | Ok, the response is included |
@@ -72,7 +73,7 @@ Instead of using a webhook, you can poll an enpoint to retrieve the credentials.
 
 The poll model looks the same as the webhook model.
 
-#### Error codes
+### Error codes
 
 The jwt and poll data can include an error code
 

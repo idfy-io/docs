@@ -18,7 +18,7 @@ The GDPR expands the privacy rights granted to European Union \(EU\) individuals
 
 ## GDPR in Norway
 
-Even though Norway is not a member state of the European Union, Norway must comply to Regulation and the Directive under the **European Economic Area **\(**EEA**\) Agreement.
+Even though Norway is not a member state of the European Union, Norway must comply to Regulation and the Directive under the **European Economic Area** \(**EEA**\) Agreement.
 
 ## What does Idfy do to be GDPR compliant?
 
