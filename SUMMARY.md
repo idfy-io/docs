@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
@@ -34,7 +34,6 @@
       * [Security](api-endpoints/sign/advanced/security.md)
       * [Extra info](api-endpoints/sign/advanced/extra-info/README.md)
         * [B2C Identify and screening](api-endpoints/sign/advanced/extra-info/b2c-identify-and-screening.md)
-    * Live demo
   * [Notification](api-endpoints/notification/README.md)
     * [Events](api-endpoints/notification/events/README.md)
       * [Webhooks](api-endpoints/notification/events/webhooks.md)
