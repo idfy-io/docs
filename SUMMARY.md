@@ -34,7 +34,6 @@
       * [Security](sign/advanced/security.md)
       * [Extra info](sign/advanced/extra-info.md)
         * [B2C Identify and screening](sign/advanced/extra-info/b2c-identify-and-screening.md)
-    * Live demo
   * [Notification](notification/README.md)
     * [Events](notification/events/README.md)
       * [Webhooks](notification/events/webhooks.md)
