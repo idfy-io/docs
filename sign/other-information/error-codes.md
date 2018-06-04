@@ -1,6 +1,6 @@
 # Error codes
 
-## Sign app error codes
+## Sign app error codes 
 
 | Code | Info |
 | --- | --- |
