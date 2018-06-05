@@ -43,9 +43,7 @@ A successful call returns the URL which the user must be redirected to in order 
 
 When directing the user to the URL returned from step 1, the Norwegian BankID login interface is displayed:![](../../../.gitbook/assets/id_step_1.png)
 
-{% hint style="info" %}
-You can also create an iframe with the url, but then you have to specify domain in the request.
-{% endhint %}
+Hint: You can also embed the URL in an iframe. This requires that you speficy the parent domain in the `domain` property of the request.
 
 ### Step 3: Retrieve identified user data
 
