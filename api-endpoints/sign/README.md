@@ -32,7 +32,7 @@ Learn about the different signature and packaging formats that are available
 
 This API is highly customizable when it comes to styling and notifications
 
-### [Other info](/sign/other-information/README.md)
+### [Other info](/api-endpoints/sign/other-information/README.md)
 
 Error messages and other information
 
