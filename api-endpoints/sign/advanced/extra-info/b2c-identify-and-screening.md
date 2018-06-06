@@ -140,5 +140,5 @@ Person screening with data enhancement enabled for nationalities where data enha
 
 ## Full response model
 
-[https://developer.idfy.io/api\#operation/B2CIdentifyAndScreeningRequest](https://developer.idfy.io/api#operation/B2CIdentifyAndScreeningRequest)
+[https://aml.bankidapis.no/\#operation/PersonSanction%2FPEPFromSDO](https://aml.bankidapis.no/#operation/PersonSanction%2FPEPFromSDO)
 
