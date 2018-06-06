@@ -10,7 +10,7 @@ Person screening with data enhancement enabled for nationalities where data enha
     "advanced": {
         ...
             "extraInfo": {
-                "types": ["bankidApisAmlPersonSanctionPep"]                
+                "types": ["bankIDApisAmlPersonSanctionPep"]                
             }
 
         ...        
@@ -28,7 +28,7 @@ Person screening with data enhancement enabled for nationalities where data enha
         ...
         "links" : [{
             "href": "https://api.idfy.io/blablabla",
-            "rel": "bankidApisAmlPersonSanctionPep",
+            "rel": "bankIDApisAmlPersonSanctionPep",
             "contentType": "application/json"
         }]
         ...
