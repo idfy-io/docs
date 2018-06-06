@@ -45,6 +45,7 @@ Person screening with data enhancement enabled for nationalities where data enha
 
 ```text
 {
+  "nnin": "05297149484",
   "sanctionResults": [
     {
       "matchIndicator": 325,
@@ -76,9 +77,7 @@ Person screening with data enhancement enabled for nationalities where data enha
       "externalId": "3641",
       "lastUpdate": "2016-12-15T00:00:00",
       "firstUpdate": "2016-01-19T00:00:00",
-      "name": "Najmuddin Faraj Ahmad",
-      "gender": "UNKNOWN",
-      "birthDate": "1956-07-07"
+      "name": "Najmuddin Faraj Ahmad"
     },
     {
       "matchIndicator": 325,
@@ -112,9 +111,7 @@ Person screening with data enhancement enabled for nationalities where data enha
       "externalId": "2762998",
       "lastUpdate": "2016-12-15T00:00:00",
       "firstUpdate": "2006-12-07T00:00:00",
-      "name": "Mullah Krekar",
-      "gender": "UNKNOWN",
-      "birthDate": "1956-07-07"
+      "name": "Mullah Krekar"
     }
   ],
   "pepResults": [
@@ -138,21 +135,10 @@ Person screening with data enhancement enabled for nationalities where data enha
       "source": "PEP_Edge",
       "externalId": "SE.Government-372",
       "lastUpdate": "2016-12-15T00:00:00",
-      "name": "Anna Frida Wiktoria Johansson",
-      "gender": "UNKNOWN",
-      "birthDate": "1971-05-29"
+      "name": "Anna Frida Wiktoria Johansson"
     }
   ],
-  "verifiedPerson": {
-    "provider": "BISNODE",
-    "name": "Anna Frida Wiktoria Johansson",
-    "gender": "FEMALE",
-    "natIdNo": "195001011234",
-    "nationality": "NO",
-    "birthDate": "1971-05-29"
-  },
-  "message": "NO MESSAGE",
-  "Report": "reference to PDF report, sealed and timestamped."
+  "message": "NO MESSAGE"
 }
 ```
 
