@@ -1,4 +1,4 @@
-# B2C Identify and screening
+# Aml sanction/pep
 
 Person screening with data enhancement enabled for nationalities where data enhancement is provided. For other nationalities the data enhancement will be skipped.
 

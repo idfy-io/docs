@@ -37,7 +37,7 @@
       * [Advanced settings](api-endpoints/sign/advanced/advanced-settings.md)
       * [Security](api-endpoints/sign/advanced/security.md)
       * [Extra info](api-endpoints/sign/advanced/extra-info/README.md)
-        * [B2C Identify and screening](api-endpoints/sign/advanced/extra-info/b2c-identify-and-screening.md)
+        * [Aml sanction/pep](api-endpoints/sign/advanced/extra-info/b2c-identify-and-screening.md)
     * [Other information](api-endpoints/sign/other-information.md)
       * [Error codes](api-endpoints/sign/other-information/error-codes.md)
       * [Limits](api-endpoints/sign/limits.md)

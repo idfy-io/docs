@@ -16,9 +16,11 @@
 >
 > officialPersonalInfo
 >
-> [amlB2cIdentifyAndScreening](b2c-identify-and-screening.md)
+> amlPersonSanctionPep
 
 ### Document
 
 > rightsAndProkura
+
+
 
