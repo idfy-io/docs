@@ -1,4 +1,4 @@
-# Aml sanction/pep
+# Aml person sanction/pep
 
 Person screening with data enhancement enabled for nationalities where data enhancement is provided. For other nationalities the data enhancement will be skipped.
 
