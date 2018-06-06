@@ -10,7 +10,7 @@ Person screening with data enhancement enabled for nationalities where data enha
     "advanced": {
         ...
             "extraInfo": {
-                "types": ["amlB2cIdentifyAndScreening"],
+                "types": ["amlPersonSanctionPep"],
                 "specialProperties": {
                     "amlMode": "identify_and_screen"
                 }
@@ -32,8 +32,8 @@ Person screening with data enhancement enabled for nationalities where data enha
         ...
         "links" : [{
             "href": "https://api.idfy.io/blablabla",
-            "rel": "amlB2cIdentifyAndScreening",
-            "type": "GET"
+            "rel": "amlPersonSanctionPep",
+            "contentType": "application/json"
         }]
         ...
     ]
