@@ -32,7 +32,7 @@ Learn about the different signature and packaging formats that are available
 
 This API is highly customizable when it comes to styling and notifications
 
-### [Other info](/api-endpoints/sign/other-information/README.md)
+### [Other info](https://github.com/idfy-io/docs/tree/03620e70ee3b7989ed24b6633b4f8de0c17c2f74/api-endpoints/sign/other-information/README.md)
 
 Error messages and other information
 

@@ -1,4 +1,4 @@
-# BankID Api's Aml person sanction/pep
+# BankID Api's Aml Current Address
 
 Retrieves basic address information from the official address registry
 

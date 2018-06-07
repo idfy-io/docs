@@ -112,7 +112,7 @@ Include the domain of the site that is hosting the signature app in an iframe. T
 },
 ```
 
-###### Hint: If you are using nested iframes you have to include all domains, separate them with space. The receiver of webmessages has to be the last domain in your list.
+**Hint: If you are using nested iframes you have to include all domains, separate them with space. The receiver of webmessages has to be the last domain in your list.**
 
 **Step 2 - Sign or cancel \(hopefully no error\)**
 
@@ -161,6 +161,4 @@ A very simple approach to read them:
 | user\_canceled | none |
 | sign\_success | none |
 | sign\_error | {"code": "Error code if it exists", "message": "Error message   if it exists", "eidErrorCode": "Selected signature method native error code if exists", "eidErrorMessage": "Selected signature method native error code if exists" } |
-
-
 

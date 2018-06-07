@@ -1,6 +1,6 @@
 # Error codes
 
-## Sign app error codes 
+## Sign app error codes
 
 | Code | Info |
 | --- | --- |
@@ -34,6 +34,4 @@
 | SA-1027 | Error saving handwritten signature |
 | SA-1028 | The signer is not allowed to see this document \(auth before sign\) |
 | SA-1029 | Unable to add attachment accepted event |
-
-
 

@@ -1,6 +1,6 @@
 # Dealer
 
-Idfy offers dealship to partners that implements Idfy solutions and product. bla bla
+Idfy offers dealship to partners that implements Idfy solutions and product.
 
 Advandtages of beeing a dealer:
 
@@ -8,5 +8,5 @@ Advandtages of beeing a dealer:
 * Via the dashboard you have full control over your customers accounts from logs, invoicing to api access.
 * Choose to bill your customers your self or let Idfy bill your customers for you.
 
-## As a dealer you also have access to automatic idfy [customer onboarding](onboarding.md)
+## As a dealer you also have access to automatic Idfy [customer onboarding](onboarding.md)
 

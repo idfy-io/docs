@@ -1,4 +1,4 @@
-# Session timeouts
+# Session Timeouts
 
 When a signer clicks on a link to sign a document they have a time limit to complete the operation.
 

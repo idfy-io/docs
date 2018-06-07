@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
@@ -37,15 +37,15 @@
       * [Advanced settings](api-endpoints/sign/advanced/advanced-settings.md)
       * [Security](api-endpoints/sign/advanced/security.md)
       * [Extra info](api-endpoints/sign/advanced/extra-info/README.md)
-        * [Bankid Api's Aml person sanction/pep](api-endpoints/sign/advanced/extra-info/b2c-identify-and-screening.md)
+        * [Bankid Api's Aml person sanction/pep](api-endpoints/sign/advanced/extra-info/bankid-apis-aml-person-sanction-pep.md)
         * [BankID Api's Aml Current Address](api-endpoints/sign/advanced/extra-info/bankid-apis-aml-current-address.md)
-    * [Other information](api-endpoints/sign/other-information.md)
+    * [Other information](api-endpoints/sign/other-information/README.md)
       * [Error codes](api-endpoints/sign/other-information/error-codes.md)
-      * [Limits](api-endpoints/sign/limits.md)
+      * [Limits](api-endpoints/sign/other-information/limits.md)
       * [Session Timeouts](api-endpoints/sign/other-information/session-timeouts.md)
   * [eSeal](api-endpoints/eseal/README.md)
     * [Quickstart](api-endpoints/eseal/quickstart.md)
-    * Examples and tutorials
+    * [Examples and tutorials](api-endpoints/eseal/examples-and-tutorials.md)
   * [File Vault](api-endpoints/file-vault/README.md)
     * [Quickstart](api-endpoints/file-vault/quickstart.md)
     * [Examples and tutorials](api-endpoints/file-vault/examples-and-tutorials.md)
@@ -59,11 +59,11 @@
     * [Quickstart](api-endpoints/forms/quickstart.md)
     * [Examples and tutorials](api-endpoints/forms/examples-and-tutorials.md)
   * [Validate](api-endpoints/validate/README.md)
-    * Quickstart
-    * Examples and tutorials
+    * [Quickstart](api-endpoints/validate/quickstart.md)
+    * [Examples and tutorials](api-endpoints/validate/examples-and-tutorials.md)
 * [Privacy and Data Protection](privacy-and-data-protection/README.md)
   * [GDPR](privacy-and-data-protection/gdpr.md)
-  * Data handling
+  * [Data handling](privacy-and-data-protection/data-handling.md)
 * [Dealer](dealer/README.md)
   * [Onboarding](dealer/onboarding.md)
 * [eID Providers](eid-providers/README.md)

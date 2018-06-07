@@ -16,13 +16,11 @@
 >
 > officialPersonalInfo
 >
-> [bankIDApisAmlPersonSanctionPep](/api-endpoints/sign/advanced/extra-info/b2c-identify-and-screening.md)
+> [bankIDApisAmlPersonSanctionPep](bankid-apis-aml-person-sanction-pep.md)
 >
-> [bankIDApisAmlCurrentAddress](/api-endpoints/sign/advanced/extra-info/bankid-apis-aml-current-address.md)
+> [bankIDApisAmlCurrentAddress](bankid-apis-aml-current-address.md)
 
 ### Document
 
 > rightsAndProkura
-
-
 
