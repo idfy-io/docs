@@ -4,11 +4,11 @@ With Idfy signature services, you can easily let your customers sign contracts, 
 
 ## Explore the possibilities of our signature APIs
 
-### [Live demo](live-demo.md)
+### [Live demo](https://idfy.gitbooks.io/docs/api-endpoints/sign/live-demo.html)
 
 Test our signature application here
 
-### [Quickstart ](quickstart.md)
+### [Quickstart ](https://idfy.gitbooks.io/docs/api-endpoints/sign/quickstart.html)
 
 Get up and running in no time with a simple inline example that you can try out yourself
 
@@ -24,7 +24,7 @@ Need more than just the main document? Then this is the section for you
 
 Learn how to handle signature events, use of redirect/iframe and how to retrieve the signed files
 
-### [Signature formats, data and eid](signature-formats-data-and-eid/)
+### [Signature formats, data and eid](https://idfy.gitbooks.io/docs/api-endpoints/sign/signature-formats-data-and-eid/)
 
 Learn about the different signature and packaging formats that are available
 
