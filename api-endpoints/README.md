@@ -1,6 +1,8 @@
-# API Endpoints
+---
+description: Get familiar with the Idfy products and explore their features
+---
 
-Get familiar with the Idfy products and explore their features:
+# API Endpoints
 
 {% page-ref page="identification/" %}
 
