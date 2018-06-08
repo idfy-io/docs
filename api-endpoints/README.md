@@ -1,5 +1,5 @@
 ---
-description: Get familiar with the Idfy products and explore their features
+description: Get familiar with the Idfy products and explore their features.
 ---
 
 # API Endpoints
