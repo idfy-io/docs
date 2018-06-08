@@ -1,24 +1,13 @@
----
-description: Get familiar with the Idfy products and explore their features.
----
-
 # API Endpoints
 
-{% page-ref page="identification/" %}
+Get familiar with the Idfy products and explore their features:
 
-{% page-ref page="sign/" %}
-
-{% page-ref page="notification/" %}
-
-{% page-ref page="eseal/" %}
-
-{% page-ref page="file-vault/" %}
-
-{% page-ref page="prove/" %}
-
-{% page-ref page="info/" %}
-
-{% page-ref page="forms/" %}
-
-{% page-ref page="validate/" %}
-
+* [Identification](api-endpoints/identification/)
+* [Sign](api-endpoints/sign/)
+* [Notification](api-endpoints/notification/)
+* [eSeal](api-endpoints/eseal/)
+* [File Vault](api-endpoints/file-vault/)
+* [Prove](api-endpoints/prove/)
+* [Info](api-endpoints/info/)
+* [Forms](api-endpoints/forms/)
+* [Validate](api-endpoints/validate/)
