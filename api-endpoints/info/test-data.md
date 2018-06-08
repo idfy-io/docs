@@ -6,9 +6,9 @@
 
 [https://signerefiles.blob.core.windows.net/docs/info/testdata\_norwegian\_nation\_address\_registry.xlsx](https://signerefiles.blob.core.windows.net/docs/info/testdata_norwegian_nation_address_registry.xlsx)
 
-Testusers BankID
+### BankID test users
 
-Otp: otp
+OTP: otp
 
 Password: qwer1234
 
@@ -23,7 +23,7 @@ Password: qwer1234
 
 ### Bisnode Matchit
 
-Produsers
+Prod users
 
 ## Bisnode credit check
 
@@ -35,7 +35,7 @@ Produsers
 
 ### Creditcheck
 
-### bisnode bedriftssjekk
+### Bisnode bedriftssjekk
 
 Production users, will return outdated info.
 
