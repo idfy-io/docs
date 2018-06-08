@@ -2,13 +2,21 @@
 
 Get familiar with the Idfy products and explore their features:
 
-* [Identification](identification/)
-* [Sign](sign/)
-* [Notification](notification/)
-* [eSeal](eseal/)
-* [File Vault](file-vault/)
-* [Prove](prove/)
-* [Info](info/)
-* [Forms](forms/)
-* [Validate](validate/)
+{% page-ref page="identification/" %}
+
+{% page-ref page="sign/" %}
+
+{% page-ref page="notification/" %}
+
+{% page-ref page="eseal/" %}
+
+{% page-ref page="file-vault/" %}
+
+{% page-ref page="prove/" %}
+
+{% page-ref page="info/" %}
+
+{% page-ref page="forms/" %}
+
+{% page-ref page="validate/" %}
 
