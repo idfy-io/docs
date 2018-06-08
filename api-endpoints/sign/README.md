@@ -24,7 +24,7 @@ Need more than just the main document? Then this is the section for you
 
 Learn how to handle signature events, use of redirect/iframe and how to retrieve the signed files
 
-### [Signature formats, data and eid](https://idfy.gitbooks.io/docs/api-endpoints/sign/signature-formats-data-and-eid/)
+### [Signature formats, data and eid](signature-formats-data-and-eid/)
 
 Learn about the different signature and packaging formats that are available
 
@@ -32,7 +32,7 @@ Learn about the different signature and packaging formats that are available
 
 This API is highly customizable when it comes to styling and notifications
 
-### [Other info](https://github.com/idfy-io/docs/tree/03620e70ee3b7989ed24b6633b4f8de0c17c2f74/api-endpoints/sign/other-information/README.md)
+### [Other info](other-information/)
 
 Error messages and other information
 
@@ -40,7 +40,7 @@ Error messages and other information
 
 Examples of common tasks \(i.e change sign deadline\)
 
-### [Limits](https://github.com/idfy-io/docs/tree/50b77c8e22a7c475e13087d91d31f1fdd268c74d/sign/limits.md)
+### [Limits](other-information/limits.md)
 
 We have some limits to your requests
 
