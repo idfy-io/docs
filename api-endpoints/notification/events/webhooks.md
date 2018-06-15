@@ -35,7 +35,7 @@ Adding the wildcard event to an existing webhook will remove the existing specif
 
 ## Creating webhooks
 
-Webhooks can be created and managed through the [Events API](http://event-test.idfy.io/#tag/Webhooks), or directly from the [Idfy Dashboard](https://dashboard.idfy.io).
+Webhooks can be created and managed through our [REST API](https://developer.idfy.io/api#tag/Webhooks), or directly from the [Idfy Dashboard](https://dashboard.idfy.io).
 
 ### Ping Event
 
