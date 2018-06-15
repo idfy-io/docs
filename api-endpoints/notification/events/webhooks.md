@@ -39,7 +39,7 @@ Webhooks can be created and managed through our [REST API](https://developer.idf
 
 ### Ping Event
 
-When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](https://developer.idfy.io/api#tag/Events). A `ping` can also be triggered manually by using the [ping endpoint](http://event-test.idfy.io/#operation/Webhooks_PingWebhook), or directly from the Idfy Dashboard.
+When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](https://developer.idfy.io/api#tag/Events). A `ping` can also be triggered manually by using the [ping endpoint](https://developer.idfy.io/api#operation/Webhooks_PingWebhook), or directly from the Idfy Dashboard.
 
 ## Required 2XX Success response
 
