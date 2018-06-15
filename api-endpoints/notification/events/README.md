@@ -19,6 +19,7 @@ All events share a common structure that includeds the necessary information to 
 | `accountId` | `string` | Unique identifier for the Idfy account |
 | `type` | `string` | The type of event that occured |
 | `payload` | `object` | Unique object determined by the event type |
+| `tags` | `array` | [Tags](../../sign/advanced/advanced-settings.md#tags) that was added to the document  |
 
 Example:
 
@@ -31,7 +32,11 @@ Example:
   "payload": {
     "documentId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
     "externalDocumentId": "8577545740"
-  }
+  },
+  "tags": [
+    "department:hr",
+    "archive:true"
+  ]
 }
 ```
 

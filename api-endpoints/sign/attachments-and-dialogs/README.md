@@ -1,6 +1,6 @@
 # Attachments and dialogs
 
-Some times you need the signer to sign multiple documents, or maybe just show them some attachments? That can be acheived!
+Sometimes you need the signer to sign multiple documents, or maybe just show them some attachments. That can be acheived!
 
 You can also include dialogs specified for each signer with an info text.
 
