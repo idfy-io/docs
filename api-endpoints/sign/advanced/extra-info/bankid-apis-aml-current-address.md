@@ -1,8 +1,8 @@
 # BankID Api's Aml Current Address
 
-Retrieves basic address information from the official address registry
+Retrieves basic address information from the official address registry. Requires the signer's [social security number](../advanced-settings.md#get-social-security-number) to be retrieved.
 
-## Example request \(Create document request\)
+## Example request \([Create document](https://developer.idfy.io/api#operation/Documents_Create)\)
 
 ```text
 {
@@ -19,7 +19,7 @@ Retrieves basic address information from the official address registry
 }
 ```
 
-## Example response \(get document\)
+## Example response \([Retrieve document](https://developer.idfy.io/api#operation/Documents_Get)\)
 
 ```text
 {
@@ -27,7 +27,7 @@ Retrieves basic address information from the official address registry
     "signers": [
         ...
         "links" : [{
-            "href": "https://api.idfy.io/blablabla",
+            "href": "https://api.idfy.io/resources/59219384eb3d4552889c554ab63c8468",
             "rel": "bankIDApisAmlCurrentAddress",
             "contentType": "application/json"
         }]
@@ -37,7 +37,11 @@ Retrieves basic address information from the official address registry
 }
 ```
 
-## Example data \(Retrieved from links array on signer in response\)
+If the response only contains the `rel` property, it means that the resource is not yet available for download. The resource is usually ready within a few seconds after the signer has successfully signed the document.
+
+If the information could not be retrieved for any reason, the response will contain an `errorMessage` describing the error. 
+
+## Example resource response
 
 ```text
 {
