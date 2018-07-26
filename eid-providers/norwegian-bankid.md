@@ -29,8 +29,9 @@ BankID have two clients: a JavaScript based client that is rendered in the brows
  ![Bankid image](../.gitbook/assets/bankiduser2.png)
  
 4)	The bankid user is ready. 
-  •	One time password: otp
-  •	Personal password: qwer1234
+
+  *	One time password: otp
+  *	Personal password: qwer1234
 
 #### Test users Bankid mobile
 
