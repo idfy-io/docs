@@ -14,6 +14,21 @@ Users of BankID on mobile have their BankID stored on their mobile phone’s SIM
 
 Website: [https://www.bankid.no/en](https://www.bankid.no/en)
 
+### Generate test users
+1)	Visit https://ra-preprod.bankidnorge.no/#/generate
+2)	Click generate number End User selected
+
+ ![Bankid image](https://github.com/idfy-io/docs/blob/master/assets/bankiduser1.png)
+ 
+3)	Order new bankid with the following settings
+
+ ![Bankid image](https://github.com/idfy-io/docs/blob/master/assets/bankiduser2.png)
+ 
+4)	The bankid user is ready. 
+  •	One time password: otp
+  •	Personal password: qwer1234
+
+
 ## Capabilities
 
 Norwegian BankID supports both identification and signature.
