@@ -22,11 +22,11 @@ BankID have two clients: a JavaScript based client that is rendered in the brows
 1)	Visit https://ra-preprod.bankidnorge.no/#/generate
 2)	Click generate number End User selected
 
- ![Bankid image](https://github.com/idfy-io/docs/blob/master/assets/bankiduser1.png)
+ ![Bankid image](../.gitbook/assets/bankiduser1.png)
  
 3)	Order new bankid with the following settings
 
- ![Bankid image](https://github.com/idfy-io/docs/blob/master/assets/bankiduser2.png)
+ ![Bankid image](../.gitbook/assets/bankiduser2.png)
  
 4)	The bankid user is ready. 
   •	One time password: otp
