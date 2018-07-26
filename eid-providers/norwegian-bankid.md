@@ -28,6 +28,17 @@ Website: [https://www.bankid.no/en](https://www.bankid.no/en)
   •	One time password: otp
   •	Personal password: qwer1234
 
+## Technical
+
+BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
+
+#### Test users Bankid mobile
+
+For BankID mobile you will need a test simcard from BankID. This costs 500 NOK and can be ordered by contacting us on support at [support@idfy.io](mailto:support@idfy.io).
+
+#### Signature format
+
+SEID-SDO is the native format for Norwegian BankID. It also support packaging to PAdES \(PDF Advances Electronic Signature\).
 
 ## Capabilities
 
@@ -69,24 +80,4 @@ Types of certificates
 
 ![](../.gitbook/assets/nbid-sign-5.png)
 
-## Technical
-
-BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
-
-#### Test users Bankid
-
-Test users for BankID can be created for free in the Idfy dashboard. You may also use the following public test users:
-
-| SSN | Name | One time password | Password |
-| :--- | :--- | :--- | :--- |
-| 14041639785 | Musk, Elon | otp | qwer1234 |
-| 10120797412 | Woman, Wonder | otp | qwer1234 |
-
-#### Test users Bankid mobile
-
-For BankID mobile you will need a test simcard from BankID. This costs 500 NOK and can be ordered by contacting us on support at [support@idfy.io](mailto:support@idfy.io).
-
-#### Signature format
-
-SEID-SDO is the native format for Norwegian BankID. It also support packaging to PAdES \(PDF Advances Electronic Signature\).
 
