@@ -14,7 +14,11 @@ Users of BankID on mobile have their BankID stored on their mobile phone’s SIM
 
 Website: [https://www.bankid.no/en](https://www.bankid.no/en)
 
-### Generate test users
+## Technical
+
+BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
+
+#### Generate test users
 1)	Visit https://ra-preprod.bankidnorge.no/#/generate
 2)	Click generate number End User selected
 
@@ -27,10 +31,6 @@ Website: [https://www.bankid.no/en](https://www.bankid.no/en)
 4)	The bankid user is ready. 
   •	One time password: otp
   •	Personal password: qwer1234
-
-## Technical
-
-BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
 
 #### Test users Bankid mobile
 
