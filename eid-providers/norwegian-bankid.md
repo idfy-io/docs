@@ -19,19 +19,19 @@ Website: [https://www.bankid.no/en](https://www.bankid.no/en)
 BankID have two clients: a JavaScript based client that is rendered in the browser \(Netcentric\), and the BankID mobile client which is a SIM Toolkit solution. Idfy supports both solutions. BankID mobile currently only support signing of plain text.
 
 #### Generate test users
-1)	Visit https://ra-preprod.bankidnorge.no/#/generate
-2)	Click generate number End User selected
 
- ![Bankid image](../.gitbook/assets/bankiduser1.png)
- 
-3)	Order new bankid with the following settings
+1\) Visit [https://ra-preprod.bankidnorge.no/\#/generate](https://ra-preprod.bankidnorge.no/#/generate) 2\) Click generate number End User selected
 
- ![Bankid image](../.gitbook/assets/bankiduser2.png)
- 
-4)	The bankid user is ready. 
+![Bankid image](../.gitbook/assets/bankiduser1.png)
 
-  *	One time password: otp
-  *	Personal password: qwer1234
+3\) Order new bankid with the following settings
+
+![Bankid image](../.gitbook/assets/bankiduser2.png)
+
+4\) The bankid user is ready.
+
+* One time password: otp
+* Personal password: qwer1234
 
 #### Test users Bankid mobile
 
@@ -80,5 +80,4 @@ Types of certificates
 ![](../.gitbook/assets/nbid-sign-4.png)
 
 ![](../.gitbook/assets/nbid-sign-5.png)
-
 

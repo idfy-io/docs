@@ -57,6 +57,7 @@ Each event has a similar JSON schema, but will also contain a unique `payload` o
 * [DocumentPartiallySignedEvent](./#documentpartiallysignedevent)
 * [DocumentReadEvent](./#documentreadevent)
 * [DocumentSignedEvent](./#documentsignedevent)
+* [ResourceCreatedEvent](./#resourcecreatedevent)
 
 ### DocumentBeforeDeletedEvent
 
@@ -409,6 +410,34 @@ Triggered when a document is signed by all required signers.
     "signatureMethod": "no_bankid",
     "signatureMethodUniqueId": "9876-5000-4-32100"
   }]
+}
+```
+
+### ResourceCreatedEvent
+
+Triggered when a resource is created and available for download.
+
+#### Payload
+
+| key | type | description |
+| :--- | :--- | :--- |
+| `sourceType` | `string` | The source from which the resource was created |
+| `sourceId` | `string` | A unique identifier for the source |
+| `resourceId` | `string` | A unique identifier for the resource |
+| `link` | `object` | The link to the created resource |
+
+#### Payload example
+
+```javascript
+{
+  "sourceType": "document",
+  "sourceId": "8bfae710-5e4b-4464-ab7a-167f73c37590",
+  "resourceId": "954393cf-1086-4a2b-a98a-97e1feeded87",
+  "link": {
+    "href": "https://api.idfy.io/resources/954393cf-1086-4a2b-a98a-97e1feeded87",
+    "rel": "bankIDApisAmlCurrentAddress",
+    "contentType": "application/json"
+  }
 }
 ```
 

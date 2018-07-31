@@ -26,6 +26,7 @@ When configuring a webhook, you can choose which events you would like to subscr
 | [`document_partially_signed`](./#documentpartiallysignedevent) | A document was partially signed |
 | [`document_read`](./#documentreadevent) | A document was read by a signer |
 | [`document_signed`](./#documentsignedevent) | A document was signed by all required signers |
+| [`resource_created`](./#resourcecreatedevent)\`\` | A resource was created and is available for download. |
 
 ### Wildcard event
 
