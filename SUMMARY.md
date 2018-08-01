@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [API Authentication](api-authentication.md)
+* [Signature migration guide](signature-migration-guide.md)
 * [API Endpoints](api-endpoints/README.md)
   * [Identification](api-endpoints/identification/README.md)
     * [OpenID Connect](api-endpoints/identification/openid-connect.md)
