@@ -4,7 +4,7 @@
 
 New API docs: [https://docs.idfy.io/api-endpoints/sign](https://docs.idfy.io/api-endpoints/sign) Api reference: [https://developer.idfy.io/api\#tag/Signature-Endpoint](https://developer.idfy.io/api#tag/Signature-Endpoint)
 
-Our legacy sign API will be shut down soon, please migrate to our new API as soon as possible.
+Our legacy sign API will be shut down in the end of the year \(2018\), please migrate to our new API as soon as possible.
 
 #### Important note
 
@@ -27,6 +27,7 @@ If you want to continue using our signature services you should start using our 
 * Required number of signatures, sign orders, mark one or more signers as required \(prokura\)
 * Attachments \(both signable and to be viewed/accepted\)
 * All signers can sign simultaneously
+* Mobile sign for norwegian bankid
 * And more
 
 **Features in development**
