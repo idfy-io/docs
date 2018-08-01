@@ -160,5 +160,5 @@ A very simple approach to read them:
 | spinner\_off | none |
 | user\_canceled | none |
 | sign\_success | none |
-| sign\_error | {"code": "Error code if it exists", "message": "Error message   if it exists", "eidErrorCode": "Selected signature method native error code if exists", "eidErrorMessage": "Selected signature method native error code if exists" } |
+| sign\_error | {"errorCode": "Error code if it exists", "errorMessage": "Error message   if it exists", "eidErrorCode": "Selected signature method native error code if exists", "eidErrorMessage": "Selected signature method native error code if exists" } |
 
