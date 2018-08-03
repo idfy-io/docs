@@ -13,7 +13,7 @@ Events can be handled in multiple ways:
 All events share a common structure that includeds the necessary information to process the event. Note that the `payload` object will vary depending on the type of event. See [Event Types & Payloads](./#event-types--payloads) for a complete list of the various event payloads.
 
 | Property | Type | Description |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `id` | `string` | Unique identifier for the event |
 | `timestamp` | `string` | Time at which the event was created \(ISO 8601\) |
 | `accountId` | `string` | Unique identifier for the Idfy account |

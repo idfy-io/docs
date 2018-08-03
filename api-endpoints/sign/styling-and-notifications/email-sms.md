@@ -80,7 +80,7 @@ You are now ready to go! See advanced for more features
 If you create your own notification texts you can include some "merge-fields" in your text, when the notification is due we will replace the mergefield with the appropriate data. We currently support the following fields:
 
 | Key | Description |
-| --- | --- |
+| :--- | :--- |
 | {document-title} | We insert the title of the document |
 | {document-description} | We insert the description of the document |
 | {deadline} | We insert the deadline to sign the document |

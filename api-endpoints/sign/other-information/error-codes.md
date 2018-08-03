@@ -3,7 +3,7 @@
 ## Sign app error codes
 
 | Code | Info |
-| --- | --- |
+| :--- | :--- |
 | SA-1000 | Error reading application config |
 | SA-1001 | Trying to redirect to nonexisting signature method |
 | SA-1002 | A generic error occured when trying to retrieve document attachment |
@@ -34,4 +34,5 @@
 | SA-1027 | Error saving handwritten signature |
 | SA-1028 | The signer is not allowed to see this document \(auth before sign\) |
 | SA-1029 | Unable to add attachment accepted event |
+| SA-1030 | Timeout during on success action check |
 
