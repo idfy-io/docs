@@ -35,4 +35,7 @@
 | SA-1028 | The signer is not allowed to see this document \(auth before sign\) |
 | SA-1029 | Unable to add attachment accepted event |
 | SA-1030 | Timeout during on success action check |
+| SA-1031 | Error during on success action check |
+
+
 
