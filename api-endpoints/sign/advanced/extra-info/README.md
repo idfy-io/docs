@@ -48,7 +48,7 @@ First log into the [idfy dashboard](https://dashboard.idfy.io/login) and complet
 
 **Webmessaging**: When you recieve the sign\_success webmessage all the requested resources/files is ready for retrieval
 
-**Events:** is to listen for the [resource created event](https://docs.idfy.io/api-endpoints/notification/events#resourcecreatedevent) as a webhook or in the .Net events client.
+**Webhook/ Events:** Listen for the [resource created event](https://docs.idfy.io/api-endpoints/notification/events#resourcecreatedevent) as a webhook or in the .Net events client.
 
 ## Error handling
 
