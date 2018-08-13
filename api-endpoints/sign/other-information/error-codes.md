@@ -37,6 +37,8 @@
 | SA-1030 | Timeout during on success action check |
 | SA-1031 | Error during on success action check |
 | SA-1032 | Error fetching resources / extra info |
+| SA-1033 | An error occured during auth before sign sms otp sending |
+| SA-1034 | An error occured during auth before sign sms otp validation |
 
 
 
