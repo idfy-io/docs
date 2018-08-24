@@ -14,8 +14,6 @@ If you need the change the document deadline you can do it by doing a [document 
 }
 ```
 
-### Note: The deleteAfterHours property has to be set accordingly if you dont want the default value of 168 hours. \(If set to &lt;= 0 it will get the default value\)
-
 ## On signer
 
 If you need the change when a signer url expires you can do it by doing a [signer update](https://developer.idfy.io/api#operation/Signers_Update) like this:
