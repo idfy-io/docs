@@ -40,7 +40,7 @@ Webhooks can be created and managed through our [REST API](https://developer.idf
 
 ### Ping Event
 
-When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the [Events API](https://developer.idfy.io/api#tag/Events). A `ping` can also be triggered manually by using the [ping endpoint](https://developer.idfy.io/api#operation/Webhooks_PingWebhook), or directly from the Idfy Dashboard.
+When you create a new webhook, we'll send you a `ping` event to make sure your webhook endpoint is set up correctly. This event is not stored and can not be retrieved via the REST API. A `ping` can also be triggered manually by using the [ping endpoint](https://developer.idfy.io/api#operation/Webhooks_PingWebhook), or directly from the Idfy Dashboard.
 
 ## Required 2XX Success response
 
@@ -55,8 +55,7 @@ For security reasons, we recommend you to ensure that the data is coming from Id
 
 ### Creating your secret token
 
-A secret token can be added to your webhook from the Idfy Dashboard or through the [Events API](http://event-test.idfy.io/#tag/Webhooks).  
-It is recommended that you use a random string with high entropy.
+A secret token can be added to your webhook from the Idfy Dashboard or by using the [webhooks endpoint](https://developer.idfy.io/api#tag/Webhooks). It is recommended that you use a random string with high entropy.
 
 ### Validating payloads
 
