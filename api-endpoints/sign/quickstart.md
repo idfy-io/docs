@@ -78,9 +78,9 @@ Postman:
 
 **Step 5:**
 
-When we have inserted the example body in Postman, we are almost ready for making an example call, but we need to get an authentication token so that the API recognizes us as a valid client. Postman handles OAuth2 for us, so we browse to the Authorization tab, and press "Get access token". Now we input the credentials that we got in step 1, using the client\_credentials grant type, "root" scope and the appropriate authorization URL for the test environment:
+When we have inserted the example body in Postman, we are almost ready for making an example call, but we need to get an authentication token so that the API recognizes us as a valid client. Postman handles OAuth2 for us, so we browse to the Authorization tab, and press "Get access token". Now we input the credentials that we got in step 1, using the client\_credentials grant type and the required scopes \(`document_read document_write document_file`\).
 
-![](../../.gitbook/assets/postman_sign3.png)
+![](../../.gitbook/assets/quickstart_token.png)
 
 When we have got our access token above, we add it to the headers of the request, and press "Send":
 
