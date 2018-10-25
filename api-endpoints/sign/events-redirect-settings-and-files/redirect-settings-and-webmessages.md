@@ -151,14 +151,19 @@ A very simple approach to read them:
 
 | type | Payload included |
 | :--- | :--- |
-| app\_started | none |
-| document\_expired | none |
+| outdated\_browser\* |  |
+| app\_started\*\* | { "documentId": "The doc id" } |
+| document\_expired | { "documentId": "The doc id" } |
 | eid\_selected | Selected eid \(signature method\) |
-| document\_read | none |
+| document\_read | { "documentId": "The doc id" } //Only when using internal doc viewer in app |
 | language\_changed | Selected language |
 | spinner\_on | none |
 | spinner\_off | none |
-| user\_canceled | none |
-| sign\_success | none |
-| sign\_error | {"errorCode": "Error code if it exists", "errorMessage": "Error message   if it exists", "eidErrorCode": "Selected signature method native error code if exists", "eidErrorMessage": "Selected signature method native error code if exists" } |
+| user\_canceled | { "documentId": "The doc id" } |
+| sign\_success | { "documentId": "The doc id" } |
+| sign\_error | {"errorCode": "Error code if it exists", "errorMessage": "Error message   if it exists", "eidErrorCode": "Selected signature method native error code if exists", "eidErrorMessage": "Selected signature method native error code if exists", "documentId": "The doc id"  } |
+
+\*outdated\_browser webmessage means that the user is using an old browser that may not work with the signature application. The browser needs to support postMessage to be able to send this webmessage.
+
+\*\* The app may not start if the browser is to old, you can check for the outdated\_browser event to catch this error
 
