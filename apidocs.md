@@ -136,7 +136,4 @@ All API request have some standard HTTP headers:
 * `X-Idfy-AccountId`: The Idfy accountID for the request.
 * `RequestId`: Each API request has an associated request identifier. You will also be able to use this to search in the logs in the Idfy dashboard. If you need to contact us about a specific request, providing the request identifier will ensure the fastest possible resolution.
 
-# Status page
-Visit our [status page](https://developer.idfy.io/status) if you want to know the status of our services or subscribe to notifications.
-
 <!-- ReDoc-Inject: <security-definitions> -->
