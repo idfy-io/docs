@@ -1,5 +1,5 @@
 # Introduction
-The Idfy API is a RESTful API that use the OAuth 2.0 protocol for authorization. All request and response bodies are formatted in JSON.
+The Idfy API is a RESTful API that uses the OAuth 2.0 protocol for authorization. All request and response bodies are formatted in JSON.
 
 # Getting started
 
@@ -75,7 +75,7 @@ You can read more about OAuth2 [here](https://www.digitalocean.com/community/tut
 * `DELETE`: Deletes a resoure.
 
 ## Formats
-The Idfy API only supports JSON format. All request must use the `Content-type` header set to `application/json`. The JSON will use camelCasing. All request must use the UTF-8 encoding, and all responsens will be in UTF-8.
+The Idfy API only supports JSON format. All requests must use the `Content-type` header set to `application/json`. The JSON will use camelCasing. All request must use the UTF-8 encoding, and all responsens will be in UTF-8.
 All file download wills be a standard HTTP download result.
 
 ## Idempotent Requests
