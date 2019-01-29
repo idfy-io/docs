@@ -45,7 +45,7 @@ If your credentials are valid, the server will respond with a JSON body containi
 }
 ```
 
-You can now store and use the access token to make authenticated request by passing it as an authentication header:
+You can now store and use the access token to make authenticated requests by passing it as an authentication header:
 
 `Authorization: Bearer xxxxx.yyyyy.zzzzz`
 
@@ -75,14 +75,14 @@ You can read more about OAuth2 [here](https://www.digitalocean.com/community/tut
 * `DELETE`: Deletes a resoure.
 
 ## Formats
-The Idfy API only supports JSON format. All requests must use the `Content-type` header set to `application/json`. The JSON will use camelCasing. All request must use the UTF-8 encoding, and all responsens will be in UTF-8.
-All file download wills be a standard HTTP download result.
+The Idfy API only supports JSON format. All requests must use the `Content-type` header set to `application/json`. The JSON will use camelCasing. All requests must use the UTF-8 encoding, and all responses will be in UTF-8.
+All file downloads will be a standard HTTP download result.
 
 ## Idempotent Requests
-The APIs supports idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalId  to guarantee that only a single document/identification is created.
+The APIs support idempotency for safely retrying requests without accidentally performing the same operation twice. For example, if a request to create a new document fails due to a network connection error, you can retry the request with the same ExternalId  to guarantee that only a single document/identification is created.
 
 ## Compatibility
-The Idfy API do change from time to time, but all changes will follow strict rules in order to keep the API's backward compatible. All new fields will be optional, and if large changes are required a new endpoint will be created. If an endpoint is being deprecated, all customers will be given notice well in advance.
+The Idfy APIs do change from time to time, but all changes will follow strict rules in order to keep the APIs backward compatible. All new fields will be optional, and if large changes are required a new endpoint will be created. If an endpoint is being deprecated, all customers will be notified well in advance.
 
 ## Pagination (linked lists)
 When using paging the list will be wrapped in a linked list object. The data contains the list-data in the result. There will also be navigation links for next, first, last and previous page. The total amount of results (size) will also be inlcuded.
@@ -131,7 +131,7 @@ Example:
 ```
 
 ## HTTP response headers
-All API request have some standard HTTP headers:
+All API requests have some standard HTTP headers:
 * `X-Idfy-Environment`: (test or prod) this header tells you if you are talking to the test or the production environment.
 * `X-Idfy-AccountId`: The Idfy accountID for the request.
 * `RequestId`: Each API request has an associated request identifier. You will also be able to use this to search in the logs in the Idfy dashboard. If you need to contact us about a specific request, providing the request identifier will ensure the fastest possible resolution.
