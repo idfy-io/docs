@@ -12,7 +12,7 @@ When you have received your API credentials, you can use these to make calls tow
 
 **Step 3:**
 
-To get quickly started with testing the signature services, you can start using your preferred SDK and calling the appropriate methods within that given library, or you can for instance make some initial calls using cURL or the API tool Postman \(see more information and download Postman [here](https://www.getpostman.com/)\). For the sake of simplicity, we here show some initial calls using Postman. The Postman collection for the APIs can be found on our [SDK site](https://developer.idfy.io/sdk) \(click "Export", then "Postman 1.0" or "Postman 2.0"\). When you have downloaded this JSON file, open Postman and import the file as a collection.
+To get quickly started with testing the signature services, you can start using your preferred SDK and calling the appropriate methods within that given library, or you can for instance make some initial calls using cURL or the API tool Postman \(see more information and download Postman [here](https://www.getpostman.com/)\). For the sake of simplicity, we here show some initial calls using Postman. The Postman collection for our APIs can be [imported from Swagger](https://learning.getpostman.com/docs/postman/collections/data_formats/#importing-swagger). The Swagger document can be downloaded from our [API reference](https://developer.idfy.io/api) page by clicking the "Download" button at the top of the page.
 
 **Step 4:**
 
