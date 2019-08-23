@@ -27,7 +27,7 @@ Person screening with data enhancement enabled for nationalities where data enha
     "signers": [
         ...
         "links" : [{
-            "href": "https://api.idfy.io/blablabla",
+            "href": "https://api.idfy.io/resources/59219384eb3d4552889c554ab63c8468",
             "rel": "bankIDApisAmlPersonSanctionPep",
             "contentType": "application/json"
         }]
